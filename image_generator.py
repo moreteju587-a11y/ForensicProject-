@@ -28,7 +28,10 @@ def load_model():
             feature_extractor=None
         )
 
-        pipe = pipe.to("cpu")
+       if device == "cuda":
+    pipe = pipe.to("cuda")
+else:
+    pipe = pipe.to("cpu")
 
         pipe.scheduler = DPMSolverMultistepScheduler.from_config(
             pipe.scheduler.config
