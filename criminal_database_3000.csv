@@ -1,0 +1,3001 @@
+image,name,age,crime,last_seen
+000001.jpg,Rahul Sharma,50,Burglary,Hubli
+000002.jpg,Arjun Patel,58,Fraud,Belagavi
+000003.jpg,Nikhil Sharma,33,Smuggling,Tumakuru
+000004.jpg,Prakash Yadav,43,Forgery,Dharwad
+000005.jpg,Manoj Sharma,24,Theft,Shivamogga
+000006.jpg,Varun Joshi,45,Theft,Shivamogga
+000007.jpg,Anil Sharma,43,Smuggling,Mysore
+000008.jpg,Vivek Naik,30,Vehicle Theft,Shivamogga
+000009.jpg,Rahul Shetty,22,Cyber Crime,Shivamogga
+000010.jpg,Deepak Nair,49,Vehicle Theft,Tumakuru
+000011.jpg,Karthik Joshi,35,Forgery,Udupi
+000012.jpg,Ajay Rao,49,Kidnapping,Bangalore
+000013.jpg,Karthik Nair,37,Robbery,Udupi
+000014.jpg,Ajay Das,47,Fraud,Udupi
+000015.jpg,Manoj Gupta,43,Assault,Belagavi
+000016.jpg,Manoj Nair,37,Vehicle Theft,Udupi
+000017.jpg,Suresh Naik,26,Assault,Tumakuru
+000018.jpg,Rahul Gupta,49,Kidnapping,Dharwad
+000019.jpg,Prakash Verma,44,Burglary,Udupi
+000020.jpg,Vivek Rao,34,Smuggling,Kalaburagi
+000021.jpg,Deepak Rao,54,Smuggling,Mysore
+000022.jpg,Vijay Kumar,57,Vehicle Theft,Shivamogga
+000023.jpg,Arjun Reddy,20,Vehicle Theft,Mysore
+000024.jpg,Arjun Joshi,42,Theft,Shivamogga
+000025.jpg,Vijay Reddy,38,Assault,Tumakuru
+000026.jpg,Manoj Singh,53,Assault,Tumakuru
+000027.jpg,Karthik Singh,36,Forgery,Shivamogga
+000028.jpg,Varun Singh,47,Robbery,Kalaburagi
+000029.jpg,Sunil Naik,48,Robbery,Tumakuru
+000030.jpg,Sunil Shetty,55,Vehicle Theft,Belagavi
+000031.jpg,Sunil Nair,49,Assault,Dharwad
+000032.jpg,Rahul Patel,46,Cyber Crime,Bangalore
+000033.jpg,Nikhil Kumar,30,Kidnapping,Kalaburagi
+000034.jpg,Prakash Rao,54,Forgery,Hubli
+000035.jpg,Arjun Nair,30,Forgery,Bangalore
+000036.jpg,Suresh Gowda,41,Burglary,Belagavi
+000037.jpg,Rahul Sharma,34,Assault,Tumakuru
+000038.jpg,Amit Rao,28,Robbery,Tumakuru
+000039.jpg,Anil Reddy,35,Kidnapping,Udupi
+000040.jpg,Vivek Patel,33,Vehicle Theft,Mangalore
+000041.jpg,Ravi Joshi,23,Fraud,Belagavi
+000042.jpg,Anil Reddy,23,Vehicle Theft,Udupi
+000043.jpg,Sunil Patel,36,Fraud,Hubli
+000044.jpg,Sunil Kumar,53,Forgery,Hubli
+000045.jpg,Deepak Rao,48,Cyber Crime,Shivamogga
+000046.jpg,Manoj Kumar,28,Smuggling,Bangalore
+000047.jpg,Prakash Naik,51,Burglary,Kalaburagi
+000048.jpg,Amit Nair,53,Assault,Mysore
+000049.jpg,Amit Gupta,39,Assault,Mangalore
+000050.jpg,Manoj Naik,55,Cyber Crime,Mysore
+000051.jpg,Sunil Nair,55,Forgery,Hubli
+000052.jpg,Varun Gupta,44,Smuggling,Mysore
+000053.jpg,Ajay Das,43,Burglary,Mysore
+000054.jpg,Anil Das,36,Theft,Shivamogga
+000055.jpg,Varun Das,49,Kidnapping,Kalaburagi
+000056.jpg,Ravi Sharma,58,Vehicle Theft,Mysore
+000057.jpg,Nikhil Naik,53,Burglary,Mysore
+000058.jpg,Anil Patel,50,Vehicle Theft,Udupi
+000059.jpg,Suresh Nair,48,Forgery,Belagavi
+000060.jpg,Kiran Yadav,55,Burglary,Mysore
+000061.jpg,Rohan Joshi,54,Forgery,Tumakuru
+000062.jpg,Manoj Patel,34,Forgery,Shivamogga
+000063.jpg,Vivek Yadav,25,Burglary,Udupi
+000064.jpg,Rohan Naik,26,Cyber Crime,Hubli
+000065.jpg,Mahesh Gupta,50,Kidnapping,Hubli
+000066.jpg,Anil Shetty,29,Forgery,Belagavi
+000067.jpg,Amit Gupta,38,Burglary,Tumakuru
+000068.jpg,Sunil Yadav,27,Robbery,Mysore
+000069.jpg,Suresh Verma,29,Theft,Tumakuru
+000070.jpg,Karthik Rao,52,Fraud,Belagavi
+000071.jpg,Rohan Das,20,Cyber Crime,Mangalore
+000072.jpg,Rahul Das,26,Assault,Udupi
+000073.jpg,Akash Shetty,49,Smuggling,Shivamogga
+000074.jpg,Manoj Sharma,26,Vehicle Theft,Udupi
+000075.jpg,Kiran Patel,30,Smuggling,Mysore
+000076.jpg,Rohan Das,58,Burglary,Shivamogga
+000077.jpg,Vijay Das,48,Theft,Hubli
+000078.jpg,Karthik Reddy,59,Fraud,Tumakuru
+000079.jpg,Vijay Gowda,42,Fraud,Mangalore
+000080.jpg,Kiran Sharma,29,Assault,Belagavi
+000081.jpg,Vijay Singh,21,Smuggling,Mysore
+000082.jpg,Vivek Rao,37,Forgery,Belagavi
+000083.jpg,Karthik Patel,47,Kidnapping,Kalaburagi
+000084.jpg,Anil Sharma,50,Theft,Tumakuru
+000085.jpg,Rohan Das,56,Assault,Mysore
+000086.jpg,Vivek Joshi,35,Vehicle Theft,Kalaburagi
+000087.jpg,Varun Nair,34,Vehicle Theft,Bangalore
+000088.jpg,Varun Reddy,45,Burglary,Tumakuru
+000089.jpg,Amit Nair,20,Kidnapping,Udupi
+000090.jpg,Kiran Shetty,57,Assault,Shivamogga
+000091.jpg,Sunil Rao,50,Theft,Mangalore
+000092.jpg,Ravi Naik,42,Smuggling,Belagavi
+000093.jpg,Vivek Shetty,60,Theft,Tumakuru
+000094.jpg,Suresh Sharma,41,Kidnapping,Kalaburagi
+000095.jpg,Varun Gowda,52,Kidnapping,Dharwad
+000096.jpg,Prakash Patel,31,Smuggling,Shivamogga
+000097.jpg,Ajay Das,57,Robbery,Dharwad
+000098.jpg,Amit Kumar,49,Forgery,Belagavi
+000099.jpg,Manoj Nair,25,Smuggling,Udupi
+000100.jpg,Nikhil Nair,37,Forgery,Kalaburagi
+000101.jpg,Varun Naik,25,Theft,Udupi
+000102.jpg,Vivek Sharma,33,Theft,Mysore
+000103.jpg,Sunil Sharma,48,Forgery,Kalaburagi
+000104.jpg,Sunil Yadav,55,Robbery,Belagavi
+000105.jpg,Karthik Gowda,48,Cyber Crime,Mysore
+000106.jpg,Rahul Gowda,43,Vehicle Theft,Mysore
+000107.jpg,Karthik Gowda,29,Robbery,Shivamogga
+000108.jpg,Manoj Naik,44,Burglary,Udupi
+000109.jpg,Prakash Gupta,45,Vehicle Theft,Belagavi
+000110.jpg,Amit Yadav,23,Theft,Kalaburagi
+000111.jpg,Sunil Gupta,57,Cyber Crime,Mangalore
+000112.jpg,Nikhil Joshi,47,Forgery,Mangalore
+000113.jpg,Anil Verma,40,Theft,Kalaburagi
+000114.jpg,Vijay Joshi,48,Burglary,Belagavi
+000115.jpg,Karthik Shetty,29,Forgery,Hubli
+000116.jpg,Suresh Patel,42,Kidnapping,Udupi
+000117.jpg,Varun Reddy,26,Vehicle Theft,Hubli
+000118.jpg,Varun Reddy,31,Forgery,Shivamogga
+000119.jpg,Deepak Gowda,22,Cyber Crime,Mangalore
+000120.jpg,Rohan Nair,60,Kidnapping,Mysore
+000121.jpg,Anil Naik,51,Forgery,Belagavi
+000122.jpg,Sunil Naik,51,Assault,Shivamogga
+000123.jpg,Mahesh Naik,50,Smuggling,Mysore
+000124.jpg,Manoj Patel,26,Kidnapping,Mysore
+000125.jpg,Arjun Gupta,24,Theft,Tumakuru
+000126.jpg,Suresh Rao,31,Theft,Mangalore
+000127.jpg,Rahul Gupta,48,Vehicle Theft,Udupi
+000128.jpg,Rahul Joshi,50,Robbery,Shivamogga
+000129.jpg,Anil Verma,21,Theft,Tumakuru
+000130.jpg,Ajay Verma,36,Fraud,Dharwad
+000131.jpg,Sunil Rao,27,Cyber Crime,Udupi
+000132.jpg,Vivek Sharma,53,Vehicle Theft,Mangalore
+000133.jpg,Ajay Kumar,31,Burglary,Hubli
+000134.jpg,Akash Rao,35,Vehicle Theft,Mangalore
+000135.jpg,Varun Sharma,22,Robbery,Tumakuru
+000136.jpg,Deepak Sharma,54,Assault,Mangalore
+000137.jpg,Varun Singh,32,Burglary,Bangalore
+000138.jpg,Rohan Verma,29,Burglary,Bangalore
+000139.jpg,Suresh Sharma,42,Fraud,Dharwad
+000140.jpg,Ravi Naik,58,Assault,Tumakuru
+000141.jpg,Sunil Naik,41,Vehicle Theft,Belagavi
+000142.jpg,Vivek Das,54,Robbery,Kalaburagi
+000143.jpg,Ajay Das,27,Smuggling,Mysore
+000144.jpg,Akash Kumar,41,Assault,Dharwad
+000145.jpg,Arjun Das,54,Vehicle Theft,Tumakuru
+000146.jpg,Amit Shetty,27,Kidnapping,Shivamogga
+000147.jpg,Arjun Verma,31,Cyber Crime,Udupi
+000148.jpg,Manoj Patel,45,Robbery,Bangalore
+000149.jpg,Prakash Das,44,Smuggling,Hubli
+000150.jpg,Arjun Patel,22,Burglary,Udupi
+000151.jpg,Deepak Verma,30,Forgery,Shivamogga
+000152.jpg,Ravi Yadav,20,Burglary,Mangalore
+000153.jpg,Rohan Nair,58,Theft,Bangalore
+000154.jpg,Arjun Kumar,35,Smuggling,Belagavi
+000155.jpg,Varun Sharma,45,Cyber Crime,Belagavi
+000156.jpg,Nikhil Singh,29,Kidnapping,Dharwad
+000157.jpg,Ajay Nair,49,Fraud,Shivamogga
+000158.jpg,Karthik Gowda,43,Fraud,Udupi
+000159.jpg,Kiran Verma,57,Robbery,Udupi
+000160.jpg,Rahul Nair,58,Robbery,Mysore
+000161.jpg,Ajay Gupta,34,Smuggling,Belagavi
+000162.jpg,Ajay Kumar,30,Robbery,Udupi
+000163.jpg,Amit Yadav,56,Fraud,Dharwad
+000164.jpg,Kiran Kumar,39,Kidnapping,Bangalore
+000165.jpg,Amit Yadav,39,Kidnapping,Shivamogga
+000166.jpg,Vijay Verma,55,Theft,Dharwad
+000167.jpg,Vivek Verma,26,Theft,Mysore
+000168.jpg,Anil Kumar,58,Cyber Crime,Tumakuru
+000169.jpg,Deepak Verma,40,Assault,Dharwad
+000170.jpg,Vivek Nair,37,Fraud,Mysore
+000171.jpg,Varun Rao,35,Theft,Bangalore
+000172.jpg,Arjun Yadav,23,Cyber Crime,Udupi
+000173.jpg,Nikhil Patel,59,Burglary,Dharwad
+000174.jpg,Vivek Reddy,45,Forgery,Dharwad
+000175.jpg,Varun Sharma,33,Burglary,Dharwad
+000176.jpg,Rahul Yadav,50,Smuggling,Belagavi
+000177.jpg,Akash Reddy,25,Fraud,Dharwad
+000178.jpg,Prakash Joshi,42,Burglary,Udupi
+000179.jpg,Anil Joshi,39,Kidnapping,Dharwad
+000180.jpg,Kiran Joshi,47,Smuggling,Bangalore
+000181.jpg,Nikhil Joshi,33,Cyber Crime,Dharwad
+000182.jpg,Prakash Kumar,25,Smuggling,Udupi
+000183.jpg,Varun Patel,32,Forgery,Dharwad
+000184.jpg,Ravi Gupta,52,Burglary,Udupi
+000185.jpg,Ajay Gupta,53,Cyber Crime,Kalaburagi
+000186.jpg,Varun Naik,58,Assault,Mysore
+000187.jpg,Arjun Reddy,30,Robbery,Bangalore
+000188.jpg,Varun Patel,30,Assault,Shivamogga
+000189.jpg,Rohan Shetty,55,Theft,Udupi
+000190.jpg,Ajay Nair,51,Fraud,Kalaburagi
+000191.jpg,Ajay Sharma,29,Assault,Bangalore
+000192.jpg,Karthik Verma,42,Forgery,Mangalore
+000193.jpg,Rahul Patel,48,Assault,Hubli
+000194.jpg,Prakash Singh,60,Cyber Crime,Dharwad
+000195.jpg,Vijay Das,31,Assault,Udupi
+000196.jpg,Ravi Rao,42,Smuggling,Bangalore
+000197.jpg,Karthik Shetty,57,Smuggling,Tumakuru
+000198.jpg,Kiran Gupta,43,Burglary,Tumakuru
+000199.jpg,Amit Joshi,36,Vehicle Theft,Dharwad
+000200.jpg,Akash Gupta,26,Robbery,Mysore
+000201.jpg,Amit Shetty,44,Robbery,Bangalore
+000202.jpg,Deepak Das,22,Kidnapping,Dharwad
+000203.jpg,Varun Verma,51,Cyber Crime,Mangalore
+000204.jpg,Kiran Rao,34,Robbery,Udupi
+000205.jpg,Varun Sharma,20,Burglary,Dharwad
+000206.jpg,Akash Gupta,52,Burglary,Kalaburagi
+000207.jpg,Deepak Rao,34,Smuggling,Udupi
+000208.jpg,Ajay Kumar,46,Burglary,Hubli
+000209.jpg,Sunil Yadav,44,Smuggling,Tumakuru
+000210.jpg,Arjun Patel,33,Vehicle Theft,Kalaburagi
+000211.jpg,Varun Gupta,45,Assault,Bangalore
+000212.jpg,Rahul Yadav,52,Fraud,Udupi
+000213.jpg,Rahul Kumar,33,Theft,Tumakuru
+000214.jpg,Sunil Shetty,42,Burglary,Bangalore
+000215.jpg,Nikhil Shetty,58,Vehicle Theft,Bangalore
+000216.jpg,Ravi Kumar,23,Smuggling,Udupi
+000217.jpg,Rahul Singh,43,Fraud,Kalaburagi
+000218.jpg,Nikhil Gowda,37,Smuggling,Tumakuru
+000219.jpg,Ravi Kumar,26,Smuggling,Shivamogga
+000220.jpg,Sunil Sharma,45,Fraud,Hubli
+000221.jpg,Akash Yadav,41,Vehicle Theft,Mangalore
+000222.jpg,Arjun Rao,45,Robbery,Mangalore
+000223.jpg,Manoj Gowda,31,Smuggling,Shivamogga
+000224.jpg,Rahul Kumar,22,Robbery,Tumakuru
+000225.jpg,Vivek Nair,40,Burglary,Mysore
+000226.jpg,Ravi Reddy,35,Vehicle Theft,Bangalore
+000227.jpg,Karthik Kumar,41,Kidnapping,Bangalore
+000228.jpg,Varun Joshi,43,Vehicle Theft,Dharwad
+000229.jpg,Nikhil Gowda,59,Smuggling,Tumakuru
+000230.jpg,Nikhil Naik,53,Smuggling,Udupi
+000231.jpg,Amit Sharma,23,Robbery,Shivamogga
+000232.jpg,Nikhil Gupta,39,Forgery,Hubli
+000233.jpg,Manoj Reddy,37,Forgery,Bangalore
+000234.jpg,Akash Patel,28,Robbery,Udupi
+000235.jpg,Prakash Singh,58,Cyber Crime,Mangalore
+000236.jpg,Akash Nair,53,Assault,Belagavi
+000237.jpg,Karthik Patel,45,Fraud,Belagavi
+000238.jpg,Ravi Sharma,40,Assault,Udupi
+000239.jpg,Nikhil Sharma,43,Smuggling,Bangalore
+000240.jpg,Kiran Nair,29,Assault,Belagavi
+000241.jpg,Anil Naik,57,Fraud,Hubli
+000242.jpg,Manoj Gowda,25,Cyber Crime,Udupi
+000243.jpg,Akash Verma,36,Vehicle Theft,Shivamogga
+000244.jpg,Vivek Reddy,47,Robbery,Kalaburagi
+000245.jpg,Ravi Joshi,52,Cyber Crime,Bangalore
+000246.jpg,Arjun Verma,33,Fraud,Bangalore
+000247.jpg,Prakash Singh,31,Smuggling,Udupi
+000248.jpg,Mahesh Rao,46,Vehicle Theft,Bangalore
+000249.jpg,Sunil Gupta,54,Fraud,Bangalore
+000250.jpg,Deepak Yadav,37,Cyber Crime,Bangalore
+000251.jpg,Prakash Shetty,60,Fraud,Udupi
+000252.jpg,Karthik Singh,39,Robbery,Tumakuru
+000253.jpg,Akash Patel,32,Burglary,Mysore
+000254.jpg,Anil Verma,24,Fraud,Tumakuru
+000255.jpg,Kiran Verma,33,Vehicle Theft,Bangalore
+000256.jpg,Rohan Gupta,40,Smuggling,Udupi
+000257.jpg,Karthik Kumar,41,Kidnapping,Mangalore
+000258.jpg,Manoj Kumar,37,Cyber Crime,Belagavi
+000259.jpg,Suresh Reddy,29,Forgery,Hubli
+000260.jpg,Amit Naik,26,Fraud,Shivamogga
+000261.jpg,Deepak Shetty,44,Assault,Udupi
+000262.jpg,Vivek Sharma,52,Assault,Dharwad
+000263.jpg,Rohan Rao,53,Smuggling,Mangalore
+000264.jpg,Manoj Sharma,33,Vehicle Theft,Hubli
+000265.jpg,Anil Gupta,47,Forgery,Mangalore
+000266.jpg,Akash Shetty,43,Robbery,Bangalore
+000267.jpg,Mahesh Nair,47,Cyber Crime,Hubli
+000268.jpg,Deepak Sharma,32,Burglary,Udupi
+000269.jpg,Ajay Verma,46,Vehicle Theft,Mangalore
+000270.jpg,Mahesh Reddy,24,Cyber Crime,Hubli
+000271.jpg,Ravi Verma,39,Robbery,Kalaburagi
+000272.jpg,Ravi Joshi,32,Vehicle Theft,Tumakuru
+000273.jpg,Akash Gowda,22,Assault,Tumakuru
+000274.jpg,Rahul Gupta,48,Robbery,Mysore
+000275.jpg,Vivek Singh,25,Fraud,Mysore
+000276.jpg,Vijay Naik,30,Burglary,Bangalore
+000277.jpg,Rohan Patel,29,Smuggling,Mangalore
+000278.jpg,Amit Rao,26,Fraud,Mysore
+000279.jpg,Anil Patel,40,Assault,Mysore
+000280.jpg,Rohan Patel,54,Forgery,Shivamogga
+000281.jpg,Mahesh Shetty,59,Cyber Crime,Kalaburagi
+000282.jpg,Amit Verma,41,Assault,Belagavi
+000283.jpg,Sunil Verma,38,Robbery,Bangalore
+000284.jpg,Varun Joshi,32,Assault,Bangalore
+000285.jpg,Sunil Joshi,20,Vehicle Theft,Kalaburagi
+000286.jpg,Manoj Reddy,49,Cyber Crime,Shivamogga
+000287.jpg,Sunil Kumar,39,Kidnapping,Bangalore
+000288.jpg,Ravi Verma,24,Cyber Crime,Shivamogga
+000289.jpg,Rahul Rao,49,Kidnapping,Kalaburagi
+000290.jpg,Karthik Kumar,49,Forgery,Mangalore
+000291.jpg,Rahul Gupta,42,Cyber Crime,Shivamogga
+000292.jpg,Nikhil Joshi,56,Vehicle Theft,Mysore
+000293.jpg,Kiran Naik,46,Forgery,Belagavi
+000294.jpg,Manoj Shetty,43,Kidnapping,Tumakuru
+000295.jpg,Karthik Naik,38,Assault,Shivamogga
+000296.jpg,Vijay Verma,30,Assault,Udupi
+000297.jpg,Kiran Naik,36,Smuggling,Mysore
+000298.jpg,Ravi Yadav,32,Forgery,Udupi
+000299.jpg,Vijay Gowda,26,Theft,Bangalore
+000300.jpg,Varun Gowda,23,Smuggling,Hubli
+000301.jpg,Sunil Joshi,38,Cyber Crime,Udupi
+000302.jpg,Ravi Gowda,48,Theft,Shivamogga
+000303.jpg,Karthik Nair,31,Robbery,Dharwad
+000304.jpg,Manoj Nair,27,Theft,Dharwad
+000305.jpg,Vijay Gowda,47,Kidnapping,Kalaburagi
+000306.jpg,Nikhil Patel,31,Cyber Crime,Tumakuru
+000307.jpg,Rohan Kumar,42,Kidnapping,Belagavi
+000308.jpg,Deepak Rao,49,Fraud,Kalaburagi
+000309.jpg,Vivek Nair,56,Forgery,Udupi
+000310.jpg,Rohan Rao,59,Vehicle Theft,Mysore
+000311.jpg,Mahesh Shetty,52,Vehicle Theft,Tumakuru
+000312.jpg,Arjun Joshi,43,Burglary,Kalaburagi
+000313.jpg,Suresh Shetty,35,Smuggling,Mysore
+000314.jpg,Amit Yadav,23,Kidnapping,Bangalore
+000315.jpg,Nikhil Kumar,60,Assault,Dharwad
+000316.jpg,Akash Yadav,40,Fraud,Belagavi
+000317.jpg,Mahesh Nair,22,Burglary,Mangalore
+000318.jpg,Varun Yadav,27,Burglary,Kalaburagi
+000319.jpg,Deepak Rao,29,Theft,Hubli
+000320.jpg,Karthik Reddy,32,Theft,Mangalore
+000321.jpg,Mahesh Rao,54,Vehicle Theft,Shivamogga
+000322.jpg,Rahul Nair,35,Assault,Dharwad
+000323.jpg,Vijay Reddy,40,Vehicle Theft,Mangalore
+000324.jpg,Vivek Verma,43,Theft,Shivamogga
+000325.jpg,Ravi Naik,21,Cyber Crime,Tumakuru
+000326.jpg,Karthik Singh,24,Kidnapping,Udupi
+000327.jpg,Anil Sharma,28,Forgery,Hubli
+000328.jpg,Prakash Rao,37,Forgery,Hubli
+000329.jpg,Ajay Yadav,53,Burglary,Mangalore
+000330.jpg,Ajay Nair,46,Vehicle Theft,Tumakuru
+000331.jpg,Rahul Joshi,34,Burglary,Dharwad
+000332.jpg,Amit Gupta,36,Cyber Crime,Bangalore
+000333.jpg,Nikhil Sharma,30,Smuggling,Bangalore
+000334.jpg,Manoj Sharma,40,Assault,Mysore
+000335.jpg,Sunil Rao,44,Smuggling,Kalaburagi
+000336.jpg,Rahul Singh,33,Theft,Mangalore
+000337.jpg,Rohan Nair,23,Theft,Udupi
+000338.jpg,Prakash Reddy,22,Cyber Crime,Mangalore
+000339.jpg,Rohan Singh,24,Theft,Mangalore
+000340.jpg,Sunil Sharma,31,Theft,Dharwad
+000341.jpg,Ajay Yadav,38,Smuggling,Shivamogga
+000342.jpg,Arjun Kumar,58,Assault,Udupi
+000343.jpg,Karthik Rao,28,Assault,Udupi
+000344.jpg,Arjun Shetty,28,Fraud,Kalaburagi
+000345.jpg,Arjun Shetty,27,Fraud,Udupi
+000346.jpg,Arjun Das,28,Robbery,Dharwad
+000347.jpg,Nikhil Singh,58,Robbery,Tumakuru
+000348.jpg,Kiran Verma,59,Forgery,Hubli
+000349.jpg,Deepak Gowda,48,Kidnapping,Belagavi
+000350.jpg,Rohan Sharma,25,Vehicle Theft,Shivamogga
+000351.jpg,Nikhil Rao,20,Robbery,Dharwad
+000352.jpg,Manoj Sharma,59,Robbery,Hubli
+000353.jpg,Sunil Patel,36,Robbery,Mysore
+000354.jpg,Sunil Gowda,35,Robbery,Mangalore
+000355.jpg,Vijay Gowda,52,Vehicle Theft,Udupi
+000356.jpg,Kiran Sharma,56,Vehicle Theft,Belagavi
+000357.jpg,Deepak Gowda,40,Forgery,Mangalore
+000358.jpg,Karthik Sharma,24,Fraud,Mysore
+000359.jpg,Vivek Nair,40,Fraud,Udupi
+000360.jpg,Rahul Reddy,20,Burglary,Belagavi
+000361.jpg,Amit Singh,21,Kidnapping,Belagavi
+000362.jpg,Ajay Patel,59,Burglary,Belagavi
+000363.jpg,Ravi Naik,29,Forgery,Tumakuru
+000364.jpg,Varun Das,47,Theft,Bangalore
+000365.jpg,Suresh Das,51,Vehicle Theft,Mysore
+000366.jpg,Deepak Rao,34,Forgery,Kalaburagi
+000367.jpg,Karthik Verma,59,Burglary,Shivamogga
+000368.jpg,Anil Reddy,49,Forgery,Kalaburagi
+000369.jpg,Rahul Gowda,56,Robbery,Mysore
+000370.jpg,Mahesh Gowda,56,Vehicle Theft,Mysore
+000371.jpg,Deepak Kumar,49,Burglary,Shivamogga
+000372.jpg,Karthik Joshi,53,Fraud,Udupi
+000373.jpg,Akash Reddy,29,Robbery,Mangalore
+000374.jpg,Ajay Shetty,48,Fraud,Belagavi
+000375.jpg,Suresh Nair,42,Fraud,Bangalore
+000376.jpg,Nikhil Patel,36,Robbery,Mangalore
+000377.jpg,Suresh Naik,41,Forgery,Bangalore
+000378.jpg,Karthik Naik,36,Forgery,Kalaburagi
+000379.jpg,Sunil Kumar,59,Burglary,Bangalore
+000380.jpg,Manoj Rao,52,Assault,Kalaburagi
+000381.jpg,Amit Naik,58,Robbery,Udupi
+000382.jpg,Suresh Gupta,43,Kidnapping,Bangalore
+000383.jpg,Vijay Singh,36,Robbery,Mangalore
+000384.jpg,Anil Joshi,52,Burglary,Mangalore
+000385.jpg,Ravi Joshi,49,Smuggling,Hubli
+000386.jpg,Akash Yadav,53,Theft,Udupi
+000387.jpg,Prakash Nair,42,Robbery,Kalaburagi
+000388.jpg,Amit Nair,46,Kidnapping,Udupi
+000389.jpg,Vivek Gupta,33,Vehicle Theft,Mangalore
+000390.jpg,Akash Kumar,28,Robbery,Tumakuru
+000391.jpg,Sunil Patel,49,Vehicle Theft,Mysore
+000392.jpg,Manoj Gupta,27,Vehicle Theft,Dharwad
+000393.jpg,Vijay Reddy,22,Vehicle Theft,Mangalore
+000394.jpg,Anil Singh,49,Robbery,Mysore
+000395.jpg,Varun Rao,26,Smuggling,Kalaburagi
+000396.jpg,Ajay Gowda,21,Smuggling,Kalaburagi
+000397.jpg,Kiran Gupta,22,Kidnapping,Bangalore
+000398.jpg,Karthik Reddy,39,Vehicle Theft,Kalaburagi
+000399.jpg,Anil Joshi,22,Assault,Hubli
+000400.jpg,Amit Nair,42,Theft,Belagavi
+000401.jpg,Sunil Reddy,54,Fraud,Kalaburagi
+000402.jpg,Rohan Singh,44,Assault,Kalaburagi
+000403.jpg,Akash Sharma,60,Theft,Shivamogga
+000404.jpg,Mahesh Sharma,51,Cyber Crime,Mysore
+000405.jpg,Rohan Kumar,57,Fraud,Tumakuru
+000406.jpg,Arjun Rao,52,Smuggling,Hubli
+000407.jpg,Sunil Kumar,59,Cyber Crime,Dharwad
+000408.jpg,Sunil Patel,41,Robbery,Tumakuru
+000409.jpg,Kiran Naik,53,Theft,Udupi
+000410.jpg,Varun Kumar,42,Kidnapping,Belagavi
+000411.jpg,Nikhil Naik,36,Smuggling,Dharwad
+000412.jpg,Anil Naik,38,Smuggling,Udupi
+000413.jpg,Kiran Sharma,23,Assault,Udupi
+000414.jpg,Rohan Reddy,43,Vehicle Theft,Tumakuru
+000415.jpg,Anil Yadav,25,Forgery,Tumakuru
+000416.jpg,Vijay Joshi,59,Smuggling,Kalaburagi
+000417.jpg,Vivek Kumar,36,Robbery,Dharwad
+000418.jpg,Arjun Kumar,38,Vehicle Theft,Bangalore
+000419.jpg,Ravi Shetty,55,Vehicle Theft,Hubli
+000420.jpg,Kiran Patel,25,Robbery,Dharwad
+000421.jpg,Akash Gupta,47,Fraud,Kalaburagi
+000422.jpg,Nikhil Nair,41,Kidnapping,Dharwad
+000423.jpg,Anil Joshi,41,Smuggling,Dharwad
+000424.jpg,Vivek Sharma,54,Robbery,Mangalore
+000425.jpg,Vijay Yadav,24,Smuggling,Udupi
+000426.jpg,Karthik Das,31,Fraud,Mysore
+000427.jpg,Anil Yadav,43,Forgery,Bangalore
+000428.jpg,Varun Joshi,49,Burglary,Belagavi
+000429.jpg,Rohan Rao,48,Smuggling,Hubli
+000430.jpg,Deepak Verma,39,Robbery,Mangalore
+000431.jpg,Amit Nair,49,Burglary,Bangalore
+000432.jpg,Suresh Gowda,49,Cyber Crime,Tumakuru
+000433.jpg,Rahul Patel,27,Assault,Bangalore
+000434.jpg,Deepak Singh,38,Assault,Udupi
+000435.jpg,Vivek Singh,53,Smuggling,Shivamogga
+000436.jpg,Varun Yadav,58,Theft,Mangalore
+000437.jpg,Rahul Joshi,28,Theft,Dharwad
+000438.jpg,Rohan Gupta,31,Theft,Bangalore
+000439.jpg,Amit Verma,40,Cyber Crime,Mysore
+000440.jpg,Anil Singh,42,Kidnapping,Udupi
+000441.jpg,Mahesh Yadav,53,Cyber Crime,Mysore
+000442.jpg,Arjun Das,27,Fraud,Shivamogga
+000443.jpg,Prakash Shetty,37,Forgery,Kalaburagi
+000444.jpg,Varun Patel,38,Smuggling,Udupi
+000445.jpg,Suresh Reddy,27,Assault,Dharwad
+000446.jpg,Karthik Gupta,34,Robbery,Dharwad
+000447.jpg,Ajay Gupta,27,Cyber Crime,Tumakuru
+000448.jpg,Rahul Naik,47,Robbery,Shivamogga
+000449.jpg,Varun Das,52,Assault,Udupi
+000450.jpg,Kiran Yadav,52,Vehicle Theft,Mysore
+000451.jpg,Mahesh Rao,52,Fraud,Bangalore
+000452.jpg,Rahul Reddy,23,Burglary,Mangalore
+000453.jpg,Deepak Verma,42,Burglary,Dharwad
+000454.jpg,Amit Naik,39,Vehicle Theft,Kalaburagi
+000455.jpg,Arjun Verma,45,Smuggling,Bangalore
+000456.jpg,Rohan Nair,20,Smuggling,Tumakuru
+000457.jpg,Manoj Kumar,45,Theft,Bangalore
+000458.jpg,Rahul Gowda,48,Forgery,Mysore
+000459.jpg,Vijay Das,30,Vehicle Theft,Belagavi
+000460.jpg,Manoj Das,58,Kidnapping,Hubli
+000461.jpg,Vijay Naik,31,Theft,Tumakuru
+000462.jpg,Anil Rao,46,Vehicle Theft,Kalaburagi
+000463.jpg,Sunil Kumar,53,Burglary,Mysore
+000464.jpg,Kiran Naik,29,Forgery,Shivamogga
+000465.jpg,Prakash Rao,29,Assault,Mysore
+000466.jpg,Rohan Rao,31,Cyber Crime,Dharwad
+000467.jpg,Rohan Shetty,47,Cyber Crime,Mysore
+000468.jpg,Ajay Nair,37,Kidnapping,Bangalore
+000469.jpg,Varun Reddy,43,Kidnapping,Belagavi
+000470.jpg,Mahesh Shetty,37,Smuggling,Tumakuru
+000471.jpg,Nikhil Gupta,26,Smuggling,Hubli
+000472.jpg,Amit Yadav,24,Fraud,Dharwad
+000473.jpg,Ravi Verma,31,Robbery,Dharwad
+000474.jpg,Vijay Rao,32,Robbery,Mangalore
+000475.jpg,Karthik Joshi,35,Forgery,Hubli
+000476.jpg,Ajay Patel,27,Kidnapping,Shivamogga
+000477.jpg,Ravi Singh,57,Theft,Tumakuru
+000478.jpg,Suresh Gowda,25,Theft,Tumakuru
+000479.jpg,Ravi Joshi,30,Kidnapping,Kalaburagi
+000480.jpg,Ravi Sharma,30,Fraud,Hubli
+000481.jpg,Ajay Yadav,57,Fraud,Dharwad
+000482.jpg,Vijay Shetty,42,Robbery,Udupi
+000483.jpg,Rahul Singh,30,Forgery,Belagavi
+000484.jpg,Nikhil Verma,23,Burglary,Tumakuru
+000485.jpg,Prakash Gowda,28,Vehicle Theft,Udupi
+000486.jpg,Rahul Patel,58,Assault,Tumakuru
+000487.jpg,Mahesh Verma,56,Assault,Bangalore
+000488.jpg,Kiran Naik,34,Smuggling,Mangalore
+000489.jpg,Suresh Yadav,39,Kidnapping,Hubli
+000490.jpg,Prakash Gupta,34,Fraud,Shivamogga
+000491.jpg,Vijay Verma,32,Cyber Crime,Mangalore
+000492.jpg,Deepak Gowda,27,Assault,Mysore
+000493.jpg,Rohan Yadav,36,Fraud,Shivamogga
+000494.jpg,Varun Das,58,Fraud,Kalaburagi
+000495.jpg,Rahul Naik,35,Theft,Mangalore
+000496.jpg,Karthik Singh,20,Smuggling,Mangalore
+000497.jpg,Mahesh Gupta,24,Fraud,Tumakuru
+000498.jpg,Arjun Yadav,33,Theft,Bangalore
+000499.jpg,Karthik Singh,36,Assault,Mysore
+000500.jpg,Sunil Yadav,54,Smuggling,Tumakuru
+000501.jpg,Vivek Yadav,21,Kidnapping,Bangalore
+000502.jpg,Akash Das,32,Smuggling,Mangalore
+000503.jpg,Arjun Das,21,Cyber Crime,Bangalore
+000504.jpg,Kiran Yadav,31,Fraud,Belagavi
+000505.jpg,Mahesh Verma,46,Cyber Crime,Shivamogga
+000506.jpg,Kiran Gowda,42,Cyber Crime,Belagavi
+000507.jpg,Manoj Singh,20,Cyber Crime,Kalaburagi
+000508.jpg,Amit Sharma,55,Kidnapping,Bangalore
+000509.jpg,Ajay Yadav,45,Vehicle Theft,Mysore
+000510.jpg,Vijay Nair,27,Kidnapping,Udupi
+000511.jpg,Sunil Verma,31,Assault,Dharwad
+000512.jpg,Sunil Yadav,50,Fraud,Mangalore
+000513.jpg,Arjun Yadav,38,Vehicle Theft,Hubli
+000514.jpg,Karthik Sharma,54,Forgery,Dharwad
+000515.jpg,Sunil Gupta,60,Cyber Crime,Dharwad
+000516.jpg,Suresh Patel,30,Smuggling,Bangalore
+000517.jpg,Suresh Joshi,21,Cyber Crime,Mangalore
+000518.jpg,Vivek Shetty,56,Theft,Kalaburagi
+000519.jpg,Rahul Das,43,Kidnapping,Mangalore
+000520.jpg,Arjun Gowda,39,Vehicle Theft,Kalaburagi
+000521.jpg,Sunil Sharma,40,Smuggling,Hubli
+000522.jpg,Amit Sharma,45,Cyber Crime,Udupi
+000523.jpg,Akash Sharma,32,Theft,Tumakuru
+000524.jpg,Kiran Joshi,52,Assault,Dharwad
+000525.jpg,Mahesh Verma,27,Assault,Kalaburagi
+000526.jpg,Akash Nair,59,Kidnapping,Shivamogga
+000527.jpg,Deepak Kumar,27,Burglary,Mysore
+000528.jpg,Rahul Patel,59,Assault,Hubli
+000529.jpg,Deepak Gupta,23,Vehicle Theft,Belagavi
+000530.jpg,Vivek Kumar,45,Burglary,Tumakuru
+000531.jpg,Akash Naik,45,Assault,Mangalore
+000532.jpg,Varun Yadav,36,Vehicle Theft,Hubli
+000533.jpg,Ravi Shetty,59,Kidnapping,Udupi
+000534.jpg,Varun Shetty,37,Fraud,Udupi
+000535.jpg,Anil Rao,42,Cyber Crime,Dharwad
+000536.jpg,Nikhil Reddy,45,Smuggling,Hubli
+000537.jpg,Suresh Rao,47,Fraud,Udupi
+000538.jpg,Amit Shetty,25,Fraud,Belagavi
+000539.jpg,Akash Rao,58,Vehicle Theft,Shivamogga
+000540.jpg,Prakash Patel,49,Kidnapping,Bangalore
+000541.jpg,Mahesh Gowda,20,Assault,Bangalore
+000542.jpg,Rohan Gowda,31,Theft,Kalaburagi
+000543.jpg,Nikhil Singh,24,Kidnapping,Hubli
+000544.jpg,Vijay Gupta,20,Cyber Crime,Bangalore
+000545.jpg,Prakash Nair,31,Assault,Udupi
+000546.jpg,Ajay Singh,30,Kidnapping,Dharwad
+000547.jpg,Nikhil Rao,56,Fraud,Belagavi
+000548.jpg,Manoj Patel,58,Burglary,Dharwad
+000549.jpg,Manoj Sharma,52,Vehicle Theft,Dharwad
+000550.jpg,Vivek Nair,36,Theft,Dharwad
+000551.jpg,Mahesh Verma,30,Assault,Hubli
+000552.jpg,Suresh Reddy,51,Kidnapping,Mysore
+000553.jpg,Ajay Sharma,35,Assault,Mangalore
+000554.jpg,Arjun Patel,20,Assault,Bangalore
+000555.jpg,Arjun Rao,24,Robbery,Udupi
+000556.jpg,Rahul Joshi,33,Smuggling,Dharwad
+000557.jpg,Manoj Joshi,32,Robbery,Udupi
+000558.jpg,Mahesh Gowda,24,Fraud,Mysore
+000559.jpg,Sunil Verma,23,Cyber Crime,Mangalore
+000560.jpg,Nikhil Joshi,52,Theft,Shivamogga
+000561.jpg,Karthik Naik,34,Cyber Crime,Udupi
+000562.jpg,Karthik Rao,59,Fraud,Shivamogga
+000563.jpg,Suresh Shetty,41,Kidnapping,Mangalore
+000564.jpg,Varun Naik,28,Fraud,Mysore
+000565.jpg,Suresh Sharma,59,Theft,Shivamogga
+000566.jpg,Vivek Das,39,Robbery,Belagavi
+000567.jpg,Prakash Yadav,24,Robbery,Udupi
+000568.jpg,Ajay Das,48,Fraud,Kalaburagi
+000569.jpg,Varun Reddy,46,Fraud,Kalaburagi
+000570.jpg,Deepak Yadav,29,Vehicle Theft,Belagavi
+000571.jpg,Suresh Patel,40,Cyber Crime,Shivamogga
+000572.jpg,Karthik Yadav,29,Smuggling,Tumakuru
+000573.jpg,Ajay Joshi,34,Burglary,Dharwad
+000574.jpg,Amit Joshi,60,Fraud,Udupi
+000575.jpg,Sunil Reddy,43,Robbery,Tumakuru
+000576.jpg,Arjun Sharma,22,Theft,Shivamogga
+000577.jpg,Vivek Reddy,42,Kidnapping,Udupi
+000578.jpg,Deepak Nair,58,Burglary,Shivamogga
+000579.jpg,Sunil Sharma,21,Theft,Udupi
+000580.jpg,Varun Patel,27,Fraud,Hubli
+000581.jpg,Prakash Naik,38,Burglary,Udupi
+000582.jpg,Karthik Singh,33,Cyber Crime,Hubli
+000583.jpg,Ajay Rao,20,Kidnapping,Mangalore
+000584.jpg,Vijay Sharma,43,Cyber Crime,Dharwad
+000585.jpg,Varun Naik,32,Burglary,Tumakuru
+000586.jpg,Vijay Rao,40,Burglary,Mangalore
+000587.jpg,Ravi Das,32,Kidnapping,Mangalore
+000588.jpg,Suresh Sharma,57,Robbery,Hubli
+000589.jpg,Deepak Gowda,25,Forgery,Kalaburagi
+000590.jpg,Varun Naik,41,Cyber Crime,Hubli
+000591.jpg,Amit Gupta,48,Burglary,Dharwad
+000592.jpg,Prakash Yadav,56,Kidnapping,Mangalore
+000593.jpg,Karthik Verma,53,Robbery,Shivamogga
+000594.jpg,Ajay Patel,43,Kidnapping,Bangalore
+000595.jpg,Ravi Yadav,55,Kidnapping,Hubli
+000596.jpg,Anil Patel,59,Fraud,Shivamogga
+000597.jpg,Rohan Kumar,49,Cyber Crime,Bangalore
+000598.jpg,Arjun Singh,32,Burglary,Bangalore
+000599.jpg,Amit Reddy,40,Burglary,Mysore
+000600.jpg,Manoj Patel,29,Smuggling,Udupi
+000601.jpg,Anil Patel,60,Forgery,Udupi
+000602.jpg,Deepak Nair,45,Forgery,Belagavi
+000603.jpg,Akash Joshi,38,Cyber Crime,Mysore
+000604.jpg,Vijay Verma,38,Cyber Crime,Tumakuru
+000605.jpg,Suresh Nair,43,Kidnapping,Mangalore
+000606.jpg,Vijay Rao,42,Robbery,Dharwad
+000607.jpg,Mahesh Gupta,52,Burglary,Belagavi
+000608.jpg,Vivek Shetty,47,Forgery,Mysore
+000609.jpg,Karthik Verma,33,Forgery,Mysore
+000610.jpg,Amit Sharma,50,Vehicle Theft,Belagavi
+000611.jpg,Sunil Joshi,30,Robbery,Belagavi
+000612.jpg,Varun Singh,43,Kidnapping,Mysore
+000613.jpg,Mahesh Gupta,42,Assault,Bangalore
+000614.jpg,Rohan Joshi,40,Forgery,Bangalore
+000615.jpg,Ajay Gowda,51,Robbery,Bangalore
+000616.jpg,Ajay Shetty,23,Robbery,Belagavi
+000617.jpg,Nikhil Gupta,47,Assault,Tumakuru
+000618.jpg,Sunil Nair,32,Smuggling,Udupi
+000619.jpg,Ravi Shetty,31,Smuggling,Shivamogga
+000620.jpg,Nikhil Gowda,20,Kidnapping,Kalaburagi
+000621.jpg,Manoj Das,37,Robbery,Mangalore
+000622.jpg,Suresh Singh,57,Vehicle Theft,Bangalore
+000623.jpg,Kiran Joshi,47,Robbery,Mangalore
+000624.jpg,Ajay Singh,39,Burglary,Shivamogga
+000625.jpg,Kiran Shetty,58,Assault,Belagavi
+000626.jpg,Ajay Gowda,41,Forgery,Dharwad
+000627.jpg,Vivek Sharma,52,Forgery,Mysore
+000628.jpg,Amit Reddy,49,Smuggling,Belagavi
+000629.jpg,Sunil Sharma,46,Forgery,Kalaburagi
+000630.jpg,Nikhil Sharma,39,Theft,Mysore
+000631.jpg,Arjun Patel,56,Theft,Mysore
+000632.jpg,Suresh Kumar,40,Smuggling,Tumakuru
+000633.jpg,Ajay Singh,23,Vehicle Theft,Tumakuru
+000634.jpg,Anil Shetty,34,Fraud,Dharwad
+000635.jpg,Arjun Joshi,23,Fraud,Tumakuru
+000636.jpg,Rohan Verma,39,Vehicle Theft,Belagavi
+000637.jpg,Prakash Yadav,54,Kidnapping,Bangalore
+000638.jpg,Kiran Joshi,52,Robbery,Tumakuru
+000639.jpg,Vivek Reddy,34,Smuggling,Mysore
+000640.jpg,Nikhil Yadav,20,Robbery,Mangalore
+000641.jpg,Kiran Das,46,Burglary,Bangalore
+000642.jpg,Vijay Gowda,51,Forgery,Mysore
+000643.jpg,Rohan Rao,44,Robbery,Mangalore
+000644.jpg,Ajay Shetty,38,Forgery,Kalaburagi
+000645.jpg,Nikhil Singh,53,Assault,Mangalore
+000646.jpg,Arjun Shetty,60,Vehicle Theft,Shivamogga
+000647.jpg,Ajay Rao,26,Fraud,Bangalore
+000648.jpg,Kiran Gupta,42,Burglary,Bangalore
+000649.jpg,Vivek Sharma,28,Smuggling,Hubli
+000650.jpg,Mahesh Rao,28,Burglary,Belagavi
+000651.jpg,Vijay Sharma,41,Assault,Mangalore
+000652.jpg,Vijay Patel,29,Theft,Belagavi
+000653.jpg,Manoj Singh,57,Burglary,Udupi
+000654.jpg,Rohan Rao,52,Smuggling,Mangalore
+000655.jpg,Rahul Shetty,24,Cyber Crime,Shivamogga
+000656.jpg,Varun Gowda,30,Forgery,Bangalore
+000657.jpg,Karthik Reddy,54,Vehicle Theft,Belagavi
+000658.jpg,Amit Patel,40,Kidnapping,Hubli
+000659.jpg,Vivek Reddy,46,Burglary,Hubli
+000660.jpg,Deepak Sharma,29,Smuggling,Hubli
+000661.jpg,Vivek Rao,45,Vehicle Theft,Hubli
+000662.jpg,Varun Joshi,49,Cyber Crime,Hubli
+000663.jpg,Rahul Gupta,24,Fraud,Mangalore
+000664.jpg,Karthik Das,40,Theft,Mangalore
+000665.jpg,Kiran Gowda,44,Forgery,Shivamogga
+000666.jpg,Rahul Sharma,38,Vehicle Theft,Bangalore
+000667.jpg,Mahesh Gupta,37,Vehicle Theft,Mangalore
+000668.jpg,Rahul Singh,27,Vehicle Theft,Tumakuru
+000669.jpg,Rahul Nair,41,Robbery,Dharwad
+000670.jpg,Amit Gowda,32,Cyber Crime,Bangalore
+000671.jpg,Ajay Das,45,Burglary,Hubli
+000672.jpg,Manoj Sharma,51,Fraud,Mysore
+000673.jpg,Rohan Naik,59,Burglary,Tumakuru
+000674.jpg,Vivek Nair,54,Theft,Hubli
+000675.jpg,Kiran Patel,45,Forgery,Udupi
+000676.jpg,Kiran Rao,51,Smuggling,Mangalore
+000677.jpg,Ravi Gowda,34,Theft,Belagavi
+000678.jpg,Prakash Sharma,23,Robbery,Udupi
+000679.jpg,Anil Nair,43,Assault,Mysore
+000680.jpg,Vijay Patel,38,Vehicle Theft,Shivamogga
+000681.jpg,Manoj Gowda,56,Vehicle Theft,Udupi
+000682.jpg,Varun Patel,54,Assault,Mangalore
+000683.jpg,Rohan Patel,50,Burglary,Tumakuru
+000684.jpg,Deepak Naik,27,Vehicle Theft,Mangalore
+000685.jpg,Vivek Rao,28,Fraud,Hubli
+000686.jpg,Vivek Nair,33,Cyber Crime,Tumakuru
+000687.jpg,Sunil Joshi,49,Kidnapping,Udupi
+000688.jpg,Varun Naik,37,Vehicle Theft,Mysore
+000689.jpg,Karthik Reddy,34,Kidnapping,Dharwad
+000690.jpg,Sunil Gowda,28,Robbery,Dharwad
+000691.jpg,Arjun Das,53,Kidnapping,Dharwad
+000692.jpg,Arjun Patel,24,Smuggling,Udupi
+000693.jpg,Vijay Singh,32,Smuggling,Shivamogga
+000694.jpg,Akash Sharma,21,Cyber Crime,Bangalore
+000695.jpg,Vivek Patel,53,Cyber Crime,Udupi
+000696.jpg,Vivek Kumar,46,Smuggling,Bangalore
+000697.jpg,Ajay Naik,24,Burglary,Belagavi
+000698.jpg,Sunil Kumar,28,Fraud,Mangalore
+000699.jpg,Mahesh Patel,52,Burglary,Udupi
+000700.jpg,Rahul Joshi,24,Robbery,Shivamogga
+000701.jpg,Rahul Nair,42,Assault,Dharwad
+000702.jpg,Suresh Nair,25,Vehicle Theft,Mangalore
+000703.jpg,Arjun Verma,35,Smuggling,Kalaburagi
+000704.jpg,Vijay Patel,31,Assault,Tumakuru
+000705.jpg,Vivek Naik,24,Forgery,Bangalore
+000706.jpg,Karthik Naik,27,Forgery,Tumakuru
+000707.jpg,Ravi Yadav,50,Smuggling,Dharwad
+000708.jpg,Kiran Gowda,47,Vehicle Theft,Udupi
+000709.jpg,Prakash Patel,31,Fraud,Mysore
+000710.jpg,Kiran Singh,39,Burglary,Kalaburagi
+000711.jpg,Rahul Rao,47,Assault,Dharwad
+000712.jpg,Deepak Rao,32,Fraud,Hubli
+000713.jpg,Vijay Joshi,41,Fraud,Bangalore
+000714.jpg,Amit Joshi,27,Smuggling,Mysore
+000715.jpg,Amit Singh,33,Robbery,Kalaburagi
+000716.jpg,Rohan Joshi,53,Forgery,Udupi
+000717.jpg,Kiran Verma,48,Fraud,Bangalore
+000718.jpg,Rahul Patel,55,Burglary,Tumakuru
+000719.jpg,Nikhil Naik,59,Robbery,Hubli
+000720.jpg,Rahul Kumar,56,Vehicle Theft,Udupi
+000721.jpg,Deepak Nair,33,Assault,Hubli
+000722.jpg,Akash Joshi,53,Smuggling,Bangalore
+000723.jpg,Vivek Patel,41,Kidnapping,Hubli
+000724.jpg,Amit Joshi,33,Forgery,Hubli
+000725.jpg,Sunil Patel,59,Cyber Crime,Bangalore
+000726.jpg,Deepak Verma,50,Assault,Tumakuru
+000727.jpg,Varun Sharma,53,Vehicle Theft,Bangalore
+000728.jpg,Manoj Reddy,41,Forgery,Bangalore
+000729.jpg,Amit Sharma,34,Fraud,Belagavi
+000730.jpg,Sunil Nair,46,Kidnapping,Tumakuru
+000731.jpg,Anil Verma,43,Robbery,Mysore
+000732.jpg,Akash Rao,32,Burglary,Udupi
+000733.jpg,Manoj Gupta,49,Robbery,Hubli
+000734.jpg,Prakash Yadav,38,Kidnapping,Dharwad
+000735.jpg,Vivek Reddy,52,Theft,Mangalore
+000736.jpg,Akash Naik,30,Theft,Kalaburagi
+000737.jpg,Suresh Gowda,22,Vehicle Theft,Mysore
+000738.jpg,Kiran Reddy,58,Smuggling,Udupi
+000739.jpg,Arjun Shetty,51,Smuggling,Udupi
+000740.jpg,Arjun Gupta,55,Forgery,Bangalore
+000741.jpg,Varun Naik,32,Forgery,Kalaburagi
+000742.jpg,Vivek Verma,51,Theft,Kalaburagi
+000743.jpg,Manoj Gowda,23,Vehicle Theft,Kalaburagi
+000744.jpg,Kiran Kumar,40,Fraud,Kalaburagi
+000745.jpg,Prakash Yadav,49,Burglary,Tumakuru
+000746.jpg,Karthik Yadav,25,Robbery,Dharwad
+000747.jpg,Prakash Nair,23,Burglary,Shivamogga
+000748.jpg,Ajay Shetty,31,Robbery,Bangalore
+000749.jpg,Vivek Verma,44,Cyber Crime,Kalaburagi
+000750.jpg,Manoj Joshi,58,Kidnapping,Mangalore
+000751.jpg,Varun Naik,53,Burglary,Dharwad
+000752.jpg,Rohan Yadav,20,Burglary,Tumakuru
+000753.jpg,Rohan Singh,41,Smuggling,Mangalore
+000754.jpg,Ajay Gupta,41,Burglary,Tumakuru
+000755.jpg,Rohan Das,34,Robbery,Shivamogga
+000756.jpg,Prakash Verma,22,Fraud,Kalaburagi
+000757.jpg,Varun Verma,25,Fraud,Bangalore
+000758.jpg,Kiran Naik,51,Assault,Tumakuru
+000759.jpg,Vijay Singh,24,Vehicle Theft,Udupi
+000760.jpg,Amit Joshi,48,Burglary,Kalaburagi
+000761.jpg,Prakash Yadav,32,Smuggling,Dharwad
+000762.jpg,Akash Naik,57,Vehicle Theft,Dharwad
+000763.jpg,Arjun Shetty,54,Fraud,Udupi
+000764.jpg,Anil Kumar,52,Assault,Mysore
+000765.jpg,Rohan Joshi,47,Forgery,Dharwad
+000766.jpg,Vijay Naik,55,Theft,Shivamogga
+000767.jpg,Mahesh Shetty,20,Vehicle Theft,Udupi
+000768.jpg,Ajay Singh,52,Kidnapping,Bangalore
+000769.jpg,Manoj Verma,22,Theft,Dharwad
+000770.jpg,Amit Naik,59,Smuggling,Tumakuru
+000771.jpg,Kiran Das,25,Burglary,Shivamogga
+000772.jpg,Rahul Singh,20,Theft,Shivamogga
+000773.jpg,Vivek Nair,38,Burglary,Mysore
+000774.jpg,Varun Gowda,49,Vehicle Theft,Hubli
+000775.jpg,Varun Naik,49,Cyber Crime,Kalaburagi
+000776.jpg,Karthik Joshi,30,Forgery,Dharwad
+000777.jpg,Nikhil Singh,29,Assault,Udupi
+000778.jpg,Varun Das,54,Fraud,Belagavi
+000779.jpg,Amit Das,50,Forgery,Dharwad
+000780.jpg,Nikhil Shetty,52,Kidnapping,Kalaburagi
+000781.jpg,Deepak Reddy,28,Cyber Crime,Kalaburagi
+000782.jpg,Nikhil Das,34,Smuggling,Shivamogga
+000783.jpg,Vijay Verma,60,Assault,Mysore
+000784.jpg,Kiran Patel,24,Robbery,Udupi
+000785.jpg,Arjun Singh,48,Burglary,Tumakuru
+000786.jpg,Deepak Gowda,27,Forgery,Shivamogga
+000787.jpg,Varun Yadav,35,Robbery,Bangalore
+000788.jpg,Sunil Gowda,42,Cyber Crime,Udupi
+000789.jpg,Rohan Reddy,26,Forgery,Udupi
+000790.jpg,Varun Rao,26,Cyber Crime,Udupi
+000791.jpg,Mahesh Naik,49,Robbery,Dharwad
+000792.jpg,Vijay Nair,37,Smuggling,Shivamogga
+000793.jpg,Vivek Gupta,50,Cyber Crime,Udupi
+000794.jpg,Anil Nair,23,Assault,Udupi
+000795.jpg,Suresh Yadav,35,Burglary,Kalaburagi
+000796.jpg,Amit Verma,27,Kidnapping,Hubli
+000797.jpg,Kiran Yadav,28,Cyber Crime,Mysore
+000798.jpg,Amit Joshi,40,Fraud,Kalaburagi
+000799.jpg,Mahesh Gowda,54,Smuggling,Udupi
+000800.jpg,Amit Joshi,26,Theft,Udupi
+000801.jpg,Kiran Patel,58,Cyber Crime,Shivamogga
+000802.jpg,Varun Das,59,Forgery,Udupi
+000803.jpg,Suresh Reddy,21,Burglary,Udupi
+000804.jpg,Manoj Nair,53,Forgery,Belagavi
+000805.jpg,Amit Verma,30,Theft,Mangalore
+000806.jpg,Anil Sharma,29,Burglary,Hubli
+000807.jpg,Manoj Sharma,24,Burglary,Belagavi
+000808.jpg,Vivek Patel,54,Theft,Mysore
+000809.jpg,Amit Gupta,59,Assault,Tumakuru
+000810.jpg,Vijay Patel,45,Burglary,Hubli
+000811.jpg,Arjun Sharma,57,Robbery,Kalaburagi
+000812.jpg,Sunil Rao,31,Smuggling,Bangalore
+000813.jpg,Varun Das,28,Smuggling,Mangalore
+000814.jpg,Nikhil Rao,37,Assault,Mangalore
+000815.jpg,Vivek Gowda,35,Robbery,Bangalore
+000816.jpg,Anil Yadav,49,Forgery,Kalaburagi
+000817.jpg,Akash Shetty,29,Assault,Tumakuru
+000818.jpg,Vivek Reddy,56,Cyber Crime,Shivamogga
+000819.jpg,Prakash Verma,55,Kidnapping,Tumakuru
+000820.jpg,Prakash Yadav,29,Kidnapping,Dharwad
+000821.jpg,Sunil Shetty,60,Vehicle Theft,Bangalore
+000822.jpg,Karthik Singh,39,Robbery,Mysore
+000823.jpg,Sunil Naik,57,Burglary,Mysore
+000824.jpg,Arjun Joshi,30,Kidnapping,Kalaburagi
+000825.jpg,Anil Gowda,27,Robbery,Hubli
+000826.jpg,Karthik Singh,42,Forgery,Mysore
+000827.jpg,Ravi Reddy,52,Assault,Mysore
+000828.jpg,Prakash Nair,42,Cyber Crime,Shivamogga
+000829.jpg,Mahesh Patel,25,Assault,Mysore
+000830.jpg,Vivek Nair,37,Theft,Shivamogga
+000831.jpg,Sunil Kumar,23,Assault,Belagavi
+000832.jpg,Anil Nair,42,Robbery,Udupi
+000833.jpg,Akash Singh,24,Fraud,Udupi
+000834.jpg,Sunil Naik,47,Theft,Mangalore
+000835.jpg,Vivek Rao,22,Smuggling,Hubli
+000836.jpg,Kiran Verma,57,Burglary,Dharwad
+000837.jpg,Akash Patel,43,Assault,Mysore
+000838.jpg,Sunil Das,28,Fraud,Dharwad
+000839.jpg,Rahul Naik,57,Theft,Shivamogga
+000840.jpg,Manoj Shetty,55,Assault,Hubli
+000841.jpg,Arjun Gowda,23,Smuggling,Dharwad
+000842.jpg,Vijay Das,56,Smuggling,Mysore
+000843.jpg,Amit Naik,44,Forgery,Mysore
+000844.jpg,Arjun Nair,36,Assault,Dharwad
+000845.jpg,Nikhil Patel,45,Assault,Bangalore
+000846.jpg,Mahesh Reddy,49,Burglary,Bangalore
+000847.jpg,Rahul Kumar,29,Robbery,Udupi
+000848.jpg,Rahul Patel,54,Burglary,Dharwad
+000849.jpg,Amit Singh,34,Smuggling,Belagavi
+000850.jpg,Vijay Singh,34,Assault,Belagavi
+000851.jpg,Varun Singh,54,Burglary,Shivamogga
+000852.jpg,Arjun Das,53,Vehicle Theft,Mangalore
+000853.jpg,Suresh Das,51,Theft,Mysore
+000854.jpg,Rahul Gowda,43,Smuggling,Belagavi
+000855.jpg,Vijay Gowda,21,Theft,Kalaburagi
+000856.jpg,Rahul Shetty,60,Assault,Udupi
+000857.jpg,Ajay Joshi,36,Vehicle Theft,Hubli
+000858.jpg,Amit Rao,42,Burglary,Bangalore
+000859.jpg,Vijay Kumar,35,Burglary,Kalaburagi
+000860.jpg,Nikhil Patel,36,Burglary,Mangalore
+000861.jpg,Nikhil Rao,44,Robbery,Mangalore
+000862.jpg,Vijay Yadav,56,Forgery,Shivamogga
+000863.jpg,Anil Gupta,30,Cyber Crime,Kalaburagi
+000864.jpg,Arjun Nair,53,Robbery,Bangalore
+000865.jpg,Kiran Das,21,Theft,Hubli
+000866.jpg,Vijay Patel,28,Theft,Shivamogga
+000867.jpg,Ajay Singh,44,Kidnapping,Dharwad
+000868.jpg,Rahul Nair,39,Robbery,Mangalore
+000869.jpg,Manoj Gupta,22,Vehicle Theft,Udupi
+000870.jpg,Akash Das,39,Kidnapping,Hubli
+000871.jpg,Amit Nair,37,Fraud,Hubli
+000872.jpg,Mahesh Yadav,36,Vehicle Theft,Bangalore
+000873.jpg,Mahesh Joshi,57,Theft,Mysore
+000874.jpg,Ajay Naik,55,Smuggling,Mysore
+000875.jpg,Ravi Yadav,26,Smuggling,Tumakuru
+000876.jpg,Arjun Sharma,59,Theft,Kalaburagi
+000877.jpg,Arjun Verma,55,Kidnapping,Hubli
+000878.jpg,Manoj Nair,47,Fraud,Mangalore
+000879.jpg,Amit Gowda,59,Cyber Crime,Dharwad
+000880.jpg,Suresh Gupta,25,Kidnapping,Udupi
+000881.jpg,Sunil Gupta,33,Cyber Crime,Kalaburagi
+000882.jpg,Vijay Joshi,35,Theft,Kalaburagi
+000883.jpg,Prakash Singh,60,Cyber Crime,Shivamogga
+000884.jpg,Ravi Shetty,43,Assault,Mysore
+000885.jpg,Manoj Patel,47,Vehicle Theft,Mysore
+000886.jpg,Ravi Reddy,43,Cyber Crime,Hubli
+000887.jpg,Deepak Reddy,41,Vehicle Theft,Shivamogga
+000888.jpg,Nikhil Verma,46,Kidnapping,Bangalore
+000889.jpg,Rohan Verma,42,Assault,Hubli
+000890.jpg,Manoj Sharma,46,Burglary,Bangalore
+000891.jpg,Varun Kumar,59,Cyber Crime,Mangalore
+000892.jpg,Varun Yadav,29,Kidnapping,Hubli
+000893.jpg,Nikhil Patel,46,Smuggling,Kalaburagi
+000894.jpg,Rahul Shetty,56,Robbery,Hubli
+000895.jpg,Varun Singh,45,Vehicle Theft,Mysore
+000896.jpg,Prakash Reddy,48,Robbery,Tumakuru
+000897.jpg,Ravi Gupta,44,Smuggling,Shivamogga
+000898.jpg,Akash Kumar,49,Robbery,Bangalore
+000899.jpg,Deepak Naik,23,Robbery,Bangalore
+000900.jpg,Rohan Joshi,47,Theft,Dharwad
+000901.jpg,Ajay Gowda,57,Vehicle Theft,Bangalore
+000902.jpg,Nikhil Rao,45,Assault,Dharwad
+000903.jpg,Karthik Shetty,47,Kidnapping,Kalaburagi
+000904.jpg,Suresh Gupta,48,Robbery,Mysore
+000905.jpg,Manoj Gupta,47,Vehicle Theft,Hubli
+000906.jpg,Nikhil Rao,36,Fraud,Bangalore
+000907.jpg,Rohan Gowda,20,Fraud,Shivamogga
+000908.jpg,Vivek Rao,22,Fraud,Hubli
+000909.jpg,Manoj Naik,58,Smuggling,Kalaburagi
+000910.jpg,Amit Kumar,26,Burglary,Belagavi
+000911.jpg,Deepak Kumar,58,Cyber Crime,Shivamogga
+000912.jpg,Karthik Verma,56,Theft,Hubli
+000913.jpg,Kiran Verma,55,Smuggling,Hubli
+000914.jpg,Sunil Das,24,Robbery,Dharwad
+000915.jpg,Manoj Singh,46,Vehicle Theft,Belagavi
+000916.jpg,Mahesh Nair,42,Forgery,Udupi
+000917.jpg,Sunil Rao,57,Smuggling,Dharwad
+000918.jpg,Karthik Naik,23,Fraud,Mangalore
+000919.jpg,Varun Nair,55,Vehicle Theft,Hubli
+000920.jpg,Amit Singh,22,Cyber Crime,Bangalore
+000921.jpg,Prakash Gowda,44,Burglary,Kalaburagi
+000922.jpg,Nikhil Sharma,57,Fraud,Kalaburagi
+000923.jpg,Prakash Singh,53,Theft,Shivamogga
+000924.jpg,Ravi Naik,51,Smuggling,Hubli
+000925.jpg,Rohan Naik,44,Fraud,Bangalore
+000926.jpg,Deepak Reddy,60,Burglary,Bangalore
+000927.jpg,Karthik Naik,33,Assault,Udupi
+000928.jpg,Ajay Kumar,29,Smuggling,Udupi
+000929.jpg,Vijay Nair,53,Burglary,Mangalore
+000930.jpg,Amit Yadav,53,Vehicle Theft,Tumakuru
+000931.jpg,Nikhil Naik,40,Kidnapping,Mangalore
+000932.jpg,Manoj Singh,59,Forgery,Tumakuru
+000933.jpg,Kiran Nair,54,Assault,Mysore
+000934.jpg,Arjun Joshi,38,Assault,Shivamogga
+000935.jpg,Manoj Rao,59,Fraud,Mysore
+000936.jpg,Karthik Yadav,45,Robbery,Kalaburagi
+000937.jpg,Suresh Gupta,35,Forgery,Belagavi
+000938.jpg,Varun Verma,26,Burglary,Hubli
+000939.jpg,Rohan Nair,52,Kidnapping,Udupi
+000940.jpg,Suresh Nair,50,Fraud,Kalaburagi
+000941.jpg,Vijay Naik,43,Smuggling,Bangalore
+000942.jpg,Ravi Yadav,30,Forgery,Tumakuru
+000943.jpg,Rahul Singh,27,Smuggling,Mysore
+000944.jpg,Manoj Sharma,44,Burglary,Tumakuru
+000945.jpg,Prakash Singh,50,Vehicle Theft,Mangalore
+000946.jpg,Arjun Reddy,28,Vehicle Theft,Dharwad
+000947.jpg,Mahesh Yadav,26,Theft,Dharwad
+000948.jpg,Vijay Joshi,44,Forgery,Bangalore
+000949.jpg,Akash Yadav,40,Cyber Crime,Kalaburagi
+000950.jpg,Vijay Joshi,35,Theft,Bangalore
+000951.jpg,Sunil Das,43,Vehicle Theft,Hubli
+000952.jpg,Rohan Gupta,30,Kidnapping,Belagavi
+000953.jpg,Rahul Gowda,23,Vehicle Theft,Dharwad
+000954.jpg,Mahesh Gupta,58,Robbery,Kalaburagi
+000955.jpg,Prakash Naik,31,Cyber Crime,Shivamogga
+000956.jpg,Rahul Patel,25,Burglary,Tumakuru
+000957.jpg,Manoj Singh,34,Theft,Bangalore
+000958.jpg,Prakash Rao,29,Cyber Crime,Bangalore
+000959.jpg,Mahesh Kumar,48,Robbery,Shivamogga
+000960.jpg,Ravi Das,28,Cyber Crime,Belagavi
+000961.jpg,Suresh Patel,33,Vehicle Theft,Belagavi
+000962.jpg,Akash Kumar,29,Theft,Belagavi
+000963.jpg,Suresh Yadav,29,Kidnapping,Belagavi
+000964.jpg,Arjun Shetty,23,Cyber Crime,Belagavi
+000965.jpg,Ravi Gupta,24,Assault,Bangalore
+000966.jpg,Karthik Das,34,Forgery,Mysore
+000967.jpg,Sunil Singh,38,Assault,Bangalore
+000968.jpg,Arjun Reddy,37,Smuggling,Belagavi
+000969.jpg,Deepak Joshi,52,Fraud,Udupi
+000970.jpg,Karthik Rao,31,Kidnapping,Belagavi
+000971.jpg,Anil Nair,39,Theft,Hubli
+000972.jpg,Vijay Nair,23,Smuggling,Mysore
+000973.jpg,Ravi Gowda,52,Smuggling,Bangalore
+000974.jpg,Prakash Gowda,41,Vehicle Theft,Tumakuru
+000975.jpg,Manoj Patel,40,Cyber Crime,Hubli
+000976.jpg,Mahesh Shetty,60,Vehicle Theft,Kalaburagi
+000977.jpg,Rahul Rao,54,Assault,Bangalore
+000978.jpg,Varun Gowda,48,Fraud,Belagavi
+000979.jpg,Prakash Kumar,47,Assault,Mysore
+000980.jpg,Kiran Joshi,42,Smuggling,Udupi
+000981.jpg,Suresh Das,45,Assault,Dharwad
+000982.jpg,Ajay Rao,25,Forgery,Kalaburagi
+000983.jpg,Anil Singh,24,Fraud,Kalaburagi
+000984.jpg,Karthik Yadav,60,Smuggling,Tumakuru
+000985.jpg,Prakash Naik,42,Fraud,Dharwad
+000986.jpg,Nikhil Naik,40,Assault,Tumakuru
+000987.jpg,Suresh Kumar,31,Burglary,Mysore
+000988.jpg,Rohan Verma,36,Fraud,Belagavi
+000989.jpg,Karthik Gupta,49,Theft,Kalaburagi
+000990.jpg,Ajay Kumar,50,Kidnapping,Tumakuru
+000991.jpg,Rahul Rao,50,Assault,Mysore
+000992.jpg,Amit Sharma,21,Theft,Bangalore
+000993.jpg,Ajay Sharma,58,Kidnapping,Kalaburagi
+000994.jpg,Ajay Rao,58,Burglary,Shivamogga
+000995.jpg,Nikhil Nair,21,Robbery,Kalaburagi
+000996.jpg,Ravi Reddy,32,Robbery,Hubli
+000997.jpg,Ravi Verma,22,Kidnapping,Tumakuru
+000998.jpg,Vijay Sharma,35,Cyber Crime,Kalaburagi
+000999.jpg,Vivek Nair,58,Vehicle Theft,Udupi
+001000.jpg,Rohan Kumar,52,Robbery,Dharwad
+001001.jpg,Kiran Kumar,50,Forgery,Shivamogga
+001002.jpg,Sunil Yadav,40,Robbery,Belagavi
+001003.jpg,Sunil Das,53,Cyber Crime,Shivamogga
+001004.jpg,Amit Patel,52,Cyber Crime,Mangalore
+001005.jpg,Rohan Kumar,45,Kidnapping,Hubli
+001006.jpg,Ravi Singh,59,Fraud,Hubli
+001007.jpg,Amit Shetty,47,Smuggling,Dharwad
+001008.jpg,Akash Nair,44,Assault,Belagavi
+001009.jpg,Rahul Yadav,58,Fraud,Udupi
+001010.jpg,Nikhil Shetty,28,Robbery,Tumakuru
+001011.jpg,Rohan Yadav,26,Robbery,Udupi
+001012.jpg,Karthik Sharma,60,Cyber Crime,Kalaburagi
+001013.jpg,Rohan Sharma,55,Cyber Crime,Belagavi
+001014.jpg,Mahesh Kumar,39,Cyber Crime,Belagavi
+001015.jpg,Akash Kumar,60,Smuggling,Tumakuru
+001016.jpg,Suresh Patel,55,Fraud,Tumakuru
+001017.jpg,Varun Patel,40,Kidnapping,Udupi
+001018.jpg,Nikhil Naik,26,Burglary,Hubli
+001019.jpg,Deepak Kumar,20,Theft,Dharwad
+001020.jpg,Suresh Gowda,58,Smuggling,Mangalore
+001021.jpg,Vivek Gupta,28,Fraud,Mysore
+001022.jpg,Nikhil Reddy,23,Assault,Mangalore
+001023.jpg,Mahesh Gowda,48,Forgery,Belagavi
+001024.jpg,Mahesh Reddy,49,Burglary,Belagavi
+001025.jpg,Sunil Reddy,24,Burglary,Dharwad
+001026.jpg,Nikhil Rao,51,Theft,Bangalore
+001027.jpg,Deepak Patel,21,Kidnapping,Hubli
+001028.jpg,Rahul Shetty,34,Cyber Crime,Shivamogga
+001029.jpg,Varun Gowda,56,Kidnapping,Kalaburagi
+001030.jpg,Ajay Sharma,32,Theft,Udupi
+001031.jpg,Nikhil Nair,53,Smuggling,Mangalore
+001032.jpg,Ravi Gowda,32,Vehicle Theft,Bangalore
+001033.jpg,Varun Gupta,48,Robbery,Tumakuru
+001034.jpg,Ajay Patel,31,Fraud,Bangalore
+001035.jpg,Amit Gupta,37,Theft,Mangalore
+001036.jpg,Mahesh Singh,49,Robbery,Hubli
+001037.jpg,Amit Patel,36,Assault,Tumakuru
+001038.jpg,Mahesh Joshi,47,Fraud,Belagavi
+001039.jpg,Vivek Naik,35,Smuggling,Hubli
+001040.jpg,Prakash Reddy,56,Forgery,Tumakuru
+001041.jpg,Akash Patel,24,Smuggling,Bangalore
+001042.jpg,Nikhil Rao,33,Robbery,Belagavi
+001043.jpg,Ajay Das,28,Theft,Hubli
+001044.jpg,Anil Reddy,26,Vehicle Theft,Udupi
+001045.jpg,Vivek Sharma,55,Burglary,Udupi
+001046.jpg,Karthik Gupta,29,Robbery,Tumakuru
+001047.jpg,Mahesh Patel,37,Assault,Mysore
+001048.jpg,Kiran Yadav,47,Forgery,Dharwad
+001049.jpg,Deepak Reddy,33,Burglary,Shivamogga
+001050.jpg,Prakash Yadav,21,Burglary,Belagavi
+001051.jpg,Anil Gowda,44,Theft,Belagavi
+001052.jpg,Vivek Das,34,Burglary,Shivamogga
+001053.jpg,Prakash Sharma,32,Robbery,Udupi
+001054.jpg,Akash Verma,32,Robbery,Kalaburagi
+001055.jpg,Suresh Gupta,39,Robbery,Dharwad
+001056.jpg,Ajay Patel,20,Cyber Crime,Bangalore
+001057.jpg,Sunil Joshi,41,Forgery,Mangalore
+001058.jpg,Arjun Nair,41,Smuggling,Mangalore
+001059.jpg,Kiran Shetty,49,Theft,Shivamogga
+001060.jpg,Manoj Patel,25,Burglary,Belagavi
+001061.jpg,Suresh Reddy,53,Fraud,Udupi
+001062.jpg,Arjun Patel,23,Robbery,Udupi
+001063.jpg,Akash Rao,32,Smuggling,Udupi
+001064.jpg,Arjun Naik,25,Assault,Kalaburagi
+001065.jpg,Kiran Nair,33,Cyber Crime,Mangalore
+001066.jpg,Arjun Naik,28,Smuggling,Mangalore
+001067.jpg,Amit Kumar,56,Theft,Tumakuru
+001068.jpg,Ajay Kumar,26,Kidnapping,Kalaburagi
+001069.jpg,Akash Nair,26,Cyber Crime,Kalaburagi
+001070.jpg,Akash Patel,26,Burglary,Mysore
+001071.jpg,Varun Joshi,53,Theft,Belagavi
+001072.jpg,Manoj Verma,24,Cyber Crime,Kalaburagi
+001073.jpg,Arjun Das,44,Assault,Kalaburagi
+001074.jpg,Nikhil Sharma,43,Smuggling,Hubli
+001075.jpg,Prakash Reddy,35,Fraud,Shivamogga
+001076.jpg,Rohan Nair,38,Smuggling,Bangalore
+001077.jpg,Deepak Singh,22,Vehicle Theft,Mysore
+001078.jpg,Akash Gupta,31,Cyber Crime,Mysore
+001079.jpg,Deepak Singh,29,Smuggling,Mysore
+001080.jpg,Nikhil Patel,41,Burglary,Kalaburagi
+001081.jpg,Anil Yadav,56,Forgery,Kalaburagi
+001082.jpg,Karthik Das,32,Theft,Kalaburagi
+001083.jpg,Varun Sharma,48,Burglary,Belagavi
+001084.jpg,Kiran Gupta,30,Fraud,Mysore
+001085.jpg,Suresh Kumar,39,Forgery,Kalaburagi
+001086.jpg,Karthik Reddy,50,Cyber Crime,Mangalore
+001087.jpg,Vijay Patel,25,Cyber Crime,Dharwad
+001088.jpg,Varun Rao,56,Robbery,Udupi
+001089.jpg,Sunil Verma,38,Assault,Hubli
+001090.jpg,Rohan Gupta,50,Robbery,Bangalore
+001091.jpg,Vivek Sharma,25,Theft,Mangalore
+001092.jpg,Varun Verma,32,Robbery,Belagavi
+001093.jpg,Akash Singh,40,Robbery,Mangalore
+001094.jpg,Rohan Reddy,52,Burglary,Tumakuru
+001095.jpg,Sunil Das,23,Vehicle Theft,Shivamogga
+001096.jpg,Akash Nair,55,Assault,Tumakuru
+001097.jpg,Karthik Joshi,52,Fraud,Dharwad
+001098.jpg,Vijay Rao,30,Robbery,Udupi
+001099.jpg,Karthik Singh,44,Burglary,Hubli
+001100.jpg,Deepak Shetty,46,Kidnapping,Tumakuru
+001101.jpg,Ravi Gupta,23,Vehicle Theft,Shivamogga
+001102.jpg,Deepak Gupta,38,Smuggling,Hubli
+001103.jpg,Karthik Shetty,41,Robbery,Bangalore
+001104.jpg,Rohan Patel,22,Vehicle Theft,Mangalore
+001105.jpg,Varun Gupta,35,Assault,Belagavi
+001106.jpg,Kiran Gowda,38,Kidnapping,Tumakuru
+001107.jpg,Kiran Naik,27,Robbery,Mysore
+001108.jpg,Sunil Reddy,35,Burglary,Bangalore
+001109.jpg,Sunil Patel,32,Burglary,Mysore
+001110.jpg,Anil Reddy,60,Burglary,Mysore
+001111.jpg,Rohan Gupta,47,Vehicle Theft,Udupi
+001112.jpg,Rahul Verma,45,Smuggling,Tumakuru
+001113.jpg,Vivek Rao,56,Kidnapping,Udupi
+001114.jpg,Amit Joshi,43,Robbery,Belagavi
+001115.jpg,Kiran Gupta,55,Theft,Mysore
+001116.jpg,Manoj Joshi,42,Robbery,Shivamogga
+001117.jpg,Mahesh Gupta,59,Theft,Bangalore
+001118.jpg,Rahul Naik,60,Burglary,Mysore
+001119.jpg,Vijay Rao,41,Burglary,Mysore
+001120.jpg,Ajay Sharma,34,Fraud,Tumakuru
+001121.jpg,Ajay Reddy,55,Robbery,Udupi
+001122.jpg,Amit Nair,20,Forgery,Kalaburagi
+001123.jpg,Vivek Verma,55,Smuggling,Tumakuru
+001124.jpg,Nikhil Gupta,38,Forgery,Hubli
+001125.jpg,Suresh Gupta,41,Cyber Crime,Kalaburagi
+001126.jpg,Anil Kumar,42,Cyber Crime,Bangalore
+001127.jpg,Karthik Das,22,Kidnapping,Mysore
+001128.jpg,Akash Shetty,24,Burglary,Dharwad
+001129.jpg,Akash Sharma,26,Kidnapping,Mysore
+001130.jpg,Suresh Shetty,44,Assault,Mysore
+001131.jpg,Arjun Rao,49,Forgery,Dharwad
+001132.jpg,Anil Sharma,37,Kidnapping,Bangalore
+001133.jpg,Sunil Joshi,30,Cyber Crime,Bangalore
+001134.jpg,Manoj Nair,23,Kidnapping,Bangalore
+001135.jpg,Deepak Patel,34,Robbery,Mysore
+001136.jpg,Vivek Reddy,40,Smuggling,Hubli
+001137.jpg,Amit Yadav,45,Robbery,Hubli
+001138.jpg,Kiran Singh,33,Kidnapping,Belagavi
+001139.jpg,Kiran Gowda,31,Smuggling,Hubli
+001140.jpg,Mahesh Gupta,48,Fraud,Tumakuru
+001141.jpg,Ravi Gowda,50,Cyber Crime,Belagavi
+001142.jpg,Vijay Nair,21,Vehicle Theft,Shivamogga
+001143.jpg,Suresh Yadav,30,Fraud,Udupi
+001144.jpg,Amit Verma,24,Cyber Crime,Udupi
+001145.jpg,Kiran Verma,30,Cyber Crime,Mysore
+001146.jpg,Deepak Joshi,23,Forgery,Bangalore
+001147.jpg,Amit Verma,43,Burglary,Dharwad
+001148.jpg,Karthik Sharma,22,Smuggling,Bangalore
+001149.jpg,Rahul Kumar,40,Burglary,Shivamogga
+001150.jpg,Vijay Nair,39,Smuggling,Kalaburagi
+001151.jpg,Vijay Joshi,35,Kidnapping,Kalaburagi
+001152.jpg,Vijay Shetty,29,Forgery,Belagavi
+001153.jpg,Anil Patel,30,Forgery,Bangalore
+001154.jpg,Rohan Das,36,Kidnapping,Belagavi
+001155.jpg,Karthik Joshi,55,Robbery,Udupi
+001156.jpg,Varun Gowda,41,Robbery,Kalaburagi
+001157.jpg,Ravi Reddy,54,Vehicle Theft,Dharwad
+001158.jpg,Varun Yadav,47,Assault,Dharwad
+001159.jpg,Mahesh Verma,42,Fraud,Belagavi
+001160.jpg,Sunil Gupta,20,Theft,Kalaburagi
+001161.jpg,Manoj Singh,20,Kidnapping,Udupi
+001162.jpg,Ajay Das,31,Smuggling,Tumakuru
+001163.jpg,Manoj Reddy,24,Smuggling,Mysore
+001164.jpg,Akash Naik,40,Assault,Udupi
+001165.jpg,Karthik Singh,23,Assault,Kalaburagi
+001166.jpg,Rohan Sharma,23,Forgery,Hubli
+001167.jpg,Prakash Gowda,49,Cyber Crime,Shivamogga
+001168.jpg,Manoj Sharma,51,Cyber Crime,Tumakuru
+001169.jpg,Manoj Joshi,28,Burglary,Mysore
+001170.jpg,Vivek Rao,40,Fraud,Kalaburagi
+001171.jpg,Nikhil Sharma,34,Smuggling,Dharwad
+001172.jpg,Rohan Verma,31,Cyber Crime,Udupi
+001173.jpg,Suresh Joshi,59,Robbery,Tumakuru
+001174.jpg,Prakash Singh,24,Assault,Belagavi
+001175.jpg,Karthik Nair,31,Theft,Kalaburagi
+001176.jpg,Ravi Naik,46,Kidnapping,Tumakuru
+001177.jpg,Akash Rao,29,Smuggling,Mysore
+001178.jpg,Suresh Das,28,Assault,Belagavi
+001179.jpg,Amit Rao,46,Burglary,Kalaburagi
+001180.jpg,Vijay Singh,48,Smuggling,Belagavi
+001181.jpg,Ajay Gowda,23,Fraud,Kalaburagi
+001182.jpg,Karthik Patel,36,Forgery,Mangalore
+001183.jpg,Prakash Singh,51,Fraud,Bangalore
+001184.jpg,Vijay Reddy,23,Robbery,Bangalore
+001185.jpg,Prakash Joshi,54,Assault,Belagavi
+001186.jpg,Kiran Verma,36,Kidnapping,Belagavi
+001187.jpg,Amit Rao,39,Assault,Kalaburagi
+001188.jpg,Rohan Gowda,20,Theft,Tumakuru
+001189.jpg,Kiran Naik,49,Robbery,Tumakuru
+001190.jpg,Arjun Singh,29,Robbery,Mysore
+001191.jpg,Manoj Yadav,52,Kidnapping,Udupi
+001192.jpg,Mahesh Yadav,34,Burglary,Tumakuru
+001193.jpg,Nikhil Gupta,47,Fraud,Mangalore
+001194.jpg,Varun Verma,48,Vehicle Theft,Dharwad
+001195.jpg,Sunil Kumar,45,Cyber Crime,Shivamogga
+001196.jpg,Ravi Joshi,21,Assault,Belagavi
+001197.jpg,Manoj Sharma,60,Fraud,Bangalore
+001198.jpg,Amit Das,42,Cyber Crime,Tumakuru
+001199.jpg,Rahul Patel,30,Vehicle Theft,Udupi
+001200.jpg,Arjun Rao,59,Forgery,Dharwad
+001201.jpg,Rahul Gowda,20,Burglary,Mysore
+001202.jpg,Manoj Rao,59,Forgery,Bangalore
+001203.jpg,Amit Reddy,41,Assault,Belagavi
+001204.jpg,Karthik Patel,34,Theft,Mangalore
+001205.jpg,Rahul Kumar,40,Theft,Udupi
+001206.jpg,Varun Reddy,38,Robbery,Hubli
+001207.jpg,Mahesh Gupta,44,Smuggling,Hubli
+001208.jpg,Arjun Das,22,Vehicle Theft,Mysore
+001209.jpg,Mahesh Singh,23,Theft,Mysore
+001210.jpg,Varun Yadav,33,Smuggling,Udupi
+001211.jpg,Manoj Kumar,25,Vehicle Theft,Dharwad
+001212.jpg,Mahesh Sharma,23,Smuggling,Udupi
+001213.jpg,Arjun Kumar,54,Vehicle Theft,Mysore
+001214.jpg,Amit Kumar,60,Fraud,Kalaburagi
+001215.jpg,Akash Gupta,39,Fraud,Hubli
+001216.jpg,Nikhil Naik,57,Theft,Kalaburagi
+001217.jpg,Arjun Joshi,51,Fraud,Bangalore
+001218.jpg,Amit Nair,22,Fraud,Bangalore
+001219.jpg,Suresh Yadav,38,Robbery,Dharwad
+001220.jpg,Prakash Naik,50,Theft,Bangalore
+001221.jpg,Akash Yadav,54,Smuggling,Tumakuru
+001222.jpg,Rahul Verma,51,Cyber Crime,Mysore
+001223.jpg,Vijay Shetty,54,Forgery,Shivamogga
+001224.jpg,Kiran Patel,31,Smuggling,Kalaburagi
+001225.jpg,Mahesh Gupta,27,Cyber Crime,Dharwad
+001226.jpg,Rahul Shetty,58,Kidnapping,Hubli
+001227.jpg,Rahul Kumar,32,Robbery,Belagavi
+001228.jpg,Ravi Nair,49,Assault,Hubli
+001229.jpg,Nikhil Kumar,58,Theft,Mysore
+001230.jpg,Vijay Nair,26,Vehicle Theft,Belagavi
+001231.jpg,Vijay Shetty,29,Assault,Bangalore
+001232.jpg,Akash Gupta,47,Cyber Crime,Belagavi
+001233.jpg,Deepak Patel,60,Robbery,Tumakuru
+001234.jpg,Manoj Das,24,Fraud,Shivamogga
+001235.jpg,Suresh Patel,43,Fraud,Mangalore
+001236.jpg,Anil Nair,37,Smuggling,Udupi
+001237.jpg,Anil Verma,59,Theft,Belagavi
+001238.jpg,Sunil Reddy,40,Smuggling,Hubli
+001239.jpg,Akash Patel,24,Cyber Crime,Kalaburagi
+001240.jpg,Manoj Gowda,52,Smuggling,Kalaburagi
+001241.jpg,Ajay Das,20,Cyber Crime,Mysore
+001242.jpg,Karthik Gupta,36,Cyber Crime,Shivamogga
+001243.jpg,Varun Naik,23,Robbery,Belagavi
+001244.jpg,Sunil Rao,22,Forgery,Tumakuru
+001245.jpg,Prakash Yadav,42,Cyber Crime,Belagavi
+001246.jpg,Arjun Verma,27,Kidnapping,Shivamogga
+001247.jpg,Rahul Kumar,20,Assault,Kalaburagi
+001248.jpg,Vijay Nair,22,Kidnapping,Udupi
+001249.jpg,Amit Gupta,51,Smuggling,Mangalore
+001250.jpg,Prakash Joshi,46,Theft,Hubli
+001251.jpg,Nikhil Nair,40,Burglary,Shivamogga
+001252.jpg,Karthik Shetty,31,Theft,Belagavi
+001253.jpg,Kiran Das,40,Smuggling,Kalaburagi
+001254.jpg,Nikhil Kumar,25,Vehicle Theft,Hubli
+001255.jpg,Akash Verma,48,Vehicle Theft,Belagavi
+001256.jpg,Deepak Rao,39,Assault,Hubli
+001257.jpg,Rohan Nair,28,Kidnapping,Kalaburagi
+001258.jpg,Prakash Joshi,44,Vehicle Theft,Tumakuru
+001259.jpg,Akash Patel,25,Kidnapping,Hubli
+001260.jpg,Varun Shetty,38,Assault,Shivamogga
+001261.jpg,Prakash Joshi,52,Burglary,Belagavi
+001262.jpg,Akash Gupta,55,Assault,Mangalore
+001263.jpg,Kiran Joshi,32,Smuggling,Dharwad
+001264.jpg,Deepak Nair,25,Kidnapping,Bangalore
+001265.jpg,Varun Yadav,23,Fraud,Tumakuru
+001266.jpg,Karthik Joshi,54,Forgery,Kalaburagi
+001267.jpg,Suresh Verma,36,Smuggling,Belagavi
+001268.jpg,Ajay Kumar,26,Burglary,Dharwad
+001269.jpg,Sunil Sharma,59,Fraud,Kalaburagi
+001270.jpg,Nikhil Naik,57,Smuggling,Shivamogga
+001271.jpg,Manoj Shetty,25,Kidnapping,Mysore
+001272.jpg,Kiran Gowda,38,Robbery,Hubli
+001273.jpg,Ajay Reddy,40,Smuggling,Shivamogga
+001274.jpg,Deepak Reddy,26,Vehicle Theft,Udupi
+001275.jpg,Nikhil Das,28,Forgery,Dharwad
+001276.jpg,Vivek Yadav,55,Smuggling,Hubli
+001277.jpg,Vijay Singh,20,Cyber Crime,Belagavi
+001278.jpg,Rahul Reddy,43,Smuggling,Shivamogga
+001279.jpg,Sunil Yadav,32,Vehicle Theft,Udupi
+001280.jpg,Vivek Naik,22,Burglary,Shivamogga
+001281.jpg,Mahesh Gowda,43,Vehicle Theft,Shivamogga
+001282.jpg,Vivek Reddy,44,Smuggling,Hubli
+001283.jpg,Nikhil Kumar,47,Fraud,Bangalore
+001284.jpg,Nikhil Gupta,50,Smuggling,Bangalore
+001285.jpg,Arjun Naik,32,Cyber Crime,Tumakuru
+001286.jpg,Kiran Joshi,52,Assault,Shivamogga
+001287.jpg,Anil Gupta,50,Assault,Shivamogga
+001288.jpg,Rohan Das,47,Robbery,Kalaburagi
+001289.jpg,Vijay Gowda,49,Theft,Belagavi
+001290.jpg,Ravi Gupta,21,Fraud,Udupi
+001291.jpg,Anil Sharma,56,Forgery,Bangalore
+001292.jpg,Rahul Gupta,41,Fraud,Bangalore
+001293.jpg,Vivek Rao,48,Kidnapping,Bangalore
+001294.jpg,Rohan Kumar,45,Robbery,Hubli
+001295.jpg,Rohan Shetty,39,Vehicle Theft,Mangalore
+001296.jpg,Anil Singh,36,Theft,Dharwad
+001297.jpg,Nikhil Sharma,53,Cyber Crime,Shivamogga
+001298.jpg,Akash Sharma,50,Vehicle Theft,Hubli
+001299.jpg,Suresh Naik,54,Burglary,Shivamogga
+001300.jpg,Karthik Yadav,60,Fraud,Belagavi
+001301.jpg,Ravi Patel,59,Theft,Mangalore
+001302.jpg,Suresh Singh,45,Kidnapping,Dharwad
+001303.jpg,Karthik Shetty,60,Fraud,Kalaburagi
+001304.jpg,Varun Nair,28,Smuggling,Tumakuru
+001305.jpg,Amit Das,36,Vehicle Theft,Bangalore
+001306.jpg,Vijay Singh,34,Kidnapping,Dharwad
+001307.jpg,Prakash Sharma,46,Cyber Crime,Shivamogga
+001308.jpg,Varun Singh,38,Smuggling,Dharwad
+001309.jpg,Vivek Sharma,31,Robbery,Bangalore
+001310.jpg,Karthik Sharma,30,Forgery,Belagavi
+001311.jpg,Rahul Kumar,56,Forgery,Shivamogga
+001312.jpg,Vijay Shetty,37,Assault,Mysore
+001313.jpg,Nikhil Das,36,Assault,Shivamogga
+001314.jpg,Rahul Shetty,48,Robbery,Tumakuru
+001315.jpg,Prakash Verma,48,Forgery,Tumakuru
+001316.jpg,Manoj Patel,40,Cyber Crime,Belagavi
+001317.jpg,Manoj Das,29,Theft,Hubli
+001318.jpg,Mahesh Gowda,21,Kidnapping,Udupi
+001319.jpg,Rahul Rao,25,Fraud,Kalaburagi
+001320.jpg,Vivek Naik,51,Forgery,Udupi
+001321.jpg,Kiran Reddy,52,Cyber Crime,Mangalore
+001322.jpg,Anil Reddy,50,Theft,Kalaburagi
+001323.jpg,Rahul Nair,24,Assault,Belagavi
+001324.jpg,Nikhil Reddy,37,Fraud,Shivamogga
+001325.jpg,Anil Rao,60,Kidnapping,Mysore
+001326.jpg,Arjun Shetty,31,Vehicle Theft,Tumakuru
+001327.jpg,Ajay Naik,44,Smuggling,Shivamogga
+001328.jpg,Manoj Kumar,20,Theft,Mangalore
+001329.jpg,Arjun Verma,50,Fraud,Tumakuru
+001330.jpg,Arjun Singh,30,Fraud,Belagavi
+001331.jpg,Vijay Patel,57,Forgery,Bangalore
+001332.jpg,Prakash Gupta,57,Kidnapping,Hubli
+001333.jpg,Rahul Naik,36,Burglary,Mysore
+001334.jpg,Anil Yadav,54,Kidnapping,Mysore
+001335.jpg,Vijay Reddy,21,Forgery,Belagavi
+001336.jpg,Deepak Kumar,54,Robbery,Hubli
+001337.jpg,Anil Singh,51,Burglary,Bangalore
+001338.jpg,Nikhil Gupta,24,Smuggling,Kalaburagi
+001339.jpg,Vijay Nair,21,Burglary,Belagavi
+001340.jpg,Kiran Gowda,49,Smuggling,Tumakuru
+001341.jpg,Varun Shetty,28,Kidnapping,Belagavi
+001342.jpg,Arjun Kumar,36,Forgery,Mysore
+001343.jpg,Akash Das,58,Theft,Tumakuru
+001344.jpg,Ravi Sharma,37,Cyber Crime,Udupi
+001345.jpg,Vivek Yadav,46,Burglary,Mangalore
+001346.jpg,Ajay Joshi,44,Cyber Crime,Udupi
+001347.jpg,Akash Shetty,44,Assault,Shivamogga
+001348.jpg,Amit Kumar,34,Forgery,Kalaburagi
+001349.jpg,Vivek Kumar,28,Smuggling,Mangalore
+001350.jpg,Karthik Gowda,40,Theft,Bangalore
+001351.jpg,Kiran Nair,37,Theft,Mysore
+001352.jpg,Manoj Sharma,23,Fraud,Kalaburagi
+001353.jpg,Nikhil Kumar,37,Vehicle Theft,Tumakuru
+001354.jpg,Kiran Sharma,24,Forgery,Bangalore
+001355.jpg,Nikhil Sharma,32,Cyber Crime,Kalaburagi
+001356.jpg,Amit Joshi,34,Robbery,Shivamogga
+001357.jpg,Arjun Kumar,58,Theft,Bangalore
+001358.jpg,Suresh Gowda,22,Robbery,Bangalore
+001359.jpg,Amit Das,23,Vehicle Theft,Mysore
+001360.jpg,Vivek Reddy,21,Fraud,Mangalore
+001361.jpg,Vivek Rao,30,Vehicle Theft,Udupi
+001362.jpg,Rohan Das,42,Assault,Mysore
+001363.jpg,Suresh Joshi,20,Assault,Tumakuru
+001364.jpg,Prakash Nair,45,Theft,Bangalore
+001365.jpg,Prakash Yadav,20,Theft,Hubli
+001366.jpg,Rahul Nair,31,Vehicle Theft,Kalaburagi
+001367.jpg,Prakash Rao,39,Robbery,Mangalore
+001368.jpg,Nikhil Shetty,49,Cyber Crime,Kalaburagi
+001369.jpg,Ajay Gupta,26,Burglary,Kalaburagi
+001370.jpg,Deepak Yadav,53,Kidnapping,Shivamogga
+001371.jpg,Arjun Naik,57,Assault,Bangalore
+001372.jpg,Suresh Joshi,57,Kidnapping,Hubli
+001373.jpg,Suresh Gupta,50,Forgery,Tumakuru
+001374.jpg,Anil Gupta,26,Theft,Mangalore
+001375.jpg,Karthik Reddy,50,Theft,Mangalore
+001376.jpg,Deepak Das,46,Fraud,Mysore
+001377.jpg,Vijay Gupta,33,Fraud,Kalaburagi
+001378.jpg,Arjun Verma,58,Burglary,Mangalore
+001379.jpg,Ajay Das,47,Theft,Shivamogga
+001380.jpg,Suresh Reddy,40,Forgery,Mysore
+001381.jpg,Suresh Sharma,41,Forgery,Shivamogga
+001382.jpg,Amit Das,39,Vehicle Theft,Mangalore
+001383.jpg,Manoj Das,40,Forgery,Dharwad
+001384.jpg,Ravi Yadav,43,Kidnapping,Tumakuru
+001385.jpg,Mahesh Gowda,23,Fraud,Hubli
+001386.jpg,Amit Shetty,47,Forgery,Dharwad
+001387.jpg,Kiran Reddy,39,Theft,Kalaburagi
+001388.jpg,Ajay Singh,56,Robbery,Shivamogga
+001389.jpg,Mahesh Gupta,54,Theft,Mangalore
+001390.jpg,Arjun Reddy,40,Assault,Hubli
+001391.jpg,Kiran Singh,43,Theft,Mangalore
+001392.jpg,Nikhil Patel,52,Burglary,Kalaburagi
+001393.jpg,Anil Das,24,Burglary,Dharwad
+001394.jpg,Anil Das,42,Kidnapping,Udupi
+001395.jpg,Suresh Verma,45,Assault,Udupi
+001396.jpg,Varun Kumar,35,Smuggling,Mysore
+001397.jpg,Varun Verma,53,Vehicle Theft,Udupi
+001398.jpg,Prakash Singh,52,Theft,Dharwad
+001399.jpg,Prakash Yadav,47,Kidnapping,Hubli
+001400.jpg,Arjun Verma,28,Assault,Hubli
+001401.jpg,Vijay Joshi,53,Kidnapping,Mangalore
+001402.jpg,Ajay Kumar,58,Kidnapping,Mangalore
+001403.jpg,Ravi Reddy,32,Fraud,Shivamogga
+001404.jpg,Ajay Gupta,44,Burglary,Mangalore
+001405.jpg,Akash Nair,37,Smuggling,Dharwad
+001406.jpg,Akash Rao,55,Vehicle Theft,Belagavi
+001407.jpg,Ravi Nair,25,Smuggling,Tumakuru
+001408.jpg,Suresh Reddy,20,Cyber Crime,Mysore
+001409.jpg,Rahul Shetty,27,Burglary,Mysore
+001410.jpg,Amit Das,38,Forgery,Kalaburagi
+001411.jpg,Deepak Das,29,Theft,Bangalore
+001412.jpg,Manoj Kumar,25,Assault,Kalaburagi
+001413.jpg,Amit Verma,48,Fraud,Belagavi
+001414.jpg,Amit Shetty,59,Forgery,Udupi
+001415.jpg,Suresh Nair,37,Assault,Bangalore
+001416.jpg,Varun Yadav,31,Assault,Bangalore
+001417.jpg,Anil Reddy,54,Kidnapping,Mangalore
+001418.jpg,Arjun Gupta,60,Vehicle Theft,Udupi
+001419.jpg,Amit Gowda,36,Burglary,Kalaburagi
+001420.jpg,Suresh Nair,60,Fraud,Bangalore
+001421.jpg,Vijay Patel,25,Cyber Crime,Dharwad
+001422.jpg,Anil Kumar,23,Robbery,Belagavi
+001423.jpg,Akash Singh,39,Vehicle Theft,Kalaburagi
+001424.jpg,Ajay Yadav,28,Fraud,Udupi
+001425.jpg,Ajay Kumar,43,Smuggling,Kalaburagi
+001426.jpg,Manoj Sharma,34,Fraud,Udupi
+001427.jpg,Mahesh Nair,27,Smuggling,Udupi
+001428.jpg,Rohan Joshi,26,Vehicle Theft,Bangalore
+001429.jpg,Manoj Sharma,34,Fraud,Dharwad
+001430.jpg,Sunil Kumar,59,Theft,Mysore
+001431.jpg,Deepak Yadav,55,Kidnapping,Mangalore
+001432.jpg,Vivek Gupta,50,Forgery,Mangalore
+001433.jpg,Varun Kumar,36,Burglary,Dharwad
+001434.jpg,Ravi Nair,27,Assault,Tumakuru
+001435.jpg,Ravi Shetty,50,Assault,Dharwad
+001436.jpg,Vivek Singh,60,Cyber Crime,Udupi
+001437.jpg,Sunil Sharma,54,Kidnapping,Hubli
+001438.jpg,Sunil Rao,20,Smuggling,Kalaburagi
+001439.jpg,Akash Joshi,51,Forgery,Dharwad
+001440.jpg,Manoj Rao,21,Robbery,Dharwad
+001441.jpg,Vijay Singh,37,Assault,Mangalore
+001442.jpg,Vivek Patel,41,Assault,Shivamogga
+001443.jpg,Vivek Gowda,27,Fraud,Mysore
+001444.jpg,Ravi Das,53,Robbery,Bangalore
+001445.jpg,Sunil Singh,56,Cyber Crime,Mangalore
+001446.jpg,Manoj Yadav,27,Forgery,Mangalore
+001447.jpg,Suresh Singh,45,Kidnapping,Udupi
+001448.jpg,Sunil Kumar,60,Assault,Udupi
+001449.jpg,Ravi Reddy,39,Robbery,Hubli
+001450.jpg,Arjun Sharma,57,Kidnapping,Dharwad
+001451.jpg,Ajay Reddy,52,Kidnapping,Shivamogga
+001452.jpg,Manoj Reddy,20,Theft,Hubli
+001453.jpg,Sunil Sharma,28,Vehicle Theft,Dharwad
+001454.jpg,Mahesh Joshi,44,Theft,Hubli
+001455.jpg,Arjun Joshi,22,Assault,Bangalore
+001456.jpg,Mahesh Das,28,Vehicle Theft,Mysore
+001457.jpg,Amit Das,22,Kidnapping,Kalaburagi
+001458.jpg,Akash Reddy,48,Smuggling,Dharwad
+001459.jpg,Varun Rao,55,Theft,Kalaburagi
+001460.jpg,Manoj Gowda,58,Fraud,Dharwad
+001461.jpg,Ravi Gowda,48,Assault,Bangalore
+001462.jpg,Vijay Reddy,58,Fraud,Shivamogga
+001463.jpg,Varun Patel,28,Smuggling,Hubli
+001464.jpg,Rohan Naik,39,Fraud,Kalaburagi
+001465.jpg,Kiran Gowda,34,Burglary,Kalaburagi
+001466.jpg,Ajay Das,43,Burglary,Mangalore
+001467.jpg,Vivek Nair,24,Burglary,Tumakuru
+001468.jpg,Vivek Patel,58,Burglary,Belagavi
+001469.jpg,Karthik Joshi,60,Smuggling,Mysore
+001470.jpg,Akash Singh,48,Assault,Hubli
+001471.jpg,Vivek Patel,41,Vehicle Theft,Udupi
+001472.jpg,Suresh Singh,45,Kidnapping,Mysore
+001473.jpg,Vivek Rao,53,Kidnapping,Mangalore
+001474.jpg,Vivek Patel,21,Forgery,Mysore
+001475.jpg,Varun Verma,28,Theft,Shivamogga
+001476.jpg,Rohan Naik,35,Fraud,Udupi
+001477.jpg,Akash Shetty,50,Assault,Bangalore
+001478.jpg,Amit Naik,44,Smuggling,Tumakuru
+001479.jpg,Sunil Yadav,27,Forgery,Mysore
+001480.jpg,Sunil Singh,23,Smuggling,Bangalore
+001481.jpg,Mahesh Sharma,58,Burglary,Shivamogga
+001482.jpg,Anil Naik,52,Robbery,Mangalore
+001483.jpg,Kiran Verma,23,Forgery,Mangalore
+001484.jpg,Sunil Kumar,25,Forgery,Kalaburagi
+001485.jpg,Prakash Gowda,53,Vehicle Theft,Tumakuru
+001486.jpg,Vijay Yadav,45,Fraud,Dharwad
+001487.jpg,Nikhil Verma,55,Smuggling,Bangalore
+001488.jpg,Kiran Gupta,38,Assault,Tumakuru
+001489.jpg,Amit Kumar,55,Fraud,Kalaburagi
+001490.jpg,Anil Yadav,32,Vehicle Theft,Kalaburagi
+001491.jpg,Rohan Gupta,52,Fraud,Belagavi
+001492.jpg,Amit Naik,47,Theft,Hubli
+001493.jpg,Deepak Das,41,Assault,Udupi
+001494.jpg,Manoj Reddy,40,Smuggling,Kalaburagi
+001495.jpg,Ravi Sharma,25,Kidnapping,Bangalore
+001496.jpg,Rohan Gowda,54,Robbery,Kalaburagi
+001497.jpg,Vijay Yadav,21,Fraud,Udupi
+001498.jpg,Akash Shetty,42,Forgery,Shivamogga
+001499.jpg,Mahesh Singh,32,Theft,Mysore
+001500.jpg,Varun Rao,52,Theft,Bangalore
+001501.jpg,Prakash Nair,42,Smuggling,Shivamogga
+001502.jpg,Vivek Patel,38,Fraud,Mangalore
+001503.jpg,Kiran Nair,45,Fraud,Belagavi
+001504.jpg,Suresh Reddy,23,Assault,Kalaburagi
+001505.jpg,Karthik Gowda,50,Assault,Mysore
+001506.jpg,Anil Naik,51,Smuggling,Shivamogga
+001507.jpg,Rohan Rao,58,Assault,Mangalore
+001508.jpg,Sunil Verma,29,Smuggling,Udupi
+001509.jpg,Amit Reddy,37,Assault,Hubli
+001510.jpg,Sunil Nair,28,Burglary,Mangalore
+001511.jpg,Mahesh Reddy,23,Burglary,Belagavi
+001512.jpg,Sunil Reddy,48,Cyber Crime,Shivamogga
+001513.jpg,Suresh Sharma,37,Assault,Kalaburagi
+001514.jpg,Varun Reddy,37,Theft,Kalaburagi
+001515.jpg,Deepak Reddy,43,Kidnapping,Shivamogga
+001516.jpg,Kiran Gupta,60,Vehicle Theft,Hubli
+001517.jpg,Varun Yadav,52,Cyber Crime,Kalaburagi
+001518.jpg,Varun Gowda,35,Vehicle Theft,Kalaburagi
+001519.jpg,Varun Joshi,53,Theft,Dharwad
+001520.jpg,Karthik Yadav,50,Robbery,Shivamogga
+001521.jpg,Kiran Gupta,20,Vehicle Theft,Mysore
+001522.jpg,Sunil Rao,57,Smuggling,Udupi
+001523.jpg,Vivek Gupta,26,Cyber Crime,Shivamogga
+001524.jpg,Ravi Naik,34,Kidnapping,Belagavi
+001525.jpg,Nikhil Verma,43,Assault,Mysore
+001526.jpg,Sunil Nair,27,Smuggling,Dharwad
+001527.jpg,Nikhil Kumar,31,Smuggling,Shivamogga
+001528.jpg,Ravi Yadav,45,Kidnapping,Mysore
+001529.jpg,Arjun Patel,44,Fraud,Kalaburagi
+001530.jpg,Sunil Gowda,60,Cyber Crime,Kalaburagi
+001531.jpg,Prakash Joshi,47,Theft,Kalaburagi
+001532.jpg,Mahesh Joshi,60,Kidnapping,Tumakuru
+001533.jpg,Karthik Joshi,41,Theft,Udupi
+001534.jpg,Vivek Kumar,53,Robbery,Udupi
+001535.jpg,Karthik Patel,35,Fraud,Mysore
+001536.jpg,Karthik Gupta,53,Fraud,Mysore
+001537.jpg,Akash Reddy,40,Burglary,Belagavi
+001538.jpg,Ravi Gupta,30,Burglary,Hubli
+001539.jpg,Amit Singh,40,Forgery,Mangalore
+001540.jpg,Mahesh Verma,54,Forgery,Dharwad
+001541.jpg,Ajay Rao,39,Theft,Tumakuru
+001542.jpg,Rohan Naik,20,Assault,Udupi
+001543.jpg,Varun Shetty,38,Vehicle Theft,Shivamogga
+001544.jpg,Mahesh Sharma,23,Fraud,Belagavi
+001545.jpg,Kiran Rao,49,Assault,Mangalore
+001546.jpg,Ajay Yadav,56,Assault,Kalaburagi
+001547.jpg,Ajay Verma,46,Kidnapping,Belagavi
+001548.jpg,Rohan Verma,52,Theft,Mysore
+001549.jpg,Sunil Nair,28,Fraud,Shivamogga
+001550.jpg,Karthik Joshi,25,Cyber Crime,Mangalore
+001551.jpg,Amit Gupta,51,Burglary,Belagavi
+001552.jpg,Suresh Singh,53,Fraud,Mysore
+001553.jpg,Rahul Gupta,32,Smuggling,Kalaburagi
+001554.jpg,Sunil Shetty,37,Vehicle Theft,Mangalore
+001555.jpg,Arjun Reddy,35,Smuggling,Mangalore
+001556.jpg,Mahesh Gupta,57,Forgery,Mysore
+001557.jpg,Rohan Naik,52,Assault,Dharwad
+001558.jpg,Prakash Patel,49,Cyber Crime,Shivamogga
+001559.jpg,Nikhil Naik,45,Smuggling,Kalaburagi
+001560.jpg,Vijay Singh,27,Kidnapping,Kalaburagi
+001561.jpg,Nikhil Das,55,Assault,Belagavi
+001562.jpg,Prakash Verma,59,Theft,Mysore
+001563.jpg,Arjun Rao,24,Vehicle Theft,Mangalore
+001564.jpg,Sunil Patel,37,Assault,Dharwad
+001565.jpg,Karthik Patel,52,Assault,Dharwad
+001566.jpg,Amit Nair,41,Assault,Tumakuru
+001567.jpg,Nikhil Nair,43,Vehicle Theft,Udupi
+001568.jpg,Rohan Patel,25,Kidnapping,Hubli
+001569.jpg,Deepak Reddy,20,Kidnapping,Shivamogga
+001570.jpg,Suresh Joshi,48,Cyber Crime,Tumakuru
+001571.jpg,Prakash Verma,27,Robbery,Tumakuru
+001572.jpg,Ravi Yadav,34,Cyber Crime,Mangalore
+001573.jpg,Akash Rao,22,Cyber Crime,Kalaburagi
+001574.jpg,Deepak Gupta,60,Kidnapping,Bangalore
+001575.jpg,Rahul Gupta,34,Smuggling,Mysore
+001576.jpg,Kiran Yadav,22,Smuggling,Udupi
+001577.jpg,Amit Yadav,52,Cyber Crime,Hubli
+001578.jpg,Vivek Rao,54,Smuggling,Udupi
+001579.jpg,Vijay Singh,50,Burglary,Bangalore
+001580.jpg,Kiran Reddy,55,Theft,Belagavi
+001581.jpg,Amit Naik,34,Fraud,Mysore
+001582.jpg,Kiran Das,59,Fraud,Hubli
+001583.jpg,Sunil Naik,23,Assault,Hubli
+001584.jpg,Varun Shetty,24,Vehicle Theft,Hubli
+001585.jpg,Mahesh Reddy,31,Assault,Shivamogga
+001586.jpg,Vivek Kumar,29,Forgery,Hubli
+001587.jpg,Anil Nair,37,Burglary,Mysore
+001588.jpg,Manoj Reddy,50,Kidnapping,Shivamogga
+001589.jpg,Prakash Sharma,20,Fraud,Mangalore
+001590.jpg,Amit Kumar,47,Theft,Hubli
+001591.jpg,Nikhil Naik,45,Burglary,Shivamogga
+001592.jpg,Deepak Sharma,24,Theft,Mysore
+001593.jpg,Vivek Kumar,35,Assault,Kalaburagi
+001594.jpg,Suresh Rao,38,Robbery,Shivamogga
+001595.jpg,Rahul Gowda,37,Smuggling,Bangalore
+001596.jpg,Anil Sharma,34,Robbery,Mysore
+001597.jpg,Rahul Shetty,48,Vehicle Theft,Kalaburagi
+001598.jpg,Rohan Reddy,51,Theft,Tumakuru
+001599.jpg,Karthik Rao,37,Cyber Crime,Hubli
+001600.jpg,Sunil Shetty,43,Forgery,Udupi
+001601.jpg,Nikhil Gowda,35,Robbery,Shivamogga
+001602.jpg,Sunil Singh,49,Robbery,Shivamogga
+001603.jpg,Amit Gupta,58,Smuggling,Dharwad
+001604.jpg,Ajay Yadav,48,Cyber Crime,Bangalore
+001605.jpg,Rahul Sharma,46,Assault,Mangalore
+001606.jpg,Vijay Kumar,30,Kidnapping,Udupi
+001607.jpg,Arjun Das,39,Kidnapping,Udupi
+001608.jpg,Mahesh Rao,25,Theft,Dharwad
+001609.jpg,Rahul Shetty,32,Kidnapping,Udupi
+001610.jpg,Prakash Rao,28,Smuggling,Shivamogga
+001611.jpg,Ajay Das,44,Forgery,Kalaburagi
+001612.jpg,Manoj Gowda,22,Robbery,Belagavi
+001613.jpg,Arjun Gowda,37,Kidnapping,Shivamogga
+001614.jpg,Amit Kumar,23,Theft,Belagavi
+001615.jpg,Anil Das,48,Fraud,Kalaburagi
+001616.jpg,Deepak Das,57,Robbery,Mysore
+001617.jpg,Karthik Naik,31,Kidnapping,Mangalore
+001618.jpg,Rahul Rao,33,Theft,Belagavi
+001619.jpg,Prakash Reddy,49,Cyber Crime,Mysore
+001620.jpg,Karthik Naik,30,Theft,Tumakuru
+001621.jpg,Vivek Gupta,45,Cyber Crime,Tumakuru
+001622.jpg,Karthik Yadav,44,Robbery,Mysore
+001623.jpg,Mahesh Joshi,27,Burglary,Dharwad
+001624.jpg,Nikhil Joshi,33,Cyber Crime,Dharwad
+001625.jpg,Manoj Patel,28,Smuggling,Hubli
+001626.jpg,Ajay Nair,24,Smuggling,Tumakuru
+001627.jpg,Rohan Nair,25,Kidnapping,Bangalore
+001628.jpg,Manoj Gowda,27,Burglary,Udupi
+001629.jpg,Varun Rao,37,Forgery,Belagavi
+001630.jpg,Akash Naik,32,Fraud,Dharwad
+001631.jpg,Suresh Patel,53,Burglary,Dharwad
+001632.jpg,Vivek Gupta,46,Smuggling,Mangalore
+001633.jpg,Kiran Gowda,32,Forgery,Mysore
+001634.jpg,Sunil Das,47,Burglary,Dharwad
+001635.jpg,Mahesh Shetty,45,Fraud,Hubli
+001636.jpg,Karthik Patel,56,Robbery,Shivamogga
+001637.jpg,Ravi Nair,25,Smuggling,Kalaburagi
+001638.jpg,Suresh Rao,50,Smuggling,Mangalore
+001639.jpg,Kiran Rao,57,Fraud,Dharwad
+001640.jpg,Anil Gowda,25,Kidnapping,Udupi
+001641.jpg,Rohan Reddy,27,Smuggling,Udupi
+001642.jpg,Vijay Gowda,34,Forgery,Belagavi
+001643.jpg,Anil Joshi,43,Burglary,Bangalore
+001644.jpg,Akash Reddy,33,Theft,Kalaburagi
+001645.jpg,Varun Das,50,Robbery,Mangalore
+001646.jpg,Karthik Verma,39,Forgery,Bangalore
+001647.jpg,Prakash Naik,25,Vehicle Theft,Shivamogga
+001648.jpg,Vivek Patel,24,Cyber Crime,Dharwad
+001649.jpg,Karthik Gowda,33,Theft,Mysore
+001650.jpg,Varun Shetty,21,Vehicle Theft,Udupi
+001651.jpg,Sunil Naik,52,Fraud,Bangalore
+001652.jpg,Suresh Sharma,41,Assault,Mangalore
+001653.jpg,Suresh Shetty,51,Vehicle Theft,Belagavi
+001654.jpg,Deepak Das,56,Cyber Crime,Belagavi
+001655.jpg,Karthik Singh,38,Assault,Kalaburagi
+001656.jpg,Varun Singh,31,Fraud,Bangalore
+001657.jpg,Vivek Rao,57,Assault,Belagavi
+001658.jpg,Karthik Gowda,57,Burglary,Mysore
+001659.jpg,Varun Kumar,46,Theft,Udupi
+001660.jpg,Deepak Naik,20,Burglary,Dharwad
+001661.jpg,Deepak Das,24,Assault,Bangalore
+001662.jpg,Varun Joshi,42,Forgery,Kalaburagi
+001663.jpg,Amit Patel,26,Fraud,Udupi
+001664.jpg,Ravi Nair,26,Burglary,Dharwad
+001665.jpg,Anil Gowda,32,Fraud,Udupi
+001666.jpg,Vijay Reddy,53,Burglary,Mysore
+001667.jpg,Rohan Patel,22,Forgery,Belagavi
+001668.jpg,Sunil Reddy,45,Burglary,Kalaburagi
+001669.jpg,Amit Yadav,45,Smuggling,Kalaburagi
+001670.jpg,Sunil Das,30,Vehicle Theft,Tumakuru
+001671.jpg,Kiran Verma,53,Theft,Belagavi
+001672.jpg,Vijay Das,52,Burglary,Mysore
+001673.jpg,Suresh Gowda,38,Smuggling,Dharwad
+001674.jpg,Vijay Patel,47,Forgery,Udupi
+001675.jpg,Amit Naik,34,Robbery,Kalaburagi
+001676.jpg,Arjun Yadav,56,Vehicle Theft,Dharwad
+001677.jpg,Rahul Patel,58,Burglary,Mangalore
+001678.jpg,Prakash Nair,23,Cyber Crime,Kalaburagi
+001679.jpg,Karthik Das,51,Vehicle Theft,Shivamogga
+001680.jpg,Rohan Singh,51,Robbery,Belagavi
+001681.jpg,Karthik Nair,48,Forgery,Belagavi
+001682.jpg,Vivek Shetty,49,Robbery,Bangalore
+001683.jpg,Arjun Joshi,41,Robbery,Shivamogga
+001684.jpg,Manoj Yadav,35,Fraud,Udupi
+001685.jpg,Rahul Yadav,32,Fraud,Dharwad
+001686.jpg,Suresh Gupta,43,Fraud,Mysore
+001687.jpg,Deepak Shetty,49,Smuggling,Shivamogga
+001688.jpg,Manoj Verma,25,Forgery,Shivamogga
+001689.jpg,Varun Reddy,48,Fraud,Dharwad
+001690.jpg,Sunil Yadav,46,Theft,Hubli
+001691.jpg,Amit Yadav,42,Cyber Crime,Bangalore
+001692.jpg,Arjun Reddy,40,Smuggling,Dharwad
+001693.jpg,Prakash Yadav,30,Smuggling,Tumakuru
+001694.jpg,Kiran Rao,46,Burglary,Udupi
+001695.jpg,Manoj Gupta,38,Burglary,Udupi
+001696.jpg,Rahul Nair,28,Vehicle Theft,Mangalore
+001697.jpg,Akash Verma,60,Theft,Mysore
+001698.jpg,Mahesh Das,34,Forgery,Mysore
+001699.jpg,Sunil Yadav,28,Burglary,Mysore
+001700.jpg,Arjun Das,45,Forgery,Mangalore
+001701.jpg,Vivek Gupta,53,Robbery,Tumakuru
+001702.jpg,Nikhil Singh,56,Fraud,Bangalore
+001703.jpg,Ravi Reddy,22,Smuggling,Dharwad
+001704.jpg,Rohan Verma,46,Assault,Belagavi
+001705.jpg,Rahul Naik,44,Fraud,Kalaburagi
+001706.jpg,Anil Yadav,43,Smuggling,Shivamogga
+001707.jpg,Mahesh Shetty,60,Forgery,Tumakuru
+001708.jpg,Deepak Naik,45,Vehicle Theft,Bangalore
+001709.jpg,Nikhil Singh,55,Kidnapping,Udupi
+001710.jpg,Anil Sharma,33,Theft,Kalaburagi
+001711.jpg,Suresh Reddy,50,Fraud,Tumakuru
+001712.jpg,Sunil Sharma,50,Forgery,Udupi
+001713.jpg,Ravi Rao,25,Forgery,Dharwad
+001714.jpg,Prakash Verma,44,Kidnapping,Dharwad
+001715.jpg,Vivek Das,46,Forgery,Kalaburagi
+001716.jpg,Akash Joshi,47,Assault,Udupi
+001717.jpg,Mahesh Gupta,28,Robbery,Mysore
+001718.jpg,Sunil Das,29,Vehicle Theft,Mangalore
+001719.jpg,Akash Rao,23,Cyber Crime,Mangalore
+001720.jpg,Suresh Verma,49,Vehicle Theft,Shivamogga
+001721.jpg,Deepak Das,28,Vehicle Theft,Kalaburagi
+001722.jpg,Manoj Gowda,54,Kidnapping,Udupi
+001723.jpg,Nikhil Gupta,56,Vehicle Theft,Mangalore
+001724.jpg,Arjun Naik,42,Kidnapping,Mangalore
+001725.jpg,Rahul Yadav,22,Assault,Shivamogga
+001726.jpg,Karthik Verma,41,Forgery,Tumakuru
+001727.jpg,Arjun Das,25,Kidnapping,Kalaburagi
+001728.jpg,Rahul Naik,40,Smuggling,Belagavi
+001729.jpg,Ravi Kumar,47,Fraud,Tumakuru
+001730.jpg,Amit Sharma,52,Burglary,Dharwad
+001731.jpg,Varun Verma,32,Smuggling,Shivamogga
+001732.jpg,Deepak Kumar,56,Theft,Belagavi
+001733.jpg,Akash Rao,30,Fraud,Bangalore
+001734.jpg,Varun Gupta,47,Fraud,Mangalore
+001735.jpg,Ravi Nair,20,Burglary,Mangalore
+001736.jpg,Karthik Yadav,53,Assault,Kalaburagi
+001737.jpg,Rahul Singh,56,Burglary,Tumakuru
+001738.jpg,Sunil Patel,50,Smuggling,Shivamogga
+001739.jpg,Manoj Joshi,33,Cyber Crime,Mysore
+001740.jpg,Akash Yadav,24,Vehicle Theft,Shivamogga
+001741.jpg,Arjun Naik,25,Theft,Tumakuru
+001742.jpg,Karthik Das,31,Cyber Crime,Udupi
+001743.jpg,Anil Rao,29,Burglary,Belagavi
+001744.jpg,Arjun Singh,20,Vehicle Theft,Dharwad
+001745.jpg,Akash Reddy,41,Fraud,Dharwad
+001746.jpg,Rohan Das,24,Burglary,Tumakuru
+001747.jpg,Suresh Kumar,33,Forgery,Mangalore
+001748.jpg,Mahesh Reddy,51,Kidnapping,Mangalore
+001749.jpg,Vivek Verma,38,Fraud,Hubli
+001750.jpg,Vivek Gupta,47,Burglary,Mangalore
+001751.jpg,Varun Patel,55,Robbery,Hubli
+001752.jpg,Ravi Rao,27,Burglary,Hubli
+001753.jpg,Vijay Kumar,58,Robbery,Mysore
+001754.jpg,Varun Rao,42,Vehicle Theft,Mysore
+001755.jpg,Deepak Reddy,35,Robbery,Kalaburagi
+001756.jpg,Suresh Yadav,47,Fraud,Kalaburagi
+001757.jpg,Anil Naik,60,Cyber Crime,Mangalore
+001758.jpg,Akash Gowda,42,Forgery,Belagavi
+001759.jpg,Kiran Singh,52,Theft,Tumakuru
+001760.jpg,Akash Joshi,23,Cyber Crime,Shivamogga
+001761.jpg,Nikhil Kumar,23,Kidnapping,Tumakuru
+001762.jpg,Suresh Yadav,23,Forgery,Dharwad
+001763.jpg,Vivek Naik,30,Assault,Mangalore
+001764.jpg,Prakash Das,60,Cyber Crime,Belagavi
+001765.jpg,Deepak Reddy,26,Fraud,Tumakuru
+001766.jpg,Akash Das,46,Forgery,Mangalore
+001767.jpg,Nikhil Reddy,23,Assault,Udupi
+001768.jpg,Vivek Verma,59,Kidnapping,Bangalore
+001769.jpg,Varun Das,36,Forgery,Dharwad
+001770.jpg,Nikhil Rao,53,Assault,Bangalore
+001771.jpg,Manoj Joshi,36,Forgery,Tumakuru
+001772.jpg,Rohan Rao,30,Smuggling,Dharwad
+001773.jpg,Ajay Verma,30,Theft,Tumakuru
+001774.jpg,Ravi Shetty,21,Kidnapping,Dharwad
+001775.jpg,Deepak Gowda,29,Robbery,Tumakuru
+001776.jpg,Arjun Rao,33,Forgery,Bangalore
+001777.jpg,Kiran Verma,26,Forgery,Shivamogga
+001778.jpg,Karthik Naik,41,Assault,Kalaburagi
+001779.jpg,Ravi Kumar,26,Fraud,Shivamogga
+001780.jpg,Ravi Gupta,60,Cyber Crime,Shivamogga
+001781.jpg,Ajay Verma,36,Theft,Mangalore
+001782.jpg,Rahul Nair,22,Forgery,Mysore
+001783.jpg,Ajay Gowda,52,Forgery,Udupi
+001784.jpg,Rahul Gowda,47,Kidnapping,Belagavi
+001785.jpg,Prakash Joshi,35,Burglary,Belagavi
+001786.jpg,Rahul Patel,30,Theft,Belagavi
+001787.jpg,Vivek Joshi,28,Smuggling,Belagavi
+001788.jpg,Anil Sharma,51,Smuggling,Belagavi
+001789.jpg,Ravi Reddy,58,Kidnapping,Belagavi
+001790.jpg,Ravi Kumar,30,Cyber Crime,Bangalore
+001791.jpg,Manoj Joshi,34,Robbery,Belagavi
+001792.jpg,Arjun Rao,37,Assault,Kalaburagi
+001793.jpg,Amit Reddy,37,Burglary,Bangalore
+001794.jpg,Ajay Nair,53,Kidnapping,Shivamogga
+001795.jpg,Akash Naik,59,Robbery,Bangalore
+001796.jpg,Vivek Gowda,33,Smuggling,Bangalore
+001797.jpg,Karthik Das,34,Smuggling,Mangalore
+001798.jpg,Ajay Singh,20,Forgery,Belagavi
+001799.jpg,Deepak Sharma,35,Fraud,Hubli
+001800.jpg,Manoj Gowda,51,Smuggling,Dharwad
+001801.jpg,Sunil Yadav,39,Theft,Kalaburagi
+001802.jpg,Mahesh Das,51,Robbery,Shivamogga
+001803.jpg,Akash Joshi,32,Fraud,Kalaburagi
+001804.jpg,Arjun Rao,47,Fraud,Mangalore
+001805.jpg,Rahul Gowda,33,Robbery,Udupi
+001806.jpg,Mahesh Verma,57,Burglary,Bangalore
+001807.jpg,Prakash Gowda,57,Robbery,Tumakuru
+001808.jpg,Arjun Rao,34,Assault,Hubli
+001809.jpg,Nikhil Gowda,59,Burglary,Mangalore
+001810.jpg,Vivek Nair,50,Theft,Shivamogga
+001811.jpg,Rohan Reddy,33,Burglary,Dharwad
+001812.jpg,Varun Reddy,44,Assault,Shivamogga
+001813.jpg,Arjun Nair,48,Vehicle Theft,Mangalore
+001814.jpg,Deepak Das,53,Robbery,Tumakuru
+001815.jpg,Arjun Naik,37,Vehicle Theft,Bangalore
+001816.jpg,Amit Reddy,47,Smuggling,Belagavi
+001817.jpg,Suresh Singh,39,Assault,Udupi
+001818.jpg,Manoj Nair,57,Assault,Kalaburagi
+001819.jpg,Ajay Nair,57,Forgery,Belagavi
+001820.jpg,Ravi Naik,44,Cyber Crime,Mangalore
+001821.jpg,Rahul Patel,34,Forgery,Udupi
+001822.jpg,Prakash Nair,50,Kidnapping,Bangalore
+001823.jpg,Ajay Nair,53,Forgery,Mangalore
+001824.jpg,Akash Gowda,58,Theft,Belagavi
+001825.jpg,Rohan Das,51,Fraud,Dharwad
+001826.jpg,Varun Yadav,57,Forgery,Udupi
+001827.jpg,Sunil Gowda,29,Kidnapping,Mysore
+001828.jpg,Varun Nair,53,Cyber Crime,Tumakuru
+001829.jpg,Mahesh Das,20,Kidnapping,Mysore
+001830.jpg,Karthik Naik,38,Cyber Crime,Shivamogga
+001831.jpg,Anil Gupta,29,Burglary,Belagavi
+001832.jpg,Rahul Yadav,31,Vehicle Theft,Dharwad
+001833.jpg,Suresh Yadav,26,Burglary,Tumakuru
+001834.jpg,Varun Verma,53,Kidnapping,Hubli
+001835.jpg,Rohan Joshi,35,Kidnapping,Shivamogga
+001836.jpg,Mahesh Reddy,24,Smuggling,Mysore
+001837.jpg,Sunil Nair,21,Kidnapping,Mysore
+001838.jpg,Akash Verma,38,Burglary,Mysore
+001839.jpg,Ravi Rao,56,Burglary,Kalaburagi
+001840.jpg,Ajay Reddy,52,Robbery,Dharwad
+001841.jpg,Deepak Kumar,23,Burglary,Mangalore
+001842.jpg,Arjun Singh,38,Smuggling,Mysore
+001843.jpg,Anil Kumar,46,Assault,Udupi
+001844.jpg,Deepak Das,34,Assault,Shivamogga
+001845.jpg,Mahesh Sharma,57,Theft,Belagavi
+001846.jpg,Anil Gupta,30,Burglary,Bangalore
+001847.jpg,Vijay Yadav,55,Fraud,Hubli
+001848.jpg,Nikhil Nair,55,Cyber Crime,Hubli
+001849.jpg,Deepak Rao,36,Robbery,Hubli
+001850.jpg,Manoj Patel,42,Assault,Bangalore
+001851.jpg,Akash Joshi,30,Theft,Dharwad
+001852.jpg,Ajay Gowda,36,Burglary,Tumakuru
+001853.jpg,Prakash Singh,60,Assault,Tumakuru
+001854.jpg,Anil Gupta,38,Vehicle Theft,Udupi
+001855.jpg,Rohan Reddy,44,Cyber Crime,Shivamogga
+001856.jpg,Akash Kumar,35,Kidnapping,Shivamogga
+001857.jpg,Nikhil Verma,45,Fraud,Bangalore
+001858.jpg,Ravi Shetty,24,Fraud,Tumakuru
+001859.jpg,Manoj Reddy,27,Vehicle Theft,Kalaburagi
+001860.jpg,Deepak Joshi,35,Vehicle Theft,Shivamogga
+001861.jpg,Vijay Naik,40,Robbery,Hubli
+001862.jpg,Karthik Singh,35,Cyber Crime,Bangalore
+001863.jpg,Anil Yadav,22,Theft,Hubli
+001864.jpg,Nikhil Das,35,Cyber Crime,Mangalore
+001865.jpg,Deepak Das,26,Forgery,Mysore
+001866.jpg,Vivek Verma,51,Cyber Crime,Belagavi
+001867.jpg,Amit Gowda,22,Vehicle Theft,Dharwad
+001868.jpg,Nikhil Kumar,45,Assault,Belagavi
+001869.jpg,Ajay Naik,46,Robbery,Tumakuru
+001870.jpg,Ajay Gupta,53,Forgery,Mangalore
+001871.jpg,Kiran Joshi,33,Robbery,Kalaburagi
+001872.jpg,Sunil Yadav,38,Smuggling,Kalaburagi
+001873.jpg,Anil Kumar,56,Smuggling,Udupi
+001874.jpg,Karthik Singh,50,Forgery,Mangalore
+001875.jpg,Rohan Rao,31,Burglary,Shivamogga
+001876.jpg,Ajay Reddy,22,Theft,Dharwad
+001877.jpg,Nikhil Sharma,53,Kidnapping,Shivamogga
+001878.jpg,Karthik Verma,29,Assault,Kalaburagi
+001879.jpg,Ravi Patel,39,Burglary,Dharwad
+001880.jpg,Nikhil Patel,42,Robbery,Tumakuru
+001881.jpg,Ajay Rao,41,Kidnapping,Dharwad
+001882.jpg,Amit Shetty,32,Forgery,Udupi
+001883.jpg,Vijay Reddy,24,Assault,Udupi
+001884.jpg,Amit Das,49,Smuggling,Mangalore
+001885.jpg,Vivek Gowda,57,Vehicle Theft,Dharwad
+001886.jpg,Karthik Sharma,40,Theft,Udupi
+001887.jpg,Sunil Rao,42,Vehicle Theft,Udupi
+001888.jpg,Varun Patel,23,Theft,Mysore
+001889.jpg,Nikhil Yadav,20,Fraud,Hubli
+001890.jpg,Vivek Yadav,49,Forgery,Shivamogga
+001891.jpg,Rohan Das,38,Burglary,Mysore
+001892.jpg,Prakash Gowda,55,Fraud,Mysore
+001893.jpg,Rahul Sharma,41,Theft,Kalaburagi
+001894.jpg,Sunil Das,37,Smuggling,Hubli
+001895.jpg,Prakash Gowda,56,Theft,Shivamogga
+001896.jpg,Arjun Kumar,58,Fraud,Mysore
+001897.jpg,Rahul Gupta,23,Fraud,Udupi
+001898.jpg,Kiran Nair,26,Theft,Shivamogga
+001899.jpg,Karthik Kumar,44,Theft,Shivamogga
+001900.jpg,Karthik Kumar,20,Vehicle Theft,Mangalore
+001901.jpg,Rohan Singh,47,Kidnapping,Kalaburagi
+001902.jpg,Kiran Naik,54,Vehicle Theft,Shivamogga
+001903.jpg,Kiran Rao,55,Robbery,Shivamogga
+001904.jpg,Akash Joshi,48,Smuggling,Belagavi
+001905.jpg,Arjun Kumar,55,Kidnapping,Dharwad
+001906.jpg,Vijay Singh,30,Vehicle Theft,Shivamogga
+001907.jpg,Deepak Gowda,44,Assault,Dharwad
+001908.jpg,Ajay Gupta,30,Burglary,Tumakuru
+001909.jpg,Anil Yadav,28,Smuggling,Dharwad
+001910.jpg,Karthik Gupta,44,Fraud,Dharwad
+001911.jpg,Suresh Kumar,24,Robbery,Dharwad
+001912.jpg,Ravi Reddy,59,Forgery,Mysore
+001913.jpg,Prakash Das,39,Cyber Crime,Udupi
+001914.jpg,Mahesh Gowda,53,Vehicle Theft,Dharwad
+001915.jpg,Manoj Gupta,48,Smuggling,Bangalore
+001916.jpg,Varun Rao,28,Theft,Belagavi
+001917.jpg,Karthik Das,23,Smuggling,Bangalore
+001918.jpg,Ajay Gupta,44,Smuggling,Tumakuru
+001919.jpg,Manoj Patel,31,Smuggling,Shivamogga
+001920.jpg,Prakash Verma,57,Burglary,Tumakuru
+001921.jpg,Arjun Kumar,46,Burglary,Shivamogga
+001922.jpg,Rahul Yadav,36,Robbery,Kalaburagi
+001923.jpg,Rohan Das,35,Vehicle Theft,Udupi
+001924.jpg,Nikhil Gowda,42,Fraud,Dharwad
+001925.jpg,Anil Reddy,27,Kidnapping,Mysore
+001926.jpg,Deepak Joshi,39,Fraud,Kalaburagi
+001927.jpg,Suresh Shetty,29,Cyber Crime,Dharwad
+001928.jpg,Manoj Rao,25,Vehicle Theft,Mangalore
+001929.jpg,Ajay Naik,56,Assault,Belagavi
+001930.jpg,Anil Kumar,47,Kidnapping,Shivamogga
+001931.jpg,Akash Patel,46,Smuggling,Udupi
+001932.jpg,Sunil Patel,58,Theft,Udupi
+001933.jpg,Varun Shetty,25,Robbery,Dharwad
+001934.jpg,Manoj Singh,25,Smuggling,Udupi
+001935.jpg,Kiran Sharma,54,Burglary,Bangalore
+001936.jpg,Akash Rao,54,Assault,Belagavi
+001937.jpg,Ravi Yadav,23,Smuggling,Mangalore
+001938.jpg,Ajay Singh,45,Cyber Crime,Kalaburagi
+001939.jpg,Rohan Reddy,37,Cyber Crime,Dharwad
+001940.jpg,Prakash Reddy,49,Assault,Hubli
+001941.jpg,Arjun Patel,31,Forgery,Belagavi
+001942.jpg,Akash Das,48,Robbery,Shivamogga
+001943.jpg,Prakash Gowda,57,Robbery,Shivamogga
+001944.jpg,Varun Rao,44,Robbery,Udupi
+001945.jpg,Vijay Gowda,39,Vehicle Theft,Shivamogga
+001946.jpg,Karthik Rao,42,Burglary,Dharwad
+001947.jpg,Nikhil Singh,45,Burglary,Belagavi
+001948.jpg,Amit Gupta,59,Burglary,Belagavi
+001949.jpg,Sunil Kumar,56,Burglary,Udupi
+001950.jpg,Varun Reddy,59,Vehicle Theft,Dharwad
+001951.jpg,Manoj Naik,29,Assault,Bangalore
+001952.jpg,Amit Das,53,Fraud,Udupi
+001953.jpg,Kiran Kumar,54,Vehicle Theft,Mangalore
+001954.jpg,Ravi Nair,29,Vehicle Theft,Udupi
+001955.jpg,Kiran Reddy,32,Vehicle Theft,Shivamogga
+001956.jpg,Ravi Reddy,25,Fraud,Hubli
+001957.jpg,Prakash Verma,21,Robbery,Udupi
+001958.jpg,Vivek Shetty,32,Theft,Hubli
+001959.jpg,Karthik Joshi,21,Vehicle Theft,Dharwad
+001960.jpg,Vijay Yadav,30,Forgery,Mangalore
+001961.jpg,Rohan Das,60,Forgery,Bangalore
+001962.jpg,Kiran Patel,40,Burglary,Mangalore
+001963.jpg,Mahesh Naik,56,Kidnapping,Belagavi
+001964.jpg,Anil Patel,43,Cyber Crime,Udupi
+001965.jpg,Rahul Kumar,41,Fraud,Mangalore
+001966.jpg,Prakash Kumar,33,Cyber Crime,Tumakuru
+001967.jpg,Anil Reddy,24,Forgery,Kalaburagi
+001968.jpg,Manoj Kumar,50,Vehicle Theft,Mysore
+001969.jpg,Rohan Gupta,59,Forgery,Dharwad
+001970.jpg,Suresh Patel,48,Vehicle Theft,Tumakuru
+001971.jpg,Varun Gupta,39,Assault,Bangalore
+001972.jpg,Kiran Joshi,34,Cyber Crime,Belagavi
+001973.jpg,Karthik Kumar,55,Kidnapping,Tumakuru
+001974.jpg,Nikhil Singh,20,Cyber Crime,Mysore
+001975.jpg,Anil Das,39,Robbery,Tumakuru
+001976.jpg,Amit Kumar,32,Burglary,Mysore
+001977.jpg,Ajay Reddy,45,Theft,Belagavi
+001978.jpg,Manoj Shetty,58,Smuggling,Hubli
+001979.jpg,Rahul Kumar,37,Assault,Shivamogga
+001980.jpg,Anil Singh,39,Theft,Belagavi
+001981.jpg,Sunil Das,47,Robbery,Belagavi
+001982.jpg,Akash Rao,39,Theft,Belagavi
+001983.jpg,Kiran Singh,25,Smuggling,Bangalore
+001984.jpg,Arjun Singh,46,Cyber Crime,Hubli
+001985.jpg,Anil Das,56,Forgery,Shivamogga
+001986.jpg,Vijay Gupta,29,Forgery,Dharwad
+001987.jpg,Ravi Kumar,50,Robbery,Dharwad
+001988.jpg,Sunil Gupta,46,Burglary,Kalaburagi
+001989.jpg,Rohan Naik,38,Robbery,Hubli
+001990.jpg,Suresh Rao,49,Vehicle Theft,Kalaburagi
+001991.jpg,Manoj Gupta,47,Robbery,Shivamogga
+001992.jpg,Suresh Joshi,42,Vehicle Theft,Bangalore
+001993.jpg,Anil Verma,37,Robbery,Udupi
+001994.jpg,Ajay Kumar,58,Robbery,Belagavi
+001995.jpg,Vivek Kumar,48,Cyber Crime,Kalaburagi
+001996.jpg,Anil Verma,25,Theft,Belagavi
+001997.jpg,Prakash Reddy,24,Forgery,Tumakuru
+001998.jpg,Deepak Gowda,40,Assault,Shivamogga
+001999.jpg,Anil Kumar,59,Fraud,Mangalore
+002000.jpg,Rohan Das,43,Cyber Crime,Tumakuru
+002001.jpg,Anil Naik,44,Theft,Tumakuru
+002002.jpg,Anil Sharma,39,Robbery,Shivamogga
+002003.jpg,Varun Singh,39,Fraud,Mangalore
+002004.jpg,Sunil Das,36,Fraud,Belagavi
+002005.jpg,Manoj Rao,56,Robbery,Mysore
+002006.jpg,Rohan Sharma,31,Robbery,Bangalore
+002007.jpg,Amit Patel,49,Kidnapping,Belagavi
+002008.jpg,Sunil Sharma,30,Kidnapping,Mangalore
+002009.jpg,Mahesh Yadav,39,Forgery,Bangalore
+002010.jpg,Vivek Das,23,Smuggling,Belagavi
+002011.jpg,Ravi Verma,41,Kidnapping,Mysore
+002012.jpg,Suresh Verma,50,Assault,Belagavi
+002013.jpg,Ajay Das,31,Theft,Udupi
+002014.jpg,Akash Joshi,58,Theft,Mangalore
+002015.jpg,Ajay Verma,36,Assault,Bangalore
+002016.jpg,Karthik Nair,52,Fraud,Bangalore
+002017.jpg,Deepak Gowda,29,Vehicle Theft,Shivamogga
+002018.jpg,Ajay Yadav,29,Vehicle Theft,Tumakuru
+002019.jpg,Ajay Kumar,55,Cyber Crime,Udupi
+002020.jpg,Vijay Verma,52,Theft,Mangalore
+002021.jpg,Mahesh Patel,23,Smuggling,Tumakuru
+002022.jpg,Deepak Gowda,25,Robbery,Dharwad
+002023.jpg,Varun Rao,23,Burglary,Bangalore
+002024.jpg,Akash Patel,48,Smuggling,Bangalore
+002025.jpg,Vijay Sharma,20,Theft,Belagavi
+002026.jpg,Sunil Verma,59,Forgery,Hubli
+002027.jpg,Deepak Rao,46,Forgery,Mangalore
+002028.jpg,Rohan Gupta,33,Smuggling,Mangalore
+002029.jpg,Manoj Nair,22,Kidnapping,Mysore
+002030.jpg,Karthik Das,37,Theft,Shivamogga
+002031.jpg,Arjun Naik,38,Assault,Tumakuru
+002032.jpg,Arjun Shetty,52,Robbery,Bangalore
+002033.jpg,Deepak Patel,60,Burglary,Udupi
+002034.jpg,Ravi Naik,52,Theft,Shivamogga
+002035.jpg,Mahesh Shetty,58,Theft,Bangalore
+002036.jpg,Rahul Patel,48,Cyber Crime,Tumakuru
+002037.jpg,Karthik Yadav,32,Burglary,Belagavi
+002038.jpg,Ravi Nair,49,Forgery,Belagavi
+002039.jpg,Suresh Gupta,45,Fraud,Kalaburagi
+002040.jpg,Ajay Joshi,39,Vehicle Theft,Tumakuru
+002041.jpg,Karthik Nair,27,Burglary,Kalaburagi
+002042.jpg,Manoj Shetty,38,Vehicle Theft,Dharwad
+002043.jpg,Ajay Verma,42,Assault,Udupi
+002044.jpg,Nikhil Naik,42,Smuggling,Tumakuru
+002045.jpg,Rahul Rao,25,Forgery,Kalaburagi
+002046.jpg,Rahul Joshi,34,Smuggling,Mangalore
+002047.jpg,Akash Reddy,60,Vehicle Theft,Hubli
+002048.jpg,Anil Nair,54,Fraud,Bangalore
+002049.jpg,Suresh Shetty,38,Forgery,Bangalore
+002050.jpg,Karthik Reddy,54,Forgery,Dharwad
+002051.jpg,Varun Gupta,58,Theft,Kalaburagi
+002052.jpg,Amit Sharma,39,Vehicle Theft,Hubli
+002053.jpg,Manoj Patel,28,Vehicle Theft,Bangalore
+002054.jpg,Ravi Patel,54,Smuggling,Dharwad
+002055.jpg,Akash Naik,30,Smuggling,Kalaburagi
+002056.jpg,Mahesh Singh,41,Burglary,Bangalore
+002057.jpg,Nikhil Verma,28,Robbery,Tumakuru
+002058.jpg,Ajay Joshi,48,Cyber Crime,Mysore
+002059.jpg,Prakash Shetty,46,Burglary,Dharwad
+002060.jpg,Vijay Singh,37,Fraud,Shivamogga
+002061.jpg,Nikhil Shetty,25,Burglary,Belagavi
+002062.jpg,Kiran Verma,37,Assault,Shivamogga
+002063.jpg,Mahesh Shetty,26,Vehicle Theft,Bangalore
+002064.jpg,Akash Shetty,48,Kidnapping,Tumakuru
+002065.jpg,Ajay Joshi,54,Robbery,Tumakuru
+002066.jpg,Amit Joshi,26,Vehicle Theft,Dharwad
+002067.jpg,Ajay Singh,20,Theft,Kalaburagi
+002068.jpg,Rohan Verma,42,Robbery,Udupi
+002069.jpg,Mahesh Joshi,40,Theft,Belagavi
+002070.jpg,Mahesh Yadav,28,Cyber Crime,Shivamogga
+002071.jpg,Vijay Patel,42,Assault,Bangalore
+002072.jpg,Amit Joshi,45,Burglary,Mangalore
+002073.jpg,Vivek Yadav,24,Assault,Dharwad
+002074.jpg,Rahul Reddy,30,Kidnapping,Bangalore
+002075.jpg,Nikhil Singh,54,Smuggling,Mysore
+002076.jpg,Nikhil Gupta,42,Smuggling,Dharwad
+002077.jpg,Anil Gowda,52,Smuggling,Kalaburagi
+002078.jpg,Karthik Patel,41,Assault,Hubli
+002079.jpg,Anil Reddy,54,Robbery,Shivamogga
+002080.jpg,Nikhil Das,48,Forgery,Hubli
+002081.jpg,Rohan Das,44,Assault,Tumakuru
+002082.jpg,Ajay Kumar,41,Assault,Bangalore
+002083.jpg,Karthik Sharma,50,Assault,Dharwad
+002084.jpg,Nikhil Singh,25,Forgery,Belagavi
+002085.jpg,Akash Nair,32,Smuggling,Tumakuru
+002086.jpg,Deepak Singh,55,Burglary,Mangalore
+002087.jpg,Rohan Verma,29,Theft,Dharwad
+002088.jpg,Arjun Shetty,23,Vehicle Theft,Mangalore
+002089.jpg,Anil Reddy,58,Kidnapping,Kalaburagi
+002090.jpg,Ajay Rao,55,Vehicle Theft,Kalaburagi
+002091.jpg,Sunil Gupta,52,Cyber Crime,Kalaburagi
+002092.jpg,Ajay Patel,45,Robbery,Mangalore
+002093.jpg,Vivek Shetty,36,Cyber Crime,Belagavi
+002094.jpg,Prakash Verma,39,Smuggling,Tumakuru
+002095.jpg,Manoj Verma,45,Vehicle Theft,Mysore
+002096.jpg,Karthik Gupta,53,Assault,Mangalore
+002097.jpg,Nikhil Patel,51,Fraud,Tumakuru
+002098.jpg,Deepak Joshi,30,Burglary,Belagavi
+002099.jpg,Amit Shetty,23,Assault,Dharwad
+002100.jpg,Prakash Joshi,38,Kidnapping,Mangalore
+002101.jpg,Vijay Rao,30,Theft,Mangalore
+002102.jpg,Suresh Reddy,29,Smuggling,Shivamogga
+002103.jpg,Vijay Joshi,54,Assault,Bangalore
+002104.jpg,Varun Shetty,50,Assault,Hubli
+002105.jpg,Sunil Shetty,37,Vehicle Theft,Bangalore
+002106.jpg,Suresh Gowda,45,Kidnapping,Kalaburagi
+002107.jpg,Nikhil Shetty,34,Fraud,Tumakuru
+002108.jpg,Prakash Nair,33,Assault,Hubli
+002109.jpg,Arjun Yadav,52,Theft,Mangalore
+002110.jpg,Suresh Patel,25,Assault,Mysore
+002111.jpg,Rohan Das,40,Fraud,Tumakuru
+002112.jpg,Akash Yadav,31,Robbery,Tumakuru
+002113.jpg,Prakash Joshi,47,Theft,Hubli
+002114.jpg,Deepak Joshi,24,Burglary,Bangalore
+002115.jpg,Karthik Patel,46,Cyber Crime,Dharwad
+002116.jpg,Nikhil Reddy,49,Cyber Crime,Kalaburagi
+002117.jpg,Prakash Sharma,58,Forgery,Tumakuru
+002118.jpg,Anil Shetty,41,Burglary,Shivamogga
+002119.jpg,Deepak Rao,22,Forgery,Udupi
+002120.jpg,Vijay Patel,23,Vehicle Theft,Mysore
+002121.jpg,Suresh Singh,32,Vehicle Theft,Udupi
+002122.jpg,Vijay Yadav,42,Assault,Dharwad
+002123.jpg,Mahesh Verma,41,Assault,Udupi
+002124.jpg,Rohan Shetty,55,Fraud,Kalaburagi
+002125.jpg,Karthik Gupta,49,Robbery,Kalaburagi
+002126.jpg,Ravi Nair,59,Robbery,Bangalore
+002127.jpg,Anil Singh,39,Fraud,Mangalore
+002128.jpg,Karthik Rao,24,Fraud,Kalaburagi
+002129.jpg,Mahesh Joshi,41,Robbery,Udupi
+002130.jpg,Deepak Kumar,49,Cyber Crime,Hubli
+002131.jpg,Vivek Rao,31,Assault,Bangalore
+002132.jpg,Suresh Verma,57,Cyber Crime,Belagavi
+002133.jpg,Kiran Nair,53,Kidnapping,Tumakuru
+002134.jpg,Varun Naik,35,Vehicle Theft,Dharwad
+002135.jpg,Sunil Kumar,21,Burglary,Mangalore
+002136.jpg,Ravi Singh,55,Cyber Crime,Kalaburagi
+002137.jpg,Mahesh Joshi,29,Robbery,Kalaburagi
+002138.jpg,Deepak Sharma,24,Smuggling,Bangalore
+002139.jpg,Karthik Patel,26,Kidnapping,Udupi
+002140.jpg,Vivek Yadav,21,Smuggling,Shivamogga
+002141.jpg,Kiran Gowda,25,Theft,Mangalore
+002142.jpg,Mahesh Rao,47,Burglary,Tumakuru
+002143.jpg,Nikhil Reddy,47,Assault,Udupi
+002144.jpg,Mahesh Reddy,28,Forgery,Udupi
+002145.jpg,Mahesh Gowda,37,Forgery,Tumakuru
+002146.jpg,Akash Gowda,47,Cyber Crime,Mysore
+002147.jpg,Arjun Shetty,51,Vehicle Theft,Mysore
+002148.jpg,Rahul Rao,24,Theft,Bangalore
+002149.jpg,Suresh Das,55,Robbery,Bangalore
+002150.jpg,Sunil Nair,45,Theft,Belagavi
+002151.jpg,Prakash Das,40,Cyber Crime,Mysore
+002152.jpg,Prakash Gowda,33,Theft,Shivamogga
+002153.jpg,Kiran Naik,59,Vehicle Theft,Tumakuru
+002154.jpg,Akash Nair,36,Burglary,Bangalore
+002155.jpg,Rahul Yadav,28,Cyber Crime,Hubli
+002156.jpg,Karthik Das,30,Theft,Tumakuru
+002157.jpg,Manoj Verma,28,Smuggling,Shivamogga
+002158.jpg,Suresh Nair,46,Assault,Kalaburagi
+002159.jpg,Akash Joshi,33,Fraud,Belagavi
+002160.jpg,Suresh Yadav,54,Cyber Crime,Hubli
+002161.jpg,Amit Yadav,42,Forgery,Tumakuru
+002162.jpg,Prakash Singh,39,Robbery,Hubli
+002163.jpg,Manoj Verma,30,Theft,Dharwad
+002164.jpg,Rahul Sharma,54,Fraud,Tumakuru
+002165.jpg,Manoj Sharma,21,Burglary,Hubli
+002166.jpg,Ajay Gupta,26,Fraud,Bangalore
+002167.jpg,Suresh Reddy,45,Forgery,Tumakuru
+002168.jpg,Vijay Rao,36,Fraud,Hubli
+002169.jpg,Suresh Singh,47,Robbery,Kalaburagi
+002170.jpg,Deepak Naik,41,Vehicle Theft,Dharwad
+002171.jpg,Mahesh Sharma,50,Assault,Bangalore
+002172.jpg,Vijay Rao,42,Robbery,Tumakuru
+002173.jpg,Prakash Verma,42,Burglary,Kalaburagi
+002174.jpg,Amit Shetty,59,Smuggling,Kalaburagi
+002175.jpg,Ajay Shetty,33,Fraud,Shivamogga
+002176.jpg,Ravi Shetty,50,Forgery,Hubli
+002177.jpg,Amit Das,39,Fraud,Udupi
+002178.jpg,Vijay Yadav,45,Fraud,Udupi
+002179.jpg,Kiran Reddy,26,Robbery,Belagavi
+002180.jpg,Suresh Das,38,Assault,Belagavi
+002181.jpg,Varun Joshi,27,Forgery,Udupi
+002182.jpg,Kiran Verma,34,Burglary,Kalaburagi
+002183.jpg,Manoj Patel,21,Forgery,Udupi
+002184.jpg,Anil Rao,39,Assault,Udupi
+002185.jpg,Rohan Sharma,53,Assault,Mysore
+002186.jpg,Amit Gupta,25,Fraud,Mysore
+002187.jpg,Sunil Naik,37,Fraud,Shivamogga
+002188.jpg,Varun Gowda,26,Assault,Bangalore
+002189.jpg,Manoj Nair,29,Burglary,Mangalore
+002190.jpg,Vivek Verma,33,Vehicle Theft,Tumakuru
+002191.jpg,Mahesh Naik,23,Fraud,Belagavi
+002192.jpg,Nikhil Rao,44,Cyber Crime,Mangalore
+002193.jpg,Sunil Gowda,60,Forgery,Belagavi
+002194.jpg,Mahesh Nair,49,Theft,Bangalore
+002195.jpg,Ajay Sharma,31,Fraud,Bangalore
+002196.jpg,Deepak Singh,43,Assault,Belagavi
+002197.jpg,Ajay Reddy,44,Assault,Mangalore
+002198.jpg,Mahesh Rao,43,Smuggling,Tumakuru
+002199.jpg,Amit Reddy,45,Robbery,Bangalore
+002200.jpg,Nikhil Reddy,59,Smuggling,Belagavi
+002201.jpg,Arjun Naik,41,Cyber Crime,Udupi
+002202.jpg,Anil Sharma,54,Cyber Crime,Udupi
+002203.jpg,Rahul Reddy,25,Robbery,Kalaburagi
+002204.jpg,Nikhil Joshi,55,Robbery,Belagavi
+002205.jpg,Rahul Reddy,48,Forgery,Kalaburagi
+002206.jpg,Prakash Patel,48,Burglary,Tumakuru
+002207.jpg,Varun Verma,44,Fraud,Kalaburagi
+002208.jpg,Vivek Gowda,25,Vehicle Theft,Hubli
+002209.jpg,Sunil Kumar,54,Forgery,Belagavi
+002210.jpg,Deepak Gowda,28,Vehicle Theft,Dharwad
+002211.jpg,Anil Joshi,52,Forgery,Hubli
+002212.jpg,Kiran Rao,58,Smuggling,Mysore
+002213.jpg,Akash Yadav,49,Robbery,Udupi
+002214.jpg,Kiran Gupta,41,Fraud,Udupi
+002215.jpg,Prakash Joshi,57,Theft,Shivamogga
+002216.jpg,Nikhil Sharma,43,Fraud,Dharwad
+002217.jpg,Rahul Singh,29,Theft,Hubli
+002218.jpg,Ravi Gowda,43,Theft,Kalaburagi
+002219.jpg,Rohan Rao,32,Robbery,Mysore
+002220.jpg,Rahul Yadav,57,Vehicle Theft,Belagavi
+002221.jpg,Suresh Joshi,20,Theft,Hubli
+002222.jpg,Nikhil Singh,53,Forgery,Mangalore
+002223.jpg,Mahesh Das,30,Assault,Mangalore
+002224.jpg,Varun Sharma,49,Kidnapping,Hubli
+002225.jpg,Karthik Sharma,43,Cyber Crime,Tumakuru
+002226.jpg,Mahesh Patel,48,Theft,Mysore
+002227.jpg,Kiran Rao,23,Smuggling,Hubli
+002228.jpg,Manoj Verma,53,Cyber Crime,Kalaburagi
+002229.jpg,Arjun Joshi,52,Kidnapping,Hubli
+002230.jpg,Rahul Verma,44,Fraud,Belagavi
+002231.jpg,Manoj Sharma,33,Forgery,Kalaburagi
+002232.jpg,Arjun Sharma,30,Fraud,Belagavi
+002233.jpg,Suresh Sharma,53,Robbery,Dharwad
+002234.jpg,Arjun Sharma,29,Cyber Crime,Mangalore
+002235.jpg,Mahesh Singh,28,Assault,Tumakuru
+002236.jpg,Ravi Gowda,40,Robbery,Udupi
+002237.jpg,Amit Gowda,50,Assault,Mangalore
+002238.jpg,Kiran Naik,25,Kidnapping,Shivamogga
+002239.jpg,Sunil Patel,23,Burglary,Mysore
+002240.jpg,Prakash Verma,42,Robbery,Mangalore
+002241.jpg,Vivek Nair,59,Theft,Mangalore
+002242.jpg,Ajay Sharma,29,Burglary,Mangalore
+002243.jpg,Suresh Sharma,42,Smuggling,Udupi
+002244.jpg,Mahesh Kumar,55,Fraud,Udupi
+002245.jpg,Karthik Gupta,57,Fraud,Mysore
+002246.jpg,Ravi Naik,49,Burglary,Udupi
+002247.jpg,Vijay Kumar,23,Assault,Mysore
+002248.jpg,Amit Reddy,60,Robbery,Belagavi
+002249.jpg,Prakash Naik,35,Robbery,Kalaburagi
+002250.jpg,Ravi Das,38,Theft,Tumakuru
+002251.jpg,Vijay Kumar,35,Burglary,Tumakuru
+002252.jpg,Vijay Rao,42,Cyber Crime,Tumakuru
+002253.jpg,Arjun Singh,21,Fraud,Dharwad
+002254.jpg,Prakash Shetty,20,Smuggling,Hubli
+002255.jpg,Prakash Nair,38,Vehicle Theft,Bangalore
+002256.jpg,Manoj Gupta,47,Vehicle Theft,Mangalore
+002257.jpg,Anil Sharma,58,Cyber Crime,Mangalore
+002258.jpg,Varun Nair,39,Vehicle Theft,Hubli
+002259.jpg,Suresh Shetty,44,Vehicle Theft,Shivamogga
+002260.jpg,Vijay Rao,60,Kidnapping,Dharwad
+002261.jpg,Deepak Naik,58,Fraud,Hubli
+002262.jpg,Anil Gowda,21,Theft,Tumakuru
+002263.jpg,Rohan Reddy,23,Cyber Crime,Shivamogga
+002264.jpg,Arjun Patel,25,Vehicle Theft,Udupi
+002265.jpg,Amit Shetty,49,Kidnapping,Shivamogga
+002266.jpg,Manoj Das,47,Fraud,Hubli
+002267.jpg,Varun Singh,22,Vehicle Theft,Dharwad
+002268.jpg,Vijay Naik,39,Fraud,Hubli
+002269.jpg,Karthik Rao,45,Robbery,Kalaburagi
+002270.jpg,Ravi Singh,46,Forgery,Hubli
+002271.jpg,Karthik Reddy,46,Robbery,Mangalore
+002272.jpg,Anil Verma,30,Burglary,Mysore
+002273.jpg,Akash Reddy,28,Smuggling,Shivamogga
+002274.jpg,Sunil Shetty,44,Fraud,Belagavi
+002275.jpg,Varun Sharma,23,Burglary,Belagavi
+002276.jpg,Rahul Patel,35,Assault,Hubli
+002277.jpg,Anil Joshi,48,Robbery,Udupi
+002278.jpg,Nikhil Yadav,42,Fraud,Tumakuru
+002279.jpg,Nikhil Rao,48,Burglary,Mangalore
+002280.jpg,Arjun Singh,34,Assault,Hubli
+002281.jpg,Ravi Patel,54,Kidnapping,Udupi
+002282.jpg,Rahul Sharma,45,Kidnapping,Hubli
+002283.jpg,Rahul Yadav,29,Smuggling,Hubli
+002284.jpg,Anil Joshi,39,Cyber Crime,Tumakuru
+002285.jpg,Kiran Yadav,36,Burglary,Mysore
+002286.jpg,Ravi Singh,50,Burglary,Belagavi
+002287.jpg,Ravi Gupta,45,Robbery,Dharwad
+002288.jpg,Mahesh Nair,41,Cyber Crime,Tumakuru
+002289.jpg,Suresh Sharma,44,Assault,Bangalore
+002290.jpg,Amit Nair,34,Smuggling,Mangalore
+002291.jpg,Rohan Sharma,20,Forgery,Dharwad
+002292.jpg,Nikhil Gowda,33,Cyber Crime,Belagavi
+002293.jpg,Amit Singh,60,Robbery,Bangalore
+002294.jpg,Deepak Gupta,22,Vehicle Theft,Tumakuru
+002295.jpg,Rohan Reddy,33,Theft,Udupi
+002296.jpg,Prakash Naik,45,Kidnapping,Tumakuru
+002297.jpg,Suresh Sharma,29,Robbery,Hubli
+002298.jpg,Arjun Das,59,Fraud,Mysore
+002299.jpg,Vijay Gupta,34,Cyber Crime,Kalaburagi
+002300.jpg,Nikhil Joshi,36,Burglary,Tumakuru
+002301.jpg,Anil Patel,44,Smuggling,Kalaburagi
+002302.jpg,Amit Verma,38,Fraud,Belagavi
+002303.jpg,Kiran Joshi,28,Robbery,Kalaburagi
+002304.jpg,Vijay Shetty,22,Fraud,Dharwad
+002305.jpg,Karthik Rao,34,Smuggling,Mysore
+002306.jpg,Sunil Sharma,30,Fraud,Kalaburagi
+002307.jpg,Akash Sharma,31,Smuggling,Tumakuru
+002308.jpg,Rohan Joshi,44,Fraud,Bangalore
+002309.jpg,Amit Naik,51,Burglary,Mangalore
+002310.jpg,Deepak Gupta,43,Forgery,Dharwad
+002311.jpg,Ajay Gowda,39,Theft,Udupi
+002312.jpg,Amit Joshi,36,Cyber Crime,Tumakuru
+002313.jpg,Nikhil Gupta,56,Fraud,Mysore
+002314.jpg,Suresh Verma,59,Kidnapping,Bangalore
+002315.jpg,Anil Gowda,38,Forgery,Bangalore
+002316.jpg,Anil Naik,29,Kidnapping,Belagavi
+002317.jpg,Nikhil Yadav,36,Assault,Udupi
+002318.jpg,Deepak Das,32,Smuggling,Udupi
+002319.jpg,Suresh Joshi,28,Fraud,Tumakuru
+002320.jpg,Mahesh Yadav,44,Robbery,Mysore
+002321.jpg,Sunil Shetty,52,Vehicle Theft,Belagavi
+002322.jpg,Karthik Das,60,Vehicle Theft,Shivamogga
+002323.jpg,Nikhil Rao,32,Smuggling,Kalaburagi
+002324.jpg,Rahul Joshi,23,Cyber Crime,Tumakuru
+002325.jpg,Varun Naik,43,Smuggling,Belagavi
+002326.jpg,Amit Reddy,37,Theft,Mysore
+002327.jpg,Rohan Verma,42,Theft,Udupi
+002328.jpg,Karthik Verma,39,Vehicle Theft,Bangalore
+002329.jpg,Ravi Kumar,22,Forgery,Belagavi
+002330.jpg,Mahesh Sharma,39,Fraud,Mangalore
+002331.jpg,Ravi Gupta,42,Cyber Crime,Tumakuru
+002332.jpg,Anil Sharma,44,Burglary,Mangalore
+002333.jpg,Akash Joshi,51,Vehicle Theft,Dharwad
+002334.jpg,Karthik Reddy,51,Kidnapping,Mangalore
+002335.jpg,Sunil Gowda,39,Cyber Crime,Shivamogga
+002336.jpg,Nikhil Joshi,55,Cyber Crime,Tumakuru
+002337.jpg,Rohan Rao,36,Cyber Crime,Mangalore
+002338.jpg,Suresh Verma,44,Vehicle Theft,Bangalore
+002339.jpg,Amit Naik,24,Vehicle Theft,Belagavi
+002340.jpg,Manoj Sharma,28,Cyber Crime,Kalaburagi
+002341.jpg,Rohan Shetty,57,Robbery,Hubli
+002342.jpg,Rohan Joshi,51,Cyber Crime,Bangalore
+002343.jpg,Arjun Sharma,58,Theft,Dharwad
+002344.jpg,Ravi Gupta,48,Assault,Dharwad
+002345.jpg,Ajay Joshi,39,Forgery,Shivamogga
+002346.jpg,Suresh Gowda,36,Cyber Crime,Shivamogga
+002347.jpg,Arjun Nair,28,Vehicle Theft,Mangalore
+002348.jpg,Varun Gupta,54,Forgery,Shivamogga
+002349.jpg,Amit Verma,55,Assault,Tumakuru
+002350.jpg,Nikhil Nair,34,Forgery,Dharwad
+002351.jpg,Suresh Gupta,26,Assault,Dharwad
+002352.jpg,Prakash Shetty,41,Robbery,Tumakuru
+002353.jpg,Karthik Shetty,38,Kidnapping,Hubli
+002354.jpg,Sunil Sharma,59,Vehicle Theft,Kalaburagi
+002355.jpg,Arjun Kumar,52,Forgery,Udupi
+002356.jpg,Prakash Joshi,44,Cyber Crime,Kalaburagi
+002357.jpg,Arjun Nair,52,Fraud,Shivamogga
+002358.jpg,Kiran Verma,60,Cyber Crime,Tumakuru
+002359.jpg,Mahesh Gowda,53,Burglary,Mysore
+002360.jpg,Sunil Kumar,37,Assault,Hubli
+002361.jpg,Deepak Das,21,Assault,Hubli
+002362.jpg,Mahesh Nair,26,Kidnapping,Mysore
+002363.jpg,Nikhil Das,31,Fraud,Tumakuru
+002364.jpg,Suresh Shetty,29,Theft,Mysore
+002365.jpg,Vivek Yadav,51,Robbery,Shivamogga
+002366.jpg,Vijay Gupta,60,Forgery,Bangalore
+002367.jpg,Mahesh Gowda,59,Assault,Belagavi
+002368.jpg,Kiran Kumar,44,Fraud,Shivamogga
+002369.jpg,Vijay Gowda,26,Cyber Crime,Kalaburagi
+002370.jpg,Akash Shetty,52,Cyber Crime,Dharwad
+002371.jpg,Nikhil Naik,30,Kidnapping,Mysore
+002372.jpg,Prakash Rao,37,Robbery,Mangalore
+002373.jpg,Sunil Kumar,20,Kidnapping,Kalaburagi
+002374.jpg,Suresh Gupta,54,Smuggling,Tumakuru
+002375.jpg,Arjun Gupta,54,Robbery,Mangalore
+002376.jpg,Sunil Singh,34,Smuggling,Shivamogga
+002377.jpg,Sunil Joshi,29,Forgery,Dharwad
+002378.jpg,Prakash Das,40,Kidnapping,Mangalore
+002379.jpg,Akash Shetty,42,Forgery,Shivamogga
+002380.jpg,Varun Patel,25,Theft,Bangalore
+002381.jpg,Vijay Gupta,56,Cyber Crime,Belagavi
+002382.jpg,Akash Yadav,38,Forgery,Hubli
+002383.jpg,Akash Das,36,Forgery,Dharwad
+002384.jpg,Suresh Joshi,33,Kidnapping,Belagavi
+002385.jpg,Kiran Naik,53,Assault,Udupi
+002386.jpg,Ravi Gowda,25,Fraud,Tumakuru
+002387.jpg,Kiran Patel,20,Kidnapping,Shivamogga
+002388.jpg,Mahesh Shetty,54,Smuggling,Bangalore
+002389.jpg,Kiran Rao,55,Forgery,Belagavi
+002390.jpg,Rohan Patel,32,Smuggling,Mangalore
+002391.jpg,Ajay Shetty,57,Vehicle Theft,Hubli
+002392.jpg,Rahul Reddy,55,Vehicle Theft,Kalaburagi
+002393.jpg,Ajay Kumar,23,Assault,Mangalore
+002394.jpg,Manoj Das,34,Kidnapping,Belagavi
+002395.jpg,Rohan Joshi,46,Robbery,Mangalore
+002396.jpg,Deepak Yadav,21,Robbery,Shivamogga
+002397.jpg,Sunil Singh,22,Smuggling,Udupi
+002398.jpg,Anil Yadav,27,Burglary,Tumakuru
+002399.jpg,Mahesh Gupta,23,Burglary,Mysore
+002400.jpg,Mahesh Das,44,Robbery,Tumakuru
+002401.jpg,Amit Rao,59,Robbery,Tumakuru
+002402.jpg,Anil Joshi,49,Fraud,Udupi
+002403.jpg,Suresh Verma,21,Kidnapping,Mysore
+002404.jpg,Suresh Gupta,48,Assault,Tumakuru
+002405.jpg,Prakash Das,46,Kidnapping,Kalaburagi
+002406.jpg,Ravi Verma,21,Smuggling,Mysore
+002407.jpg,Mahesh Singh,23,Kidnapping,Dharwad
+002408.jpg,Kiran Rao,59,Kidnapping,Tumakuru
+002409.jpg,Sunil Patel,33,Forgery,Mysore
+002410.jpg,Amit Gupta,53,Fraud,Bangalore
+002411.jpg,Sunil Gupta,28,Robbery,Hubli
+002412.jpg,Ravi Naik,38,Burglary,Mysore
+002413.jpg,Rahul Patel,31,Cyber Crime,Belagavi
+002414.jpg,Ajay Sharma,27,Fraud,Belagavi
+002415.jpg,Rohan Verma,39,Theft,Udupi
+002416.jpg,Suresh Gowda,39,Vehicle Theft,Udupi
+002417.jpg,Vivek Sharma,29,Vehicle Theft,Tumakuru
+002418.jpg,Prakash Joshi,34,Forgery,Hubli
+002419.jpg,Akash Joshi,51,Theft,Kalaburagi
+002420.jpg,Deepak Rao,32,Vehicle Theft,Kalaburagi
+002421.jpg,Suresh Singh,36,Kidnapping,Mangalore
+002422.jpg,Kiran Singh,31,Fraud,Dharwad
+002423.jpg,Nikhil Patel,30,Robbery,Belagavi
+002424.jpg,Rohan Joshi,44,Robbery,Tumakuru
+002425.jpg,Manoj Nair,44,Assault,Kalaburagi
+002426.jpg,Amit Patel,35,Fraud,Bangalore
+002427.jpg,Akash Reddy,41,Robbery,Mysore
+002428.jpg,Deepak Yadav,31,Robbery,Udupi
+002429.jpg,Varun Singh,33,Theft,Bangalore
+002430.jpg,Kiran Patel,52,Assault,Mangalore
+002431.jpg,Nikhil Sharma,25,Assault,Hubli
+002432.jpg,Ravi Nair,38,Theft,Dharwad
+002433.jpg,Deepak Nair,24,Burglary,Bangalore
+002434.jpg,Sunil Joshi,29,Fraud,Dharwad
+002435.jpg,Arjun Joshi,36,Robbery,Dharwad
+002436.jpg,Vijay Sharma,36,Assault,Bangalore
+002437.jpg,Nikhil Yadav,51,Cyber Crime,Dharwad
+002438.jpg,Vijay Singh,43,Burglary,Mangalore
+002439.jpg,Manoj Rao,23,Smuggling,Dharwad
+002440.jpg,Ajay Singh,29,Cyber Crime,Shivamogga
+002441.jpg,Akash Verma,49,Smuggling,Dharwad
+002442.jpg,Anil Joshi,59,Burglary,Bangalore
+002443.jpg,Suresh Yadav,41,Vehicle Theft,Udupi
+002444.jpg,Karthik Verma,30,Assault,Belagavi
+002445.jpg,Rohan Patel,44,Assault,Mangalore
+002446.jpg,Mahesh Shetty,54,Smuggling,Mangalore
+002447.jpg,Ravi Joshi,28,Assault,Bangalore
+002448.jpg,Anil Joshi,54,Smuggling,Belagavi
+002449.jpg,Mahesh Verma,35,Vehicle Theft,Shivamogga
+002450.jpg,Ajay Shetty,33,Robbery,Mysore
+002451.jpg,Rahul Sharma,20,Vehicle Theft,Hubli
+002452.jpg,Vijay Sharma,38,Kidnapping,Kalaburagi
+002453.jpg,Manoj Nair,55,Robbery,Tumakuru
+002454.jpg,Prakash Rao,59,Forgery,Bangalore
+002455.jpg,Manoj Rao,56,Burglary,Bangalore
+002456.jpg,Nikhil Gowda,53,Robbery,Belagavi
+002457.jpg,Akash Naik,46,Burglary,Kalaburagi
+002458.jpg,Amit Yadav,47,Forgery,Belagavi
+002459.jpg,Nikhil Nair,52,Theft,Belagavi
+002460.jpg,Varun Patel,57,Cyber Crime,Kalaburagi
+002461.jpg,Mahesh Gupta,56,Cyber Crime,Belagavi
+002462.jpg,Sunil Singh,30,Assault,Kalaburagi
+002463.jpg,Amit Shetty,60,Theft,Hubli
+002464.jpg,Karthik Rao,42,Theft,Dharwad
+002465.jpg,Arjun Reddy,31,Theft,Tumakuru
+002466.jpg,Rohan Rao,56,Vehicle Theft,Belagavi
+002467.jpg,Rohan Shetty,45,Robbery,Mangalore
+002468.jpg,Rahul Reddy,30,Forgery,Bangalore
+002469.jpg,Amit Nair,34,Vehicle Theft,Udupi
+002470.jpg,Anil Joshi,51,Robbery,Kalaburagi
+002471.jpg,Varun Kumar,43,Robbery,Bangalore
+002472.jpg,Akash Shetty,24,Assault,Tumakuru
+002473.jpg,Karthik Sharma,28,Kidnapping,Hubli
+002474.jpg,Prakash Sharma,49,Assault,Bangalore
+002475.jpg,Rohan Verma,28,Smuggling,Shivamogga
+002476.jpg,Amit Reddy,42,Assault,Belagavi
+002477.jpg,Manoj Sharma,37,Robbery,Dharwad
+002478.jpg,Akash Shetty,20,Theft,Udupi
+002479.jpg,Manoj Reddy,60,Vehicle Theft,Tumakuru
+002480.jpg,Suresh Gupta,39,Robbery,Mysore
+002481.jpg,Manoj Naik,49,Burglary,Tumakuru
+002482.jpg,Vijay Naik,53,Robbery,Udupi
+002483.jpg,Rohan Naik,52,Cyber Crime,Shivamogga
+002484.jpg,Karthik Yadav,24,Cyber Crime,Shivamogga
+002485.jpg,Amit Reddy,48,Smuggling,Kalaburagi
+002486.jpg,Akash Gowda,45,Smuggling,Tumakuru
+002487.jpg,Prakash Gowda,48,Theft,Belagavi
+002488.jpg,Anil Gowda,32,Cyber Crime,Tumakuru
+002489.jpg,Nikhil Verma,41,Theft,Hubli
+002490.jpg,Ravi Gowda,50,Assault,Dharwad
+002491.jpg,Rahul Nair,39,Burglary,Belagavi
+002492.jpg,Prakash Singh,25,Forgery,Tumakuru
+002493.jpg,Akash Joshi,33,Burglary,Mangalore
+002494.jpg,Ravi Sharma,38,Burglary,Udupi
+002495.jpg,Arjun Rao,44,Assault,Mangalore
+002496.jpg,Suresh Kumar,25,Theft,Bangalore
+002497.jpg,Akash Yadav,21,Burglary,Mysore
+002498.jpg,Anil Singh,60,Kidnapping,Bangalore
+002499.jpg,Mahesh Naik,60,Vehicle Theft,Tumakuru
+002500.jpg,Amit Naik,44,Burglary,Shivamogga
+002501.jpg,Rohan Kumar,29,Smuggling,Mysore
+002502.jpg,Kiran Kumar,34,Burglary,Bangalore
+002503.jpg,Ravi Sharma,22,Smuggling,Belagavi
+002504.jpg,Manoj Rao,48,Smuggling,Tumakuru
+002505.jpg,Karthik Rao,58,Robbery,Dharwad
+002506.jpg,Rohan Das,49,Burglary,Mangalore
+002507.jpg,Amit Nair,25,Fraud,Mangalore
+002508.jpg,Kiran Sharma,26,Assault,Udupi
+002509.jpg,Prakash Naik,55,Burglary,Mysore
+002510.jpg,Manoj Verma,58,Kidnapping,Mangalore
+002511.jpg,Karthik Nair,53,Burglary,Dharwad
+002512.jpg,Ajay Yadav,58,Kidnapping,Bangalore
+002513.jpg,Ravi Joshi,32,Fraud,Dharwad
+002514.jpg,Mahesh Joshi,59,Assault,Hubli
+002515.jpg,Mahesh Patel,28,Burglary,Bangalore
+002516.jpg,Prakash Nair,35,Fraud,Kalaburagi
+002517.jpg,Sunil Gowda,59,Cyber Crime,Dharwad
+002518.jpg,Manoj Rao,28,Cyber Crime,Belagavi
+002519.jpg,Manoj Verma,51,Theft,Dharwad
+002520.jpg,Suresh Reddy,42,Assault,Belagavi
+002521.jpg,Vivek Reddy,43,Cyber Crime,Hubli
+002522.jpg,Vivek Sharma,42,Smuggling,Kalaburagi
+002523.jpg,Akash Verma,42,Assault,Kalaburagi
+002524.jpg,Akash Nair,39,Kidnapping,Mangalore
+002525.jpg,Prakash Nair,52,Fraud,Tumakuru
+002526.jpg,Sunil Nair,24,Assault,Mangalore
+002527.jpg,Suresh Joshi,49,Cyber Crime,Belagavi
+002528.jpg,Ravi Joshi,58,Theft,Belagavi
+002529.jpg,Akash Rao,44,Forgery,Belagavi
+002530.jpg,Ajay Nair,58,Forgery,Mysore
+002531.jpg,Vijay Kumar,22,Robbery,Udupi
+002532.jpg,Mahesh Verma,29,Vehicle Theft,Kalaburagi
+002533.jpg,Ravi Patel,53,Cyber Crime,Shivamogga
+002534.jpg,Kiran Singh,56,Smuggling,Mysore
+002535.jpg,Akash Gowda,22,Cyber Crime,Mangalore
+002536.jpg,Ajay Nair,42,Forgery,Mangalore
+002537.jpg,Rahul Nair,50,Robbery,Tumakuru
+002538.jpg,Akash Gowda,44,Theft,Mangalore
+002539.jpg,Karthik Verma,25,Theft,Kalaburagi
+002540.jpg,Nikhil Sharma,59,Robbery,Udupi
+002541.jpg,Vivek Gupta,27,Cyber Crime,Kalaburagi
+002542.jpg,Prakash Singh,41,Vehicle Theft,Belagavi
+002543.jpg,Anil Kumar,26,Cyber Crime,Tumakuru
+002544.jpg,Kiran Joshi,34,Forgery,Kalaburagi
+002545.jpg,Sunil Yadav,37,Cyber Crime,Tumakuru
+002546.jpg,Anil Nair,30,Fraud,Dharwad
+002547.jpg,Ravi Gupta,53,Robbery,Udupi
+002548.jpg,Suresh Nair,24,Forgery,Shivamogga
+002549.jpg,Anil Nair,48,Burglary,Mysore
+002550.jpg,Rohan Kumar,39,Smuggling,Shivamogga
+002551.jpg,Vijay Gupta,55,Smuggling,Hubli
+002552.jpg,Sunil Das,29,Kidnapping,Kalaburagi
+002553.jpg,Nikhil Nair,46,Burglary,Mangalore
+002554.jpg,Mahesh Verma,24,Forgery,Hubli
+002555.jpg,Amit Gupta,24,Theft,Udupi
+002556.jpg,Suresh Rao,56,Theft,Mangalore
+002557.jpg,Nikhil Reddy,56,Fraud,Mangalore
+002558.jpg,Anil Rao,36,Kidnapping,Dharwad
+002559.jpg,Kiran Das,54,Assault,Mysore
+002560.jpg,Vijay Yadav,57,Forgery,Hubli
+002561.jpg,Ravi Patel,60,Smuggling,Tumakuru
+002562.jpg,Rahul Rao,25,Theft,Tumakuru
+002563.jpg,Amit Patel,29,Kidnapping,Shivamogga
+002564.jpg,Vijay Das,20,Fraud,Bangalore
+002565.jpg,Ravi Kumar,21,Robbery,Mysore
+002566.jpg,Ravi Verma,59,Theft,Tumakuru
+002567.jpg,Manoj Gowda,59,Fraud,Kalaburagi
+002568.jpg,Vivek Singh,35,Forgery,Mysore
+002569.jpg,Deepak Shetty,45,Burglary,Hubli
+002570.jpg,Nikhil Sharma,59,Vehicle Theft,Belagavi
+002571.jpg,Anil Verma,60,Forgery,Dharwad
+002572.jpg,Ajay Yadav,26,Kidnapping,Kalaburagi
+002573.jpg,Ravi Shetty,35,Forgery,Mysore
+002574.jpg,Vivek Yadav,21,Cyber Crime,Kalaburagi
+002575.jpg,Mahesh Sharma,58,Burglary,Udupi
+002576.jpg,Suresh Shetty,54,Cyber Crime,Hubli
+002577.jpg,Sunil Sharma,35,Burglary,Belagavi
+002578.jpg,Vijay Yadav,26,Kidnapping,Mangalore
+002579.jpg,Deepak Reddy,57,Theft,Mangalore
+002580.jpg,Nikhil Sharma,54,Fraud,Udupi
+002581.jpg,Kiran Das,22,Forgery,Dharwad
+002582.jpg,Varun Singh,52,Smuggling,Bangalore
+002583.jpg,Anil Singh,47,Cyber Crime,Mysore
+002584.jpg,Karthik Nair,48,Vehicle Theft,Mangalore
+002585.jpg,Deepak Joshi,30,Kidnapping,Shivamogga
+002586.jpg,Nikhil Patel,43,Smuggling,Udupi
+002587.jpg,Manoj Nair,28,Fraud,Dharwad
+002588.jpg,Rohan Nair,40,Forgery,Hubli
+002589.jpg,Anil Singh,35,Assault,Belagavi
+002590.jpg,Deepak Nair,49,Smuggling,Tumakuru
+002591.jpg,Ajay Shetty,38,Robbery,Shivamogga
+002592.jpg,Rahul Das,57,Assault,Udupi
+002593.jpg,Vivek Gowda,50,Assault,Belagavi
+002594.jpg,Nikhil Verma,53,Robbery,Shivamogga
+002595.jpg,Vijay Sharma,51,Cyber Crime,Mysore
+002596.jpg,Rohan Gowda,27,Theft,Mangalore
+002597.jpg,Deepak Yadav,59,Fraud,Hubli
+002598.jpg,Amit Reddy,36,Burglary,Belagavi
+002599.jpg,Ajay Shetty,38,Theft,Bangalore
+002600.jpg,Suresh Patel,35,Burglary,Belagavi
+002601.jpg,Manoj Joshi,26,Vehicle Theft,Belagavi
+002602.jpg,Prakash Singh,25,Assault,Mangalore
+002603.jpg,Ravi Das,53,Assault,Mangalore
+002604.jpg,Anil Sharma,36,Assault,Mysore
+002605.jpg,Mahesh Joshi,22,Burglary,Belagavi
+002606.jpg,Manoj Naik,52,Forgery,Mysore
+002607.jpg,Prakash Nair,29,Kidnapping,Belagavi
+002608.jpg,Sunil Patel,43,Cyber Crime,Shivamogga
+002609.jpg,Deepak Shetty,33,Theft,Bangalore
+002610.jpg,Kiran Singh,21,Forgery,Udupi
+002611.jpg,Sunil Naik,21,Kidnapping,Tumakuru
+002612.jpg,Varun Yadav,51,Forgery,Dharwad
+002613.jpg,Deepak Nair,42,Cyber Crime,Belagavi
+002614.jpg,Rohan Singh,32,Assault,Mysore
+002615.jpg,Akash Gupta,33,Smuggling,Bangalore
+002616.jpg,Rahul Kumar,47,Fraud,Belagavi
+002617.jpg,Manoj Gupta,26,Kidnapping,Hubli
+002618.jpg,Anil Naik,51,Burglary,Tumakuru
+002619.jpg,Mahesh Shetty,60,Forgery,Mysore
+002620.jpg,Kiran Reddy,59,Cyber Crime,Kalaburagi
+002621.jpg,Manoj Joshi,32,Fraud,Mysore
+002622.jpg,Suresh Singh,43,Robbery,Shivamogga
+002623.jpg,Ajay Das,36,Fraud,Tumakuru
+002624.jpg,Rohan Gupta,32,Vehicle Theft,Belagavi
+002625.jpg,Deepak Gowda,23,Assault,Mangalore
+002626.jpg,Deepak Shetty,41,Forgery,Hubli
+002627.jpg,Sunil Yadav,27,Forgery,Kalaburagi
+002628.jpg,Nikhil Gupta,49,Burglary,Mysore
+002629.jpg,Nikhil Das,35,Theft,Bangalore
+002630.jpg,Manoj Kumar,52,Smuggling,Hubli
+002631.jpg,Amit Singh,24,Cyber Crime,Shivamogga
+002632.jpg,Anil Das,42,Burglary,Mangalore
+002633.jpg,Rohan Joshi,32,Cyber Crime,Udupi
+002634.jpg,Anil Singh,30,Vehicle Theft,Hubli
+002635.jpg,Karthik Sharma,35,Vehicle Theft,Hubli
+002636.jpg,Suresh Das,30,Cyber Crime,Belagavi
+002637.jpg,Vijay Naik,33,Smuggling,Mysore
+002638.jpg,Prakash Patel,50,Theft,Dharwad
+002639.jpg,Vijay Reddy,45,Cyber Crime,Bangalore
+002640.jpg,Arjun Gupta,25,Kidnapping,Tumakuru
+002641.jpg,Rahul Patel,39,Theft,Shivamogga
+002642.jpg,Sunil Yadav,53,Vehicle Theft,Tumakuru
+002643.jpg,Vivek Nair,38,Smuggling,Dharwad
+002644.jpg,Deepak Sharma,46,Kidnapping,Udupi
+002645.jpg,Anil Naik,47,Burglary,Shivamogga
+002646.jpg,Anil Reddy,25,Burglary,Dharwad
+002647.jpg,Suresh Gupta,27,Fraud,Dharwad
+002648.jpg,Rahul Kumar,39,Robbery,Mangalore
+002649.jpg,Ravi Kumar,24,Vehicle Theft,Bangalore
+002650.jpg,Akash Patel,28,Forgery,Tumakuru
+002651.jpg,Sunil Gowda,28,Theft,Udupi
+002652.jpg,Sunil Verma,35,Smuggling,Dharwad
+002653.jpg,Prakash Yadav,35,Vehicle Theft,Bangalore
+002654.jpg,Prakash Naik,35,Fraud,Belagavi
+002655.jpg,Nikhil Kumar,59,Theft,Kalaburagi
+002656.jpg,Vivek Singh,52,Fraud,Dharwad
+002657.jpg,Anil Naik,22,Assault,Mysore
+002658.jpg,Rohan Singh,59,Cyber Crime,Dharwad
+002659.jpg,Akash Gupta,49,Vehicle Theft,Shivamogga
+002660.jpg,Varun Reddy,57,Theft,Udupi
+002661.jpg,Amit Verma,49,Vehicle Theft,Shivamogga
+002662.jpg,Vijay Shetty,24,Assault,Shivamogga
+002663.jpg,Amit Gupta,57,Robbery,Belagavi
+002664.jpg,Nikhil Yadav,33,Burglary,Udupi
+002665.jpg,Vijay Naik,39,Forgery,Shivamogga
+002666.jpg,Sunil Yadav,33,Theft,Udupi
+002667.jpg,Manoj Patel,32,Cyber Crime,Shivamogga
+002668.jpg,Deepak Sharma,50,Burglary,Dharwad
+002669.jpg,Mahesh Singh,37,Vehicle Theft,Hubli
+002670.jpg,Rohan Patel,56,Smuggling,Udupi
+002671.jpg,Rahul Das,23,Forgery,Mangalore
+002672.jpg,Amit Sharma,52,Smuggling,Dharwad
+002673.jpg,Varun Singh,20,Cyber Crime,Belagavi
+002674.jpg,Ajay Patel,46,Smuggling,Hubli
+002675.jpg,Karthik Yadav,53,Fraud,Hubli
+002676.jpg,Mahesh Yadav,33,Theft,Kalaburagi
+002677.jpg,Rohan Patel,24,Robbery,Dharwad
+002678.jpg,Ajay Joshi,58,Robbery,Hubli
+002679.jpg,Kiran Joshi,28,Theft,Udupi
+002680.jpg,Rahul Reddy,60,Kidnapping,Udupi
+002681.jpg,Deepak Joshi,42,Kidnapping,Mangalore
+002682.jpg,Vijay Gowda,55,Vehicle Theft,Mysore
+002683.jpg,Deepak Nair,43,Robbery,Belagavi
+002684.jpg,Sunil Singh,29,Forgery,Dharwad
+002685.jpg,Deepak Patel,27,Fraud,Kalaburagi
+002686.jpg,Manoj Singh,30,Smuggling,Mysore
+002687.jpg,Manoj Naik,32,Burglary,Shivamogga
+002688.jpg,Akash Yadav,60,Kidnapping,Belagavi
+002689.jpg,Vijay Rao,40,Assault,Tumakuru
+002690.jpg,Nikhil Gupta,40,Smuggling,Kalaburagi
+002691.jpg,Deepak Kumar,44,Theft,Kalaburagi
+002692.jpg,Manoj Gowda,26,Burglary,Tumakuru
+002693.jpg,Suresh Joshi,28,Fraud,Belagavi
+002694.jpg,Rohan Gupta,45,Kidnapping,Bangalore
+002695.jpg,Karthik Gupta,21,Forgery,Dharwad
+002696.jpg,Vivek Sharma,46,Forgery,Kalaburagi
+002697.jpg,Kiran Patel,60,Burglary,Udupi
+002698.jpg,Karthik Yadav,36,Smuggling,Belagavi
+002699.jpg,Ravi Das,22,Kidnapping,Hubli
+002700.jpg,Vijay Rao,47,Vehicle Theft,Belagavi
+002701.jpg,Suresh Reddy,59,Kidnapping,Udupi
+002702.jpg,Rohan Das,42,Vehicle Theft,Udupi
+002703.jpg,Kiran Rao,54,Fraud,Udupi
+002704.jpg,Mahesh Yadav,39,Kidnapping,Mangalore
+002705.jpg,Karthik Verma,56,Robbery,Dharwad
+002706.jpg,Karthik Kumar,21,Cyber Crime,Udupi
+002707.jpg,Manoj Sharma,56,Forgery,Bangalore
+002708.jpg,Kiran Shetty,29,Kidnapping,Kalaburagi
+002709.jpg,Akash Patel,47,Smuggling,Hubli
+002710.jpg,Vivek Gupta,52,Assault,Mysore
+002711.jpg,Prakash Joshi,40,Cyber Crime,Belagavi
+002712.jpg,Akash Yadav,20,Theft,Shivamogga
+002713.jpg,Suresh Naik,27,Theft,Udupi
+002714.jpg,Ajay Reddy,38,Fraud,Kalaburagi
+002715.jpg,Anil Gowda,58,Robbery,Udupi
+002716.jpg,Anil Patel,25,Assault,Belagavi
+002717.jpg,Vijay Patel,32,Burglary,Mysore
+002718.jpg,Suresh Shetty,41,Forgery,Hubli
+002719.jpg,Sunil Nair,50,Kidnapping,Dharwad
+002720.jpg,Manoj Sharma,41,Robbery,Mangalore
+002721.jpg,Akash Yadav,32,Fraud,Kalaburagi
+002722.jpg,Varun Joshi,39,Cyber Crime,Belagavi
+002723.jpg,Varun Rao,37,Robbery,Tumakuru
+002724.jpg,Ravi Verma,41,Smuggling,Shivamogga
+002725.jpg,Nikhil Kumar,59,Robbery,Udupi
+002726.jpg,Amit Reddy,48,Kidnapping,Belagavi
+002727.jpg,Mahesh Verma,45,Smuggling,Shivamogga
+002728.jpg,Akash Shetty,53,Vehicle Theft,Belagavi
+002729.jpg,Amit Yadav,60,Cyber Crime,Dharwad
+002730.jpg,Kiran Reddy,38,Robbery,Shivamogga
+002731.jpg,Ravi Shetty,46,Smuggling,Hubli
+002732.jpg,Suresh Shetty,41,Forgery,Mysore
+002733.jpg,Arjun Reddy,39,Vehicle Theft,Dharwad
+002734.jpg,Varun Kumar,29,Cyber Crime,Dharwad
+002735.jpg,Rahul Das,25,Theft,Udupi
+002736.jpg,Rohan Gupta,42,Theft,Tumakuru
+002737.jpg,Ravi Das,59,Smuggling,Belagavi
+002738.jpg,Deepak Yadav,25,Robbery,Tumakuru
+002739.jpg,Kiran Singh,43,Forgery,Udupi
+002740.jpg,Arjun Singh,50,Vehicle Theft,Udupi
+002741.jpg,Ravi Kumar,26,Assault,Tumakuru
+002742.jpg,Anil Das,48,Vehicle Theft,Udupi
+002743.jpg,Nikhil Naik,42,Smuggling,Shivamogga
+002744.jpg,Manoj Gupta,26,Smuggling,Tumakuru
+002745.jpg,Manoj Singh,28,Forgery,Dharwad
+002746.jpg,Ravi Gowda,30,Smuggling,Dharwad
+002747.jpg,Manoj Singh,37,Forgery,Udupi
+002748.jpg,Vivek Kumar,50,Vehicle Theft,Tumakuru
+002749.jpg,Deepak Sharma,28,Vehicle Theft,Bangalore
+002750.jpg,Deepak Joshi,59,Forgery,Kalaburagi
+002751.jpg,Ravi Naik,58,Kidnapping,Mangalore
+002752.jpg,Sunil Kumar,30,Forgery,Tumakuru
+002753.jpg,Ajay Sharma,42,Smuggling,Udupi
+002754.jpg,Anil Yadav,40,Burglary,Belagavi
+002755.jpg,Anil Verma,27,Burglary,Kalaburagi
+002756.jpg,Suresh Verma,58,Robbery,Tumakuru
+002757.jpg,Vijay Singh,48,Assault,Tumakuru
+002758.jpg,Akash Patel,23,Robbery,Hubli
+002759.jpg,Nikhil Verma,45,Forgery,Dharwad
+002760.jpg,Prakash Joshi,37,Vehicle Theft,Tumakuru
+002761.jpg,Amit Reddy,23,Robbery,Shivamogga
+002762.jpg,Suresh Naik,23,Burglary,Hubli
+002763.jpg,Karthik Das,55,Forgery,Mysore
+002764.jpg,Manoj Yadav,37,Vehicle Theft,Dharwad
+002765.jpg,Akash Verma,22,Theft,Hubli
+002766.jpg,Karthik Shetty,25,Smuggling,Bangalore
+002767.jpg,Manoj Kumar,23,Robbery,Shivamogga
+002768.jpg,Ajay Gupta,40,Forgery,Udupi
+002769.jpg,Vivek Patel,39,Fraud,Mangalore
+002770.jpg,Kiran Nair,55,Robbery,Hubli
+002771.jpg,Anil Patel,27,Theft,Mysore
+002772.jpg,Suresh Rao,60,Vehicle Theft,Dharwad
+002773.jpg,Amit Nair,31,Forgery,Hubli
+002774.jpg,Ravi Verma,32,Assault,Mangalore
+002775.jpg,Ravi Verma,29,Smuggling,Udupi
+002776.jpg,Amit Joshi,25,Forgery,Bangalore
+002777.jpg,Ajay Reddy,41,Theft,Dharwad
+002778.jpg,Karthik Rao,46,Smuggling,Bangalore
+002779.jpg,Vivek Das,23,Burglary,Dharwad
+002780.jpg,Kiran Nair,29,Vehicle Theft,Tumakuru
+002781.jpg,Vivek Sharma,21,Forgery,Mangalore
+002782.jpg,Karthik Verma,22,Theft,Mangalore
+002783.jpg,Rohan Singh,43,Robbery,Belagavi
+002784.jpg,Varun Gupta,43,Theft,Kalaburagi
+002785.jpg,Karthik Nair,35,Fraud,Hubli
+002786.jpg,Sunil Shetty,21,Assault,Shivamogga
+002787.jpg,Arjun Shetty,24,Fraud,Dharwad
+002788.jpg,Manoj Kumar,27,Cyber Crime,Belagavi
+002789.jpg,Akash Gupta,20,Kidnapping,Dharwad
+002790.jpg,Arjun Gupta,41,Forgery,Mangalore
+002791.jpg,Amit Reddy,27,Assault,Kalaburagi
+002792.jpg,Anil Joshi,23,Vehicle Theft,Shivamogga
+002793.jpg,Manoj Gowda,55,Theft,Bangalore
+002794.jpg,Vijay Gupta,43,Vehicle Theft,Mysore
+002795.jpg,Rahul Nair,53,Cyber Crime,Mangalore
+002796.jpg,Rahul Das,58,Robbery,Mysore
+002797.jpg,Akash Yadav,38,Robbery,Kalaburagi
+002798.jpg,Suresh Patel,60,Cyber Crime,Mysore
+002799.jpg,Ajay Rao,48,Cyber Crime,Dharwad
+002800.jpg,Varun Nair,58,Fraud,Dharwad
+002801.jpg,Sunil Reddy,32,Theft,Mangalore
+002802.jpg,Akash Das,59,Cyber Crime,Dharwad
+002803.jpg,Manoj Rao,49,Robbery,Tumakuru
+002804.jpg,Sunil Yadav,31,Cyber Crime,Mysore
+002805.jpg,Prakash Nair,29,Fraud,Shivamogga
+002806.jpg,Rohan Nair,58,Forgery,Kalaburagi
+002807.jpg,Kiran Singh,20,Fraud,Hubli
+002808.jpg,Ajay Yadav,24,Burglary,Tumakuru
+002809.jpg,Amit Joshi,28,Robbery,Dharwad
+002810.jpg,Nikhil Joshi,20,Assault,Dharwad
+002811.jpg,Vijay Das,40,Vehicle Theft,Mysore
+002812.jpg,Karthik Kumar,41,Smuggling,Hubli
+002813.jpg,Rohan Sharma,52,Robbery,Dharwad
+002814.jpg,Sunil Shetty,50,Vehicle Theft,Mangalore
+002815.jpg,Rohan Shetty,20,Robbery,Udupi
+002816.jpg,Deepak Gupta,41,Vehicle Theft,Tumakuru
+002817.jpg,Prakash Nair,34,Theft,Kalaburagi
+002818.jpg,Anil Kumar,53,Burglary,Tumakuru
+002819.jpg,Ajay Naik,26,Theft,Dharwad
+002820.jpg,Akash Gowda,40,Assault,Belagavi
+002821.jpg,Rahul Rao,23,Fraud,Tumakuru
+002822.jpg,Ajay Sharma,21,Burglary,Belagavi
+002823.jpg,Deepak Patel,43,Cyber Crime,Dharwad
+002824.jpg,Karthik Gupta,32,Cyber Crime,Bangalore
+002825.jpg,Ravi Gowda,46,Forgery,Dharwad
+002826.jpg,Rohan Gowda,45,Forgery,Kalaburagi
+002827.jpg,Ajay Yadav,26,Forgery,Tumakuru
+002828.jpg,Manoj Naik,60,Fraud,Hubli
+002829.jpg,Sunil Nair,49,Assault,Kalaburagi
+002830.jpg,Mahesh Kumar,35,Fraud,Udupi
+002831.jpg,Mahesh Reddy,59,Kidnapping,Hubli
+002832.jpg,Ajay Sharma,52,Cyber Crime,Hubli
+002833.jpg,Rohan Reddy,25,Smuggling,Belagavi
+002834.jpg,Karthik Verma,30,Burglary,Hubli
+002835.jpg,Anil Singh,22,Forgery,Belagavi
+002836.jpg,Mahesh Gowda,37,Theft,Kalaburagi
+002837.jpg,Akash Sharma,42,Smuggling,Udupi
+002838.jpg,Deepak Gupta,44,Fraud,Kalaburagi
+002839.jpg,Prakash Gupta,57,Vehicle Theft,Udupi
+002840.jpg,Akash Das,44,Assault,Tumakuru
+002841.jpg,Kiran Naik,47,Smuggling,Tumakuru
+002842.jpg,Vivek Shetty,39,Theft,Belagavi
+002843.jpg,Deepak Das,52,Theft,Udupi
+002844.jpg,Ravi Kumar,50,Burglary,Shivamogga
+002845.jpg,Nikhil Nair,51,Robbery,Belagavi
+002846.jpg,Ravi Yadav,46,Kidnapping,Hubli
+002847.jpg,Vivek Das,35,Smuggling,Mangalore
+002848.jpg,Kiran Rao,41,Assault,Hubli
+002849.jpg,Manoj Kumar,20,Forgery,Belagavi
+002850.jpg,Ravi Patel,43,Theft,Mysore
+002851.jpg,Rahul Verma,33,Theft,Udupi
+002852.jpg,Vivek Gowda,31,Fraud,Udupi
+002853.jpg,Deepak Kumar,42,Assault,Dharwad
+002854.jpg,Sunil Verma,24,Fraud,Dharwad
+002855.jpg,Rahul Kumar,38,Cyber Crime,Bangalore
+002856.jpg,Ajay Nair,54,Theft,Kalaburagi
+002857.jpg,Ajay Sharma,42,Cyber Crime,Hubli
+002858.jpg,Mahesh Joshi,45,Burglary,Belagavi
+002859.jpg,Manoj Shetty,47,Burglary,Dharwad
+002860.jpg,Rahul Reddy,35,Cyber Crime,Belagavi
+002861.jpg,Deepak Sharma,43,Robbery,Belagavi
+002862.jpg,Deepak Sharma,27,Robbery,Kalaburagi
+002863.jpg,Kiran Verma,53,Theft,Mysore
+002864.jpg,Deepak Singh,23,Cyber Crime,Mysore
+002865.jpg,Varun Rao,40,Smuggling,Hubli
+002866.jpg,Deepak Rao,32,Theft,Dharwad
+002867.jpg,Rahul Kumar,47,Forgery,Udupi
+002868.jpg,Mahesh Gowda,31,Theft,Kalaburagi
+002869.jpg,Rahul Patel,41,Theft,Kalaburagi
+002870.jpg,Karthik Naik,30,Assault,Mangalore
+002871.jpg,Akash Kumar,41,Theft,Hubli
+002872.jpg,Vivek Singh,28,Robbery,Tumakuru
+002873.jpg,Kiran Nair,50,Cyber Crime,Dharwad
+002874.jpg,Suresh Gupta,33,Smuggling,Udupi
+002875.jpg,Varun Naik,51,Smuggling,Hubli
+002876.jpg,Arjun Yadav,28,Theft,Mangalore
+002877.jpg,Nikhil Kumar,58,Assault,Bangalore
+002878.jpg,Rohan Sharma,47,Kidnapping,Dharwad
+002879.jpg,Akash Gowda,41,Forgery,Shivamogga
+002880.jpg,Amit Shetty,40,Cyber Crime,Udupi
+002881.jpg,Anil Reddy,47,Vehicle Theft,Tumakuru
+002882.jpg,Sunil Shetty,59,Theft,Bangalore
+002883.jpg,Deepak Verma,35,Kidnapping,Mangalore
+002884.jpg,Anil Gupta,45,Cyber Crime,Hubli
+002885.jpg,Karthik Naik,44,Kidnapping,Dharwad
+002886.jpg,Deepak Rao,47,Burglary,Kalaburagi
+002887.jpg,Rohan Shetty,44,Smuggling,Udupi
+002888.jpg,Karthik Gowda,23,Forgery,Shivamogga
+002889.jpg,Suresh Joshi,23,Robbery,Kalaburagi
+002890.jpg,Nikhil Yadav,47,Cyber Crime,Kalaburagi
+002891.jpg,Amit Joshi,60,Assault,Kalaburagi
+002892.jpg,Amit Singh,29,Kidnapping,Shivamogga
+002893.jpg,Deepak Gupta,55,Fraud,Shivamogga
+002894.jpg,Vijay Gowda,42,Forgery,Tumakuru
+002895.jpg,Vivek Das,30,Fraud,Tumakuru
+002896.jpg,Ajay Das,42,Burglary,Belagavi
+002897.jpg,Rahul Joshi,22,Robbery,Belagavi
+002898.jpg,Amit Patel,36,Robbery,Tumakuru
+002899.jpg,Akash Verma,47,Burglary,Kalaburagi
+002900.jpg,Amit Yadav,44,Cyber Crime,Bangalore
+002901.jpg,Sunil Das,39,Vehicle Theft,Kalaburagi
+002902.jpg,Ajay Das,53,Smuggling,Udupi
+002903.jpg,Mahesh Sharma,35,Burglary,Bangalore
+002904.jpg,Prakash Singh,21,Cyber Crime,Bangalore
+002905.jpg,Kiran Patel,21,Kidnapping,Belagavi
+002906.jpg,Prakash Singh,47,Vehicle Theft,Hubli
+002907.jpg,Amit Verma,36,Cyber Crime,Belagavi
+002908.jpg,Ravi Shetty,25,Kidnapping,Kalaburagi
+002909.jpg,Suresh Das,44,Cyber Crime,Bangalore
+002910.jpg,Vijay Gowda,54,Vehicle Theft,Kalaburagi
+002911.jpg,Manoj Das,59,Smuggling,Udupi
+002912.jpg,Mahesh Joshi,38,Assault,Hubli
+002913.jpg,Prakash Gowda,25,Burglary,Udupi
+002914.jpg,Vijay Singh,29,Burglary,Dharwad
+002915.jpg,Kiran Kumar,50,Vehicle Theft,Kalaburagi
+002916.jpg,Arjun Rao,51,Smuggling,Bangalore
+002917.jpg,Deepak Patel,41,Kidnapping,Tumakuru
+002918.jpg,Rohan Gowda,32,Burglary,Tumakuru
+002919.jpg,Ravi Nair,58,Forgery,Hubli
+002920.jpg,Rahul Naik,50,Theft,Dharwad
+002921.jpg,Deepak Kumar,41,Forgery,Mangalore
+002922.jpg,Rahul Sharma,50,Kidnapping,Belagavi
+002923.jpg,Ravi Verma,26,Fraud,Dharwad
+002924.jpg,Ajay Sharma,41,Assault,Dharwad
+002925.jpg,Karthik Rao,20,Smuggling,Hubli
+002926.jpg,Ravi Naik,51,Burglary,Bangalore
+002927.jpg,Akash Gupta,44,Burglary,Kalaburagi
+002928.jpg,Kiran Naik,55,Vehicle Theft,Bangalore
+002929.jpg,Ajay Nair,29,Theft,Hubli
+002930.jpg,Akash Kumar,37,Kidnapping,Tumakuru
+002931.jpg,Rahul Kumar,23,Kidnapping,Bangalore
+002932.jpg,Karthik Das,55,Smuggling,Mysore
+002933.jpg,Deepak Rao,28,Kidnapping,Tumakuru
+002934.jpg,Ajay Patel,60,Robbery,Bangalore
+002935.jpg,Prakash Singh,45,Fraud,Bangalore
+002936.jpg,Mahesh Kumar,46,Robbery,Shivamogga
+002937.jpg,Akash Shetty,51,Assault,Shivamogga
+002938.jpg,Akash Singh,26,Theft,Hubli
+002939.jpg,Akash Shetty,37,Kidnapping,Kalaburagi
+002940.jpg,Rohan Nair,47,Assault,Udupi
+002941.jpg,Ravi Reddy,52,Robbery,Mysore
+002942.jpg,Prakash Gupta,51,Robbery,Hubli
+002943.jpg,Rahul Nair,57,Burglary,Mangalore
+002944.jpg,Mahesh Patel,45,Fraud,Bangalore
+002945.jpg,Vivek Nair,48,Fraud,Mysore
+002946.jpg,Ajay Naik,49,Burglary,Udupi
+002947.jpg,Varun Shetty,51,Cyber Crime,Udupi
+002948.jpg,Suresh Shetty,57,Vehicle Theft,Dharwad
+002949.jpg,Manoj Reddy,56,Robbery,Dharwad
+002950.jpg,Vijay Gowda,47,Theft,Dharwad
+002951.jpg,Sunil Shetty,36,Theft,Kalaburagi
+002952.jpg,Deepak Nair,45,Kidnapping,Shivamogga
+002953.jpg,Rohan Shetty,50,Forgery,Udupi
+002954.jpg,Vijay Kumar,46,Fraud,Udupi
+002955.jpg,Amit Das,60,Burglary,Udupi
+002956.jpg,Kiran Sharma,51,Burglary,Bangalore
+002957.jpg,Sunil Singh,32,Kidnapping,Belagavi
+002958.jpg,Vijay Gowda,34,Kidnapping,Hubli
+002959.jpg,Karthik Shetty,55,Forgery,Dharwad
+002960.jpg,Kiran Das,38,Cyber Crime,Shivamogga
+002961.jpg,Vijay Gupta,47,Smuggling,Belagavi
+002962.jpg,Suresh Patel,43,Cyber Crime,Belagavi
+002963.jpg,Mahesh Verma,20,Cyber Crime,Dharwad
+002964.jpg,Rohan Reddy,28,Kidnapping,Hubli
+002965.jpg,Manoj Yadav,52,Fraud,Dharwad
+002966.jpg,Prakash Gupta,59,Robbery,Shivamogga
+002967.jpg,Deepak Joshi,22,Robbery,Mysore
+002968.jpg,Amit Yadav,24,Vehicle Theft,Shivamogga
+002969.jpg,Rahul Singh,42,Assault,Tumakuru
+002970.jpg,Deepak Naik,55,Forgery,Mangalore
+002971.jpg,Prakash Naik,29,Theft,Belagavi
+002972.jpg,Vivek Patel,46,Theft,Dharwad
+002973.jpg,Ravi Naik,53,Assault,Hubli
+002974.jpg,Varun Gupta,39,Theft,Mangalore
+002975.jpg,Kiran Yadav,26,Assault,Bangalore
+002976.jpg,Nikhil Gowda,29,Kidnapping,Dharwad
+002977.jpg,Rahul Verma,41,Vehicle Theft,Kalaburagi
+002978.jpg,Karthik Gowda,45,Forgery,Tumakuru
+002979.jpg,Varun Das,58,Vehicle Theft,Udupi
+002980.jpg,Sunil Yadav,43,Smuggling,Dharwad
+002981.jpg,Karthik Naik,37,Smuggling,Kalaburagi
+002982.jpg,Rohan Patel,48,Forgery,Bangalore
+002983.jpg,Arjun Yadav,29,Fraud,Dharwad
+002984.jpg,Ajay Reddy,39,Cyber Crime,Dharwad
+002985.jpg,Vivek Verma,35,Forgery,Bangalore
+002986.jpg,Vijay Nair,27,Robbery,Udupi
+002987.jpg,Suresh Gowda,53,Assault,Hubli
+002988.jpg,Varun Patel,59,Theft,Bangalore
+002989.jpg,Vijay Das,31,Robbery,Bangalore
+002990.jpg,Rohan Patel,52,Cyber Crime,Shivamogga
+002991.jpg,Arjun Gowda,58,Assault,Bangalore
+002992.jpg,Karthik Gowda,28,Theft,Mysore
+002993.jpg,Ravi Yadav,41,Robbery,Belagavi
+002994.jpg,Rahul Naik,51,Cyber Crime,Bangalore
+002995.jpg,Vivek Nair,30,Robbery,Tumakuru
+002996.jpg,Mahesh Reddy,42,Assault,Belagavi
+002997.jpg,Deepak Patel,59,Fraud,Shivamogga
+002998.jpg,Amit Patel,39,Forgery,Bangalore
+002999.jpg,Karthik Rao,51,Kidnapping,Dharwad
+003000.jpg,Rahul Gowda,21,Burglary,Hubli
