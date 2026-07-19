@@ -20,3 +20,5 @@ sentencepiece
 accelerate
 reportlab
 requests
+diffusers
+safetensors
