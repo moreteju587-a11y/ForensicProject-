@@ -9,7 +9,6 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model_id = "SG161222/Realistic_Vision_V6.0_B1_noVAE"
 
-
 pipe = None
 
 
@@ -23,15 +22,15 @@ def load_model():
 
         pipe = StableDiffusionPipeline.from_pretrained(
             model_id,
-            torch_dtype=torch.float32,
+            torch_dtype=torch.float16 if device == "cuda" else torch.float32,
             safety_checker=None,
             feature_extractor=None
         )
 
-       if device == "cuda":
-    pipe = pipe.to("cuda")
-else:
-    pipe = pipe.to("cpu")
+        if device == "cuda":
+            pipe = pipe.to("cuda")
+        else:
+            pipe = pipe.to("cpu")
 
         pipe.scheduler = DPMSolverMultistepScheduler.from_config(
             pipe.scheduler.config
