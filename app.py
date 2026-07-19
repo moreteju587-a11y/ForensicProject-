@@ -46,9 +46,11 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'your_super_secret_key'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = \
-    'mysql+mysqlconnector://root:@127.0.0.1:3306/thirdeye_db'
 
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv(
+    "DATABASE_URL",
+    "mysql+mysqlconnector://root:@127.0.0.1:3306/thirdeye_db"
+)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 app.config['SKETCH_PARTS_FOLDER'] = 'static/sketch_parts'
