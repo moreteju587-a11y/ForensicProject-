@@ -1,0 +1,352 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+
+body {
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(34,211,238,0.18),
+        transparent 35%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(139,92,246,0.20),
+        transparent 40%
+    ),
+    #020617;
+
+    min-height:100vh;
+
+}
+
+
+/* Center Container */
+
+.login-container {
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    min-height:calc(100vh - 56px);
+
+    padding:2rem;
+
+}
+
+
+
+/* Glass Login Card */
+
+.login-card {
+
+    width:100%;
+
+    max-width:430px;
+
+
+    padding:3rem;
+
+
+    background:
+
+    rgba(15,23,42,0.85);
+
+
+    backdrop-filter:blur(25px);
+
+
+    border-radius:25px;
+
+
+    border:
+
+    1px solid rgba(34,211,238,0.35);
+
+
+
+    box-shadow:
+
+    0 0 40px rgba(34,211,238,0.18);
+
+
+
+    color:white;
+
+
+    animation:cardShow .8s ease;
+
+}
+
+
+
+@keyframes cardShow {
+
+    from {
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+
+    to {
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+/* Title */
+
+.login-card h2 {
+
+
+    text-align:center;
+
+
+    font-size:32px;
+
+
+    font-weight:900;
+
+
+
+    background:
+
+    linear-gradient(
+        90deg,
+        #22d3ee,
+        #a855f7
+    );
+
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* Labels */
+
+.form-label {
+
+
+    color:#67e8f9;
+
+    font-weight:700;
+
+}
+
+
+
+/* Inputs */
+
+.form-control {
+
+
+    height:52px;
+
+
+    background:
+
+    rgba(255,255,255,0.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,0.2);
+
+
+    border-radius:14px;
+
+
+    color:white;
+
+
+    padding-left:18px;
+
+}
+
+
+
+.form-control:focus {
+
+
+    background:
+
+    rgba(255,255,255,0.12);
+
+
+    color:white;
+
+
+    border-color:#22d3ee;
+
+
+    box-shadow:
+
+    0 0 20px rgba(34,211,238,.4);
+
+}
+
+
+
+.form-control::placeholder {
+
+    color:#94a3b8;
+
+}
+
+
+
+/* Button */
+
+.btn-login {
+
+
+    height:55px;
+
+
+    border-radius:15px;
+
+
+    border:none;
+
+
+    font-size:17px;
+
+
+    font-weight:800;
+
+
+
+    color:white;
+
+
+    background:
+
+
+    linear-gradient(
+        90deg,
+        #06b6d4,
+        #9333ea
+    );
+
+
+
+    box-shadow:
+
+    0 0 25px rgba(139,92,246,.4);
+
+
+
+    transition:.3s;
+
+}
+
+
+
+.btn-login:hover {
+
+
+    transform:translateY(-3px);
+
+
+
+    box-shadow:
+
+    0 0 35px rgba(34,211,238,.7);
+
+}
+
+
+
+/* Register Footer */
+
+.card-footer {
+
+
+    background:transparent;
+
+
+    border-top:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    margin-top:25px;
+
+
+    padding-top:20px;
+
+
+}
+
+
+
+.card-footer a {
+
+
+    color:#67e8f9;
+
+
+    font-weight:700;
+
+
+    text-decoration:none;
+
+}
+
+
+
+.card-footer a:hover {
+
+
+    color:white;
+
+}
+
+
+</style>
+
+
+<!-- Login Form Centered -->
+<div class="login-container">
+    <div class="login-card">
+        <div class="card-header">
+            <h2>Login to Your Account</h2>
+        </div>
+        <div class="card-body p-0">
+            <form method="POST" action="{{ url_for('login') }}">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 btn-login">Login</button>
+            </form>
+        </div>
+        <div class="card-footer text-center">
+             <a href="{{ url_for('register') }}">Don't have an account? Register here</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

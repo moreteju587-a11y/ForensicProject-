@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning-Based Forensic Facial Identification from Voice Descriptions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0c0d10;
+            --surface: #13151b;
+            --surface2: #1c1f28;
+            --surface3: #242736;
+            --border: #2a2e3d;
+            --accent: #00e5a0;
+            --accent-dim: rgba(0,229,160,0.10);
+            --accent-glow: 0 0 24px rgba(0,229,160,0.18);
+            --purple: #8b6fff;
+            --danger: #ff4f6d;
+            --warn: #ffb830;
+            --text: #dde1ee;
+            --muted: #5a6070;
+            --muted2: #3d4155;
+        }
+        *{ margin:0; padding:0; box-sizing:border-box; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'IBM Plex Mono', monospace;
+            min-height: 100vh;
+        }
+        body::before {
+            content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+            background:
+                radial-gradient(ellipse 60% 40% at 80% 10%, rgba(0,229,160,0.04) 0%, transparent 70%),
+                radial-gradient(ellipse 50% 60% at 10% 90%, rgba(139,111,255,0.04) 0%, transparent 70%);
+        }
+
+        /* NAV */
+        nav {
+            position:fixed; top:0; left:0; right:0; z-index:100;
+            display:flex; align-items:center; justify-content:space-between;
+            padding:14px 28px;
+            background:rgba(12,13,16,0.92); backdrop-filter:blur(16px);
+            border-bottom:1px solid var(--border);
+        }
+        .logo { font-family:'Syne',sans-serif; font-size:18px; font-weight:800; letter-spacing:-0.5px; }
+        .logo em { color:var(--accent); font-style:normal; }
+        .nav-links { display:flex; gap:6px; }
+        nav a {
+            text-decoration:none; color:var(--muted); font-size:11px;
+            padding:7px 14px; border:1px solid transparent; border-radius:6px;
+            letter-spacing:0.5px; transition:all 0.2s;
+        }
+        nav a:hover, nav a.active { color:var(--accent); border-color:rgba(0,229,160,0.3); background:var(--accent-dim); }
+
+        /* LAYOUT */
+        .wrap {
+            position:relative; z-index:1;
+            display:grid; grid-template-columns:1fr 420px;
+            gap:20px; max-width:1400px; margin:0 auto;
+            padding:88px 24px 48px;
+        }
+        .left-panel { display:flex; flex-direction:column; gap:16px; }
+
+        /* INTRO */
+        .page-tag { font-size:10px; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:8px; }
+        .page-title { font-family:'Syne',sans-serif; font-size:clamp(26px,4vw,42px); font-weight:800; letter-spacing:-1px; line-height:1.1; }
+        .page-sub { color:var(--muted); font-size:12px; margin-top:8px; line-height:1.6; }
+
+        /* AI BADGE */
+        .ai-badge {
+            display:inline-flex; align-items:center; gap:8px;
+            background:linear-gradient(135deg, rgba(139,111,255,0.15), rgba(0,229,160,0.10));
+            border:1px solid rgba(139,111,255,0.35);
+            border-radius:20px; padding:6px 14px; margin-top:10px;
+            font-size:10px; letter-spacing:1.5px; color:var(--purple);
+            text-transform:uppercase;
+        }
+        .ai-badge span { color:var(--accent); }
+
+        /* STEP PROGRESS BAR */
+        .step-progress {
+            display:flex; align-items:center;
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:12px; padding:16px 20px; overflow-x:auto; gap:0;
+        }
+        .step-item { display:flex; flex-direction:column; align-items:center; gap:5px; min-width:60px; }
+        .step-dot {
+            width:34px; height:34px; border-radius:50%;
+            border:2px solid var(--border); background:var(--surface2);
+            display:flex; align-items:center; justify-content:center;
+            font-size:11px; font-weight:600; color:var(--muted);
+            transition:all 0.35s; position:relative;
+        }
+        .step-dot.active {
+            border-color:var(--accent); color:var(--accent); background:var(--accent-dim);
+            animation: stepPulse 1.8s ease-in-out infinite;
+        }
+        .step-dot.done {
+            border-color:var(--accent); background:var(--accent);
+            color:#0c0d10; font-size:14px; font-weight:700;
+        }
+        @keyframes stepPulse {
+            0%,100%{ box-shadow:0 0 0 0 rgba(0,229,160,0.35); }
+            50%{ box-shadow:0 0 0 8px rgba(0,229,160,0); }
+        }
+        .step-label { font-size:9px; color:var(--muted); letter-spacing:0.5px; text-align:center; text-transform:uppercase; transition:color 0.3s; }
+        .step-label.active { color:var(--accent); }
+        .step-label.done { color:var(--accent); }
+        .step-connector { flex:1; height:2px; background:var(--border); min-width:10px; margin:0 2px; margin-bottom:16px; transition:background 0.35s; }
+        .step-connector.done { background:var(--accent); }
+
+        /* CARD */
+        .card {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:14px; overflow:hidden;
+        }
+        .card-header {
+            padding:15px 20px; border-bottom:1px solid var(--border);
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .card-title { font-family:'Syne',sans-serif; font-size:14px; font-weight:700; }
+        .card-badge {
+            font-size:9px; letter-spacing:2px; text-transform:uppercase;
+            padding:4px 10px; border-radius:20px;
+            background:var(--accent-dim); color:var(--accent);
+            border:1px solid rgba(0,229,160,0.25);
+        }
+
+        /* QUESTION BOX */
+        .q-box {
+            background:linear-gradient(135deg, rgba(0,229,160,0.07), rgba(139,111,255,0.05));
+            border:1px solid rgba(0,229,160,0.22);
+            border-radius:12px; padding:18px 20px; margin-bottom:16px;
+        }
+        .q-tag { font-size:9px; letter-spacing:2.5px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+        .q-text { font-family:'Syne',sans-serif; font-size:18px; font-weight:700; color:var(--text); line-height:1.3; }
+        .q-hint { font-size:11px; color:var(--muted); margin-top:7px; line-height:1.55; }
+
+        /* VISUALIZER */
+        .viz {
+            height:58px; background:var(--surface2); border:1px solid var(--border);
+            border-radius:10px; margin-bottom:14px;
+            display:flex; align-items:center; justify-content:center; gap:2px; overflow:hidden;
+        }
+        .vbar { width:3px; border-radius:2px; background:var(--accent); height:4px; opacity:0.35; }
+        .viz.live .vbar { animation:vwave 0.55s ease-in-out infinite alternate; opacity:0.85; }
+        .vbar:nth-child(2n){ animation-delay:0.06s; }
+        .vbar:nth-child(3n){ animation-delay:0.13s; }
+        .vbar:nth-child(4n){ animation-delay:0.21s; }
+        .vbar:nth-child(5n){ animation-delay:0.29s; }
+        @keyframes vwave { from{height:4px} to{height:40px} }
+
+        /* STATUS */
+        .vstatus {
+            text-align:center; font-size:11px; color:var(--muted);
+            margin-bottom:14px; min-height:18px; letter-spacing:0.3px;
+        }
+        .vstatus.live { color:var(--accent); }
+        .vstatus.thinking { color:var(--purple); }
+        .vstatus.generating { color:var(--warn); }
+
+        /* MIC ROW */
+        .mic-row { display:flex; justify-content:center; align-items:center; gap:16px; margin-bottom:14px; }
+        .mic-btn {
+            width:62px; height:62px; border-radius:50%;
+            border:2px solid var(--accent); background:transparent; color:var(--accent);
+            cursor:pointer; display:flex; align-items:center; justify-content:center;
+            transition:all 0.25s;
+        }
+        .mic-btn:hover:not(:disabled) { background:var(--accent-dim); box-shadow:var(--accent-glow); }
+        .mic-btn:disabled { opacity:0.3; cursor:not-allowed; }
+        .mic-btn.live {
+            border-color:var(--danger); color:var(--danger); background:rgba(255,79,109,0.08);
+            animation:micPulse 1s ease-in-out infinite;
+        }
+        @keyframes micPulse { 0%,100%{box-shadow:0 0 0 0 rgba(255,79,109,0.35);} 50%{box-shadow:0 0 0 10px rgba(255,79,109,0);} }
+        .mic-btn svg { width:22px; height:22px; }
+
+        .btn-sm {
+            padding:9px 18px; border:1px solid var(--border);
+            background:var(--surface2); color:var(--muted);
+            border-radius:8px; cursor:pointer;
+            font-family:'IBM Plex Mono',monospace; font-size:11px; transition:all 0.2s;
+        }
+        .btn-sm:hover:not(:disabled) { border-color:var(--accent); color:var(--accent); }
+        .btn-sm:disabled { opacity:0.3; cursor:not-allowed; }
+
+        /* TRANSCRIPT */
+        .transcript {
+            background:var(--surface2); border:1px solid var(--border);
+            border-radius:10px; padding:14px; min-height:68px;
+            font-size:12px; color:var(--text); line-height:1.7;
+            margin-bottom:10px; white-space:pre-wrap;
+        }
+        .transcript.ph { color:var(--muted); font-style:italic; }
+
+        .skip-link {
+            display:none; text-align:right; font-size:10px;
+            color:var(--muted); cursor:pointer; margin-bottom:12px;
+            letter-spacing:0.3px; text-decoration:underline dotted;
+        }
+        .skip-link:hover { color:var(--warn); }
+
+        /* GENERATE */
+        .btn-generate {
+            width:100%; padding:16px; margin-top:4px;
+            background:linear-gradient(135deg, #8b6fff, #00e5a0);
+            color:#0c0d10;
+            border:none; border-radius:10px;
+            font-family:'Syne',sans-serif; font-size:15px; font-weight:800;
+            cursor:pointer; letter-spacing:-0.3px; transition:all 0.25s;
+        }
+        .btn-generate:hover:not(:disabled) {
+            box-shadow: 0 0 30px rgba(139,111,255,0.35), 0 0 30px rgba(0,229,160,0.2);
+            transform:translateY(-1px);
+        }
+        .btn-generate:disabled { opacity:0.3; cursor:not-allowed; }
+
+        /* COLLECTED PANEL */
+        .collected-row {
+            display:flex; align-items:center; gap:12px;
+            padding:11px 20px; border-bottom:1px solid var(--border);
+            transition:background 0.3s;
+        }
+        .collected-row:last-child { border-bottom:none; }
+        .collected-row.done { background:rgba(0,229,160,0.04); }
+
+        .feat-icon {
+            width:32px; height:32px; border-radius:8px;
+            border:1.5px solid var(--border); background:var(--surface2);
+            display:flex; align-items:center; justify-content:center;
+            font-size:15px; flex-shrink:0; transition:all 0.3s;
+        }
+        .collected-row.done .feat-icon { border-color:var(--accent); background:var(--accent-dim); }
+
+        .feat-info { flex:1; min-width:0; }
+        .feat-name { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
+        .feat-value {
+            font-size:13px; color:var(--text); margin-top:2px;
+            white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:500;
+        }
+        .feat-value.pending { color:var(--muted2); font-style:italic; font-size:11px; font-weight:400; }
+
+        .feat-check {
+            width:20px; height:20px; border-radius:50%;
+            border:1.5px solid var(--border); background:transparent;
+            display:flex; align-items:center; justify-content:center;
+            font-size:11px; flex-shrink:0; transition:all 0.3s; color:transparent;
+        }
+        .collected-row.done .feat-check { border-color:var(--accent); background:var(--accent); color:#0c0d10; }
+
+        /* RIGHT PANEL */
+        .right-panel { display:flex; flex-direction:column; gap:16px; }
+
+        /* AI RESULT CARD */
+        .canvas-card {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:14px; overflow:hidden; position:relative;
+        }
+        .canvas-card-header {
+            padding:14px 18px; border-bottom:1px solid var(--border);
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .canvas-card-title { font-family:'Syne',sans-serif; font-size:13px; font-weight:700; }
+        .gemini-tag {
+            font-size:9px; letter-spacing:1.5px; text-transform:uppercase;
+            padding:3px 10px; border-radius:20px;
+            background:linear-gradient(135deg, rgba(139,111,255,0.2), rgba(0,229,160,0.15));
+            color:var(--purple);
+            border:1px solid rgba(139,111,255,0.3);
+        }
+
+        .canvas-ph {
+            height:500px; display:flex; flex-direction:column;
+            align-items:center; justify-content:center; color:var(--muted); gap:14px;
+            padding:20px; text-align:center;
+        }
+        .canvas-ph svg { opacity:0.15; width:64px; height:64px; }
+        .canvas-ph p { font-size:11px; line-height:1.7; max-width:240px; }
+        .canvas-ph .ph-steps {
+            display:flex; flex-direction:column; gap:6px; width:100%; max-width:260px;
+            margin-top:8px;
+        }
+        .ph-step {
+            display:flex; align-items:center; gap:10px;
+            background:var(--surface2); border:1px solid var(--border);
+            border-radius:8px; padding:9px 14px; font-size:10px; color:var(--muted);
+        }
+        .ph-step-num {
+            width:20px; height:20px; border-radius:50%;
+            background:var(--accent-dim); border:1px solid rgba(0,229,160,0.3);
+            color:var(--accent); font-size:9px; font-weight:700;
+            display:flex; align-items:center; justify-content:center; flex-shrink:0;
+        }
+
+        /* GENERATED IMAGE */
+        #generatedImg {
+            display:none; width:100%; border-radius:0 0 14px 14px;
+            object-fit:contain; max-height:600px; background:#fff;
+        }
+
+        /* PROMPT DISPLAY */
+        .prompt-box {
+            display:none;
+            background:var(--surface2); border:1px solid var(--border);
+            border-radius:10px; padding:12px 14px; font-size:10px;
+            color:var(--muted); line-height:1.7; margin-top:4px;
+        }
+        .prompt-box.visible { display:block; }
+        .prompt-label { font-size:9px; letter-spacing:2px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+
+        /* LOADING OVERLAY */
+        .loading-overlay {
+            position:absolute; inset:0; z-index:10;
+            background:rgba(12,13,16,0.9); backdrop-filter:blur(6px);
+            display:none; flex-direction:column; align-items:center; justify-content:center; gap:18px;
+        }
+        .loading-overlay.on { display:flex; }
+
+        .ai-spinner {
+            width:56px; height:56px; position:relative;
+        }
+        .ai-spinner::before, .ai-spinner::after {
+            content:''; position:absolute; border-radius:50%;
+            border:3px solid transparent;
+        }
+        .ai-spinner::before {
+            inset:0; border-top-color:var(--accent);
+            animation:spin 1s linear infinite;
+        }
+        .ai-spinner::after {
+            inset:8px; border-top-color:var(--purple);
+            animation:spin 0.7s linear infinite reverse;
+        }
+        @keyframes spin { to{ transform:rotate(360deg); } }
+
+        .loading-text { font-size:12px; color:var(--accent); letter-spacing:0.5px; text-align:center; }
+        .loading-sub { font-size:10px; color:var(--muted); }
+
+        /* DOWNLOAD CARD */
+        .dl-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px; }
+        .dl-title { font-family:'Syne',sans-serif; font-size:13px; font-weight:700; margin-bottom:12px; }
+        .dl-row { display:flex; gap:10px; }
+        .btn-dl {
+            flex:1; padding:11px; border:1px solid var(--border);
+            background:var(--surface2); color:var(--muted);
+            border-radius:8px; cursor:pointer; font-family:'IBM Plex Mono',monospace;
+            font-size:11px; transition:all 0.2s; text-align:center;
+        }
+        .btn-dl:hover:not(:disabled) { border-color:var(--accent); color:var(--accent); }
+        .btn-dl:disabled { opacity:0.3; cursor:not-allowed; }
+
+        /* SEND TO RECOGNITION */
+        .btn-send-recog {
+            width:100%; padding:11px; border:1px solid rgba(139,111,255,0.4);
+            background:rgba(139,111,255,0.08); color:var(--purple);
+            border-radius:8px; cursor:pointer; font-family:'IBM Plex Mono',monospace;
+            font-size:11px; transition:all 0.2s; text-align:center;
+            display:none;
+        }
+        .btn-send-recog.visible { display:block; }
+        .btn-send-recog:hover { border-color:var(--purple); background:rgba(139,111,255,0.15); }
+
+        .btn-reset {
+            width:100%; padding:10px; border:1px solid var(--border);
+            background:transparent; color:var(--muted);
+            border-radius:8px; cursor:pointer; font-family:'IBM Plex Mono',monospace;
+            font-size:11px; transition:all 0.2s;
+        }
+        .btn-reset:hover { border-color:var(--danger); color:var(--danger); }
+
+        /* ERROR BOX */
+        .error-box {
+            display:none; background:rgba(255,79,109,0.08);
+            border:1px solid rgba(255,79,109,0.3);
+            border-radius:10px; padding:14px 16px;
+            font-size:11px; color:var(--danger); line-height:1.6;
+        }
+        .error-box.visible { display:block; }
+        
+
+        /* FLASH */
+        .flash-wrap { position:fixed; top:76px; right:20px; z-index:200; display:flex; flex-direction:column; gap:8px; }
+        .flash { padding:10px 18px; border-radius:8px; font-size:12px; animation:slideIn 0.3s ease; }
+        .flash.success { background:rgba(0,229,160,0.12); border:1px solid var(--accent); color:var(--accent); }
+        .flash.danger { background:rgba(255,79,109,0.12); border:1px solid var(--danger); color:var(--danger); }
+        @keyframes slideIn { from{transform:translateX(100%);opacity:0} to{transform:translateX(0);opacity:1} }
+
+        .voice-body { padding:20px; }
+
+        @media(max-width:1024px){ .wrap{grid-template-columns:1fr;} .right-panel{order:-1;} }
+        .logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+
+.nav-logo{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+.logo-text{
+    font-size:30px;
+    font-weight:700;
+
+    background:linear-gradient(90deg,#45b3ff,#8b5cf6);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+    </style>
+</head>
+<body>
+
+<nav>
+   <a href="/" class="logo">
+
+        <img src="{{ url_for('static', filename='images/logo.png') }}"
+             alt="AI Forensic Logo"
+             class="nav-logo">
+
+    </a>
+    <div class="nav-links">
+        <a href="/sketch" class="active">Voice Description</a>
+        <a href="/recognition">Recognition</a>
+        {% if session.get('role') == 'admin' %}<a href="/admin/dashboard">Admin</a>{% endif %}
+        <a href="/logout">Logout</a>
+    </div>
+</nav>
+
+<div class="flash-wrap">
+    {% for cat, msg in get_flashed_messages(with_categories=true) %}
+    <div class="flash {{ cat }}">{{ msg }}</div>
+    {% endfor %}
+</div>
+
+<div class="wrap">
+    <!-- ═══ LEFT PANEL ══════════════════════════════════════════════════════ -->
+    <div class="left-panel">
+        <div>
+            <div class="page-tag">//AI FORENSIC INVESTIGATION</div>
+            <h1 class="page-title">Provide Voice<br>Description</h1>
+            <p class="page-sub">
+Provide the suspect's facial features using voice descriptions. The AI model analyzes the spoken description and generates a realistic suspect face for forensic investigation.
+</p>
+            <div class="ai-badge">✦ Powered by <span>Deep Learning</span></div>
+        </div>
+
+        <!-- STEP PROGRESS -->
+        <div class="step-progress" id="stepProgress"></div>
+
+        <!-- VOICE CARD -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title" id="cardTitle">Ready to Begin</span>
+                <span class="card-badge" id="cardBadge">0 / 7</span>
+            </div>
+            <div class="voice-body">
+                <div class="q-box">
+                    <div class="q-tag" id="qTag">// waiting</div>
+                    <div class="q-text" id="qText">Click "Start Session" to begin.</div>
+                    <div class="q-hint" id="qHint"></div>
+                </div>
+
+                <div class="viz" id="viz">
+                    {% for i in range(48) %}<div class="vbar"></div>{% endfor %}
+                </div>
+
+                <div class="vstatus" id="vstatus">Press Start to begin</div>
+
+                <div class="mic-row">
+                    <button class="btn-sm" id="startBtn">▶ Start Session</button>
+                    <button class="mic-btn" id="micBtn" disabled>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                    </button>
+                    <button class="btn-sm" id="skipBtn" disabled>Skip →</button>
+                </div>
+
+                <div class="transcript ph" id="transcript">Your spoken answer appears here…</div>
+                <span class="skip-link" id="skipLink" onclick="skipFeature()">— skip this feature —</span>
+
+                <button class="btn-generate" id="generateBtn" disabled>
+                    ✦ Generate Suspect Face
+                </button>
+            </div>
+        </div>
+
+        <!-- COLLECTED FEATURES -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Captured Facial Features</span>
+                <span class="card-badge" id="collectedCount">0 / 7</span>
+            </div>
+            <div id="collectedList"></div>
+        </div>
+    </div>
+
+    <!-- ═══ RIGHT PANEL ════════════════════════════════════════════════════ -->
+<div class="right-panel">
+
+    <!-- AI GENERATED FACE CARD -->
+    <div class="canvas-card">
+
+        <div class="canvas-card-header">
+            <span class="canvas-card-title">AI Generated Suspect Face</span>
+            <span class="gemini-tag">Deep Learning</span>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading-overlay" id="loader">
+            <div class="ai-spinner"></div>
+            <div class="loading-text" id="loaderText">Generating Suspect Face...</div>
+            <div class="loading-sub">Generating a realistic suspect face...</div>
+        </div>
+
+        <!-- Placeholder -->
+        <div class="canvas-ph" id="canvasPh">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="8" r="5"/>
+                <path d="M3 21v-1a9 9 0 0 1 18 0v1"/>
+            </svg>
+
+            <p>
+                The AI model will generate a realistic suspect face after all voice
+                descriptions have been collected.
+            </p>
+
+            <div class="ph-steps">
+                <div class="ph-step">
+                    <div class="ph-step-num">1</div>
+                    Describe each facial feature by voice
+                </div>
+
+                <div class="ph-step">
+                    <div class="ph-step-num">2</div>
+                    Generate the Suspect Face
+                </div>
+
+                <div class="ph-step">
+                    <div class="ph-step-num">3</div>
+                    Review the generated suspect face
+                </div>
+            </div>
+        </div>
+
+        <!-- Generated Image -->
+        <img
+            id="generatedImg"
+            src=""
+            alt="AI Generated Suspect Face"
+            style="display:none;width:100%;height:auto;max-height:600px;object-fit:contain;background:white;"
+        >
+
+    </div>
+
+    <div class="error-box" id="errorBox"></div>
+
+    <div class="prompt-box" id="promptBox">
+        <div class="prompt-label">// AI Generation Prompt</div>
+        <div id="promptText"></div>
+    </div>
+
+    <div class="dl-card">
+        <div class="dl-title">Export Suspect Face</div>
+        <div class="dl-row">
+            <button class="btn-dl" id="dlPNG" disabled>↓ PNG</button>
+            <button class="btn-dl" id="dlJPG" disabled>↓ JPG</button>
+        </div>
+    </div>
+
+    <button class="btn-send-recog" id="sendRecogBtn" onclick="sendToRecognition()">
+        ⟶ Use This Face for Recognition
+    </button>
+
+    <button class="btn-reset" id="resetBtn">
+        ↺ Reset Everything
+    </button>
+
+</div>
+
+<canvas id="exportCanvas" style="display:none;"></canvas>
+
+<script>
+const SKETCH_PARTS = {{ parts | tojson }};
+
+// ─── FEATURE DEFINITIONS ──────────────────────────────────────────────────────
+const STEPS = [
+    {
+        key:'gender',
+        label:'Gender',
+        icon:'⚧',
+        question:'What is the gender of the suspect?',
+        hint:'Say "male", "female", or "unknown".'
+    },
+    {
+    key: 'skin',
+    label: 'Skin Color',
+    icon: '🧑🏽',
+    question: 'What was the skin color or complexion of the suspect?',
+    hint: 'e.g. "very fair", "fair", "light brown", "medium brown", "dark brown", "deep brown", "black", "olive", "tan", "unknown"'
+   },
+    {
+        key:'head', label:'Head Shape', icon:'🫙',
+        question:'Tell me about the head shape.',
+        hint:'e.g. "long oval face", "round chubby face", "square jaw", "narrow face", "wide broad forehead"'
+    },
+    {
+        key:'hair', label:'Hair Style', icon:'💇',
+        question:'Describe the hair — style, length, and type.',
+        hint:'e.g. "long straight hair", "short curly", "wavy", "bald", "crew cut", "afro"'
+    },
+    {
+        key:'eyebrows', label:'Eyebrows', icon:'〰️',
+        question:'What did the eyebrows look like?',
+        hint:'e.g. "thick bushy brows", "thin pencil", "arched", "flat straight", "bold dark"'
+    },
+    {
+        key:'eyes', label:'Eyes', icon:'👁️',
+        question:'Describe the eyes.',
+        hint:'e.g. "narrow slit eyes", "wide round eyes", "almond shaped", "small deep set", "large open"'
+    },
+    {
+        key:'nose', label:'Nose', icon:'👃',
+        question:'Tell me about the nose.',
+        hint:'e.g. "broad flat nose", "thin pointed", "button nose", "large wide nostrils", "hooked"'
+    },
+    {
+        key:'lips', label:'Lips / Mouth', icon:'👄',
+        question:'Describe the lips or mouth.',
+        hint:'e.g. "thin lips", "full thick lips", "wide mouth", "small pressed lips", "pouty"'
+    },
+    {
+        key:'mustach', label:'Facial Hair', icon:'🧔',
+        question:'Any facial hair — mustache or beard?',
+        hint:'e.g. "thick mustache", "full beard", "goatee", "clean shaven", "stubble", "no facial hair"'
+    }
+];
+
+const FEATURE_OPTIONS = {
+    gender: ["Male","Female","Unknown"],
+
+    skin:[
+    "Very fair",
+    "Fair",
+    "Light brown",
+    "Medium brown",
+    "Dark brown",
+    "Deep brown",
+    "Black",
+    "Olive",
+    "Tan",
+    "Unknown"
+],
+    head: [
+        "Oval face",
+        "Round face",
+        "Long face",
+        "Square face",
+        "Heart-shaped face",
+        "Wide face",
+        "Narrow face",
+        "Unknown"
+    ],
+
+    hair: [
+        "Short straight hair",
+        "Long straight hair",
+        "Curly hair",
+        "Wavy hair",
+        "Bald",
+        "Crew cut",
+        "Afro",
+        "Unknown"
+    ],
+
+    eyebrows: [
+        "Thin eyebrows",
+        "Thick eyebrows",
+        "Bushy eyebrows",
+        "Arched eyebrows",
+        "Straight eyebrows",
+        "Unknown"
+    ],
+
+    eyes: [
+        "Large eyes",
+        "Small eyes",
+        "Round eyes",
+        "Almond eyes",
+        "Narrow eyes",
+        "Deep-set eyes",
+        "Unknown"
+    ],
+
+    nose: [
+        "Button nose",
+        "Broad nose",
+        "Pointed nose",
+        "Flat nose",
+        "Hooked nose",
+        "Unknown"
+    ],
+
+    lips: [
+        "Thin lips",
+        "Full lips",
+        "Wide mouth",
+        "Small mouth",
+        "Pouty lips",
+        "Unknown"
+    ],
+
+    mustach: [
+        "Clean shaven",
+        "Stubble",
+        "Goatee",
+        "Mustache",
+        "Thick mustache",
+        "Full beard",
+        "Unknown"
+    ]
+};
+
+// ─── STATE ────────────────────────────────────────────────────────────────────
+let step = -1;
+let collected = {};
+let isRec = false;
+let liveText = '';
+let recog = null;
+let generatedImageDataUrl = null;  // Store the generated suspect face for download
+
+// ─── SPEECH ───────────────────────────────────────────────────────────────────
+function initSpeech() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) { setStatus('⚠ Use Chrome for voice support.'); return; }
+    recog = new SR();
+    recog.continuous = true;
+    recog.interimResults = true;
+    recog.lang = 'en-US';
+    recog.onresult = e => {
+        let interim='', final='';
+        for (let i=e.resultIndex; i<e.results.length; i++) {
+            if (e.results[i].isFinal) final += e.results[i][0].transcript + ' ';
+            else interim += e.results[i][0].transcript;
+        }
+        liveText += final;
+        showTx(liveText + interim);
+    };
+    recog.onerror = e => { stopRec(); setStatus('Mic error: ' + e.error); };
+    recog.onend = () => { if (isRec) recog.start(); };
+}
+
+// ─── HELPERS ──────────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+function setStatus(t, cls='') { $('vstatus').textContent=t; $('vstatus').className='vstatus '+cls; }
+function showTx(t) { $('transcript').classList.remove('ph'); $('transcript').textContent=t; }
+
+function speak(text) {
+    if (!window.speechSynthesis) return;
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.rate=0.9; u.pitch=1;
+    speechSynthesis.speak(u);
+}
+
+// ─── BUILD STEP PROGRESS ──────────────────────────────────────────────────────
+function buildProgress() {
+    const el = $('stepProgress'); el.innerHTML='';
+    STEPS.forEach((s,i) => {
+        const wrap = document.createElement('div');
+        wrap.className='step-item';
+        wrap.innerHTML=`<div class="step-dot" id="sd${i}">${i+1}</div>
+                        <div class="step-label" id="sl${i}">${s.label.split(' ')[0]}</div>`;
+        el.appendChild(wrap);
+        if (i < STEPS.length-1) {
+            const con = document.createElement('div');
+            con.className='step-connector'; con.id=`sc${i}`;
+            el.appendChild(con);
+        }
+    });
+}
+
+function updateProgress(activeIdx) {
+    STEPS.forEach((_,i) => {
+        const d=$(`sd${i}`), l=$(`sl${i}`), c=$(`sc${i}`);
+        if (i < activeIdx) {
+            d.className='step-dot done'; d.textContent='✓';
+            l.className='step-label done';
+            if (c) c.className='step-connector done';
+        } else if (i===activeIdx) {
+            d.className='step-dot active'; d.textContent=i+1;
+            l.className='step-label active';
+        } else {
+            d.className='step-dot'; d.textContent=i+1;
+            l.className='step-label';
+        }
+    });
+}
+
+// ─── BUILD COLLECTED LIST ─────────────────────────────────────────────────────
+function buildCollected() {
+    const el=$('collectedList'); el.innerHTML='';
+    STEPS.forEach(s => {
+        const row=document.createElement('div');
+        row.className='collected-row'; row.id='cr-'+s.key;
+        row.innerHTML=`
+            <div class="feat-icon" id="fi-${s.key}">${s.icon}</div>
+            <div class="feat-info">
+                <div class="feat-name">${s.label}</div>
+                <div class="feat-value pending" id="fv-${s.key}">Not yet collected</div>
+            </div>
+            <div class="feat-check" id="fc-${s.key}"></div>`;
+        el.appendChild(row);
+    });
+}
+
+function markCollected(key, label) {
+    const row=$('cr-'+key), val=$('fv-'+key), chk=$('fc-'+key);
+    if (!row) return;
+    row.classList.add('done');
+    val.className='feat-value';
+    val.textContent = label;
+    chk.textContent='✓';
+    const done=Object.keys(collected).length;
+    $('collectedCount').textContent=`${done} / ${STEPS.length}`;
+}
+
+// ─── LOAD STEP ────────────────────────────────────────────────────────────────
+function loadStep(idx) {
+    if (idx >= STEPS.length) { allDone(); return; }
+    const s = STEPS[idx];
+    $('qTag').textContent=`// step ${idx+1} of ${STEPS.length} — ${s.label}`;
+    $('qText').textContent=s.question;
+    $('qHint').textContent=s.hint;
+    $('cardTitle').textContent=s.label;
+    $('cardBadge').textContent=`${idx+1} / ${STEPS.length}`;
+    $('transcript').className='transcript ph';
+    $('transcript').textContent='Your spoken answer appears here…';
+    $('skipLink').style.display='block';
+    liveText='';
+    setStatus('🎤 Press mic to answer, press again to confirm','');
+    updateProgress(idx);
+    speak(s.question);
+}
+
+// ─── RECORDING ────────────────────────────────────────────────────────────────
+function startRec() {
+    if (!recog) { setStatus('Speech not available.'); return; }
+    isRec=true;
+    $('micBtn').classList.add('live');
+    $('viz').classList.add('live');
+    setStatus('● Listening… press mic again to confirm','live');
+    recog.start();
+}
+function stopRec() {
+    isRec=false;
+    $('micBtn').classList.remove('live');
+    $('viz').classList.remove('live');
+    if (recog) { try{recog.stop();}catch(e){} }
+}
+
+/// ─── Process Voice Description ────────────────────────────────────────────────
+
+
+async function processAnswer(stepObj, rawText) {
+
+    let normalized = rawText
+        .toLowerCase()
+        .replace(/[^a-z\s-]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
+
+   const MATCHES = {
+
+    gender:{
+    "Male":["male","mail","mael","malee","man","boy","guy"],
+    "Female":["female","fee male","e mail","femail","femalee","woman","girl","lady"],
+    "Unknown":["unknown","dont know","not sure"]
+},
+
+
+    skin:{
+        "Very fair":[
+            "very fair",
+            "fair skin"
+        ],
+        "Fair":[
+            "fair"
+        ],
+        "Light brown":[
+            "light brown",
+            "light brown skin"
+        ],
+        "Medium brown":[
+            "medium brown",
+            "medium brown skin",
+            "medium"
+        ],
+        "Dark brown":[
+            "dark brown",
+            "dark brown skin",
+            "deep brown"
+        ],
+        "Black":[
+            "black",
+            "black skin"
+        ],
+        "Olive":[
+            "olive"
+        ],
+        "Tan":[
+            "tan"
+        ],
+        "Unknown":[
+            "unknown",
+            "dont know"
+        ]
+    },
+
+
+    head:{
+"Oval face":[
+    "oval",
+    "oval face",
+    "long oval face"
+],
+
+"Round face":[
+    "round",
+    "round face",
+    "round chubby face"
+],
+
+"Square face":[
+    "square",
+    "square jaw",
+    "square face"
+],
+
+"Wide face":[
+    "wide",
+    "wide face",
+    "wide broad forehead",
+    "broad forehead"
+],
+
+"Narrow face":[
+    "narrow",
+    "narrow face"
+]
+},
+
+    hair:{
+"Short straight hair":[
+    "short straight",
+    "short straight hair"
+],
+
+"Long straight hair":[
+    "long straight",
+    "long straight hair"
+],
+
+"Curly hair":[
+    "curly",
+    "curly hair",
+    "short curly"
+],
+
+"Wavy hair":[
+    "wavy",
+    "wavy hair"
+],
+
+"Bald":[
+    "bald"
+],
+
+"Crew cut":[
+    "crew cut"
+],
+
+"Afro":[
+    "afro"
+]
+},
+
+    eyebrows:{
+    "Thin eyebrows":[
+        "thin eyebrow",
+        "thin eyebrows",
+        "thin pencil"
+    ],
+
+    "Thick eyebrows":[
+        "thick eyebrow",
+        "thick eyebrows",
+        "thick bushy brows",
+        "bold dark"
+    ],
+
+    "Bushy eyebrows":[
+        "bushy",
+        "bushy eyebrows"
+    ],
+
+    "Arched eyebrows":[
+        "arched",
+        "arched eyebrows"
+    ],
+
+    "Straight eyebrows":[
+        "straight eyebrow",
+        "straight eyebrows",
+        "flat straight"
+    ],
+
+    "Unknown":[
+        "unknown",
+        "dont know"
+    ]
+},
+
+    eyes:{
+"Large eyes":[
+    "large eyes",
+    "large open"
+],
+
+"Small eyes":[
+    "small eyes",
+    "small deep set"
+],
+
+"Round eyes":[
+    "round eyes",
+    "wide round eyes"
+],
+
+"Almond eyes":[
+    "almond eyes",
+    "almond shaped"
+],
+
+"Narrow eyes":[
+    "narrow eyes",
+    "narrow slit eyes"
+],
+
+"Deep-set eyes":[
+    "deep set",
+    "deep set eyes"
+]
+},
+    nose:{
+"Button nose":[
+    "button nose"
+],
+
+"Broad nose":[
+    "broad nose",
+    "broad flat nose",
+    "large wide nostrils"
+],
+
+"Pointed nose":[
+    "pointed nose",
+    "thin pointed"
+],
+
+"Flat nose":[
+    "flat nose"
+],
+
+"Hooked nose":[
+    "hooked"
+]
+},
+
+   lips:{
+"Thin lips":[
+    "thin lips"
+],
+
+"Full lips":[
+    "full lips",
+    "full thick lips"
+],
+
+"Wide mouth":[
+    "wide mouth"
+],
+
+"Small mouth":[
+    "small mouth",
+    "small pressed lips"
+],
+
+"Pouty lips":[
+    "pouty lips",
+    "pouty"
+]
+},
+    mustach:{
+        "Clean shaven":[
+            "clean shaven",
+            "no facial hair"
+        ],
+        "Stubble":[
+            "stubble"
+        ],
+        "Goatee":[
+            "goatee"
+        ],
+        "Mustache":[
+            "mustache",
+            "moustache"
+        ],
+        "Thick mustache":[
+            "thick mustache"
+        ],
+        "Full beard":[
+            "full beard",
+            "beard"
+        ],
+        "Unknown":[
+            "unknown",
+            "dont know"
+        ]
+    }
+
+};
+
+    const feature = MATCHES[stepObj.key];
+
+if(feature){
+
+    for(const label in feature){
+
+        for(const phrase of feature[label]){
+
+            if(normalized.includes(phrase)){
+                return label;
+            }
+
+        }
+    }
+}
+
+
+    // AI fallback for unmatched speech
+    const options = FEATURE_OPTIONS[stepObj.key].join("\n- ");
+
+    const sys = `
+You are an expert forensic facial feature interpreter.
+
+Speech input:
+"${rawText}"
+
+Allowed values:
+- ${options}
+
+Rules:
+1. Fix only speech recognition mistakes.
+2. Return exactly one allowed value.
+3. Never create new labels.
+4. If uncertain return Unknown.
+
+Return JSON only:
+
+{
+ "label":"value"
+}
+`;
+
+
+    try {
+
+        const res = await fetch('https://api.anthropic.com/v1/messages', {
+            method:'POST',
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                model:'claude-sonnet-4-20250514',
+                max_tokens:80,
+                system:sys,
+                messages:[
+                    {
+                        role:'user',
+                        content:`
+Feature:
+${stepObj.label}
+
+Witness said:
+
+"${rawText}"
+`
+                    }
+                ]
+            })
+        });
+
+        const data = await res.json();
+
+        const raw = (data.content || []).map(c => c.text || '').join('');
+
+        const parsed = JSON.parse(
+            raw.replace(/```json|```/g,'').trim()
+        );
+
+        let label = parsed.label || "Unknown";
+
+        // Validate returned label
+        if(!FEATURE_OPTIONS[stepObj.key].includes(label)){
+            label = "Unknown";
+        }
+
+        return label;
+
+    } catch(e){
+
+        console.error(e);
+        return "Unknown";
+    }
+}
+
+// ─── CONFIRM ANSWER ───────────────────────────────────────────────────────────
+async function confirmAnswer() {
+    if (step<0 || step>=STEPS.length) return;
+    if (!liveText.trim()) { setStatus('Nothing heard — try again or skip.'); return; }
+    stopRec();
+    $('micBtn').disabled=true; $('skipBtn').disabled=true;
+
+    const s=STEPS[step];
+    const label = await processAnswer(s, liveText.trim());
+
+if (label === "Unknown") {
+
+    setStatus("❌ I couldn't understand. Please describe again.");
+    speak("I couldn't understand. Please describe again.");
+
+    liveText = "";
+
+    $('transcript').className = 'transcript ph';
+    $('transcript').textContent = 'Please speak again...';
+
+    $('micBtn').disabled = false;
+    $('skipBtn').disabled = false;
+
+    return;
+}
+
+collected[s.key] = { label, rawText: liveText.trim() };
+markCollected(s.key, label);
+
+step++;
+    $('micBtn').disabled=false; $('skipBtn').disabled=false;
+    if (step >= STEPS.length) allDone();
+    else loadStep(step);
+}
+
+function skipFeature() {
+    stopRec(); liveText='';
+    const s=STEPS[step];
+    collected[s.key]={ label:'Skipped', rawText:'' };
+    markCollected(s.key, 'Skipped');
+    step++;
+    $('micBtn').disabled=false; $('skipBtn').disabled=false;
+    if (step>=STEPS.length) allDone();
+    else loadStep(step);
+}
+
+function allDone() {
+    $('qTag').textContent='// all features collected';
+    $('qText').textContent='✓ Complete! Click Generate to create the suspect face.';
+   $('qHint').textContent='The AI model will generate a realistic suspect face from the collected voice descriptions.';
+    $('micBtn').disabled=true; $('skipBtn').disabled=true;
+    $('skipLink').style.display='none';
+    $('generateBtn').disabled=false;
+    $('cardTitle').textContent='All Done';
+    $('cardBadge').textContent='Complete';
+    updateProgress(STEPS.length);
+    setStatus('Ready to generate!','');
+    speak('All features collected. Click Generate to generate the suspect face.');
+}
+
+// ─── Generate Suspect Face ────────────────────────────────────────────────────
+$('generateBtn').addEventListener('click', async () => {
+    $('loader').classList.add('on');
+   $('loaderText').textContent = 'Sending to AI Model...';
+    $('generateBtn').disabled = true;
+    $('errorBox').className = 'error-box';
+    $('promptBox').className = 'prompt-box';
+
+    try {
+        await generateSuspectFace();
+    } catch(e) {
+        console.error(e);
+        showError('An unexpected error occurred: ' + e.message);
+    }
+
+    $('loader').classList.remove('on');
+    $('generateBtn').disabled = false;
+});
+
+async function generateSuspectFace() {
+    // Build the features object from collected labels
+    const features = {};
+    for (const [key, val] of Object.entries(collected)) {
+        if (val.label && val.label !== 'Skipped') {
+            features[key] = val.label;
+        }
+    }
+
+    $('loaderText').textContent = 'Processing with Deep Learning Model...';
+
+    const response = await fetch('/generate-face', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ features })
+    });
+
+    const data = await response.json();
+
+    if (!response.ok || data.error) {
+        showError(data.error || 'Failed to generate suspect face.');
+        return;
+    }
+
+    if (data.image) {
+    // Display the generated suspect face
+    generatedImageDataUrl = data.image;
+    const img = $('generatedImg');
+    img.src = data.image;
+    img.style.display = 'block';
+    $('canvasPh').style.display = 'none';
+
+    // Enable downloads
+    $('dlPNG').disabled = false;
+    $('dlJPG').disabled = false;
+    $('sendRecogBtn').classList.add('visible');
+
+    // Display the generated prompt
+    if (data.prompt) {
+        $('promptText').textContent = data.prompt;
+        $('promptBox').classList.add('visible');
+    }
+
+    setStatus('✓ Suspect face generated successfully!', '');
+    speak('Suspect face generated successfully. You can now download it or use it for face recognition.');
+} else {
+    showError('Failed to generate the suspect face. Please try again.');
+}
+}
+function showError(msg) {
+    $('errorBox').textContent = '⚠ ' + msg;
+    $('errorBox').classList.add('visible');
+    setStatus('Generation failed.', '');
+}
+
+// ─── DOWNLOADS ────────────────────────────────────────────────────────────────
+$('dlPNG').addEventListener('click', () => {
+    if (!generatedImageDataUrl) return;
+    const a = document.createElement('a');
+    a.download = 'suspect_face.png';
+    a.href = generatedImageDataUrl;
+    a.click();
+});
+
+$('dlJPG').addEventListener('click', () => {
+    if (!generatedImageDataUrl) return;
+    // Draw to canvas to convert to JPEG
+    const img = $('generatedImg');
+    const canvas = $('exportCanvas');
+    canvas.width = img.naturalWidth || 500;
+    canvas.height = img.naturalHeight || 700;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0);
+    const a = document.createElement('a');
+    a.download = 'suspect_face.jpg';
+    a.href = canvas.toDataURL('image/jpeg', 0.92);
+    a.click();
+});
+
+// ─── SEND TO RECOGNITION ──────────────────────────────────────────────────────
+async function sendToRecognition() {
+    if (!generatedImageDataUrl) return;
+
+    try {
+        // Convert data URL to a Blob, then FormData, then POST to /recognition
+        const res = await fetch(generatedImageDataUrl);
+        const blob = await res.blob();
+        const formData = new FormData();
+        formData.append('sketch', blob, 'suspect_face.png');
+
+        // Submit as a form POST to the recognition endpoint
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = '/recognition';
+        form.enctype = 'multipart/form-data';
+        form.style.display = 'none';
+
+        // We need to do a real file upload — redirect user to recognition page
+        // with a note that they can upload the downloaded PNG
+        alert('Download the generated suspect face first, then upload it on the Face Recognition page.');
+    } catch(e) {
+        console.error(e);
+    }
+}
+
+// ─── CONTROLS ─────────────────────────────────────────────────────────────────
+$('startBtn').addEventListener('click',()=>{
+    step=0; $('startBtn').disabled=true;
+    $('micBtn').disabled=false; $('skipBtn').disabled=false;
+    loadStep(0);
+});
+
+$('micBtn').addEventListener('click',()=>{
+    if (!isRec) startRec(); else confirmAnswer();
+});
+
+$('skipBtn').addEventListener('click', skipFeature);
+
+$('resetBtn').addEventListener('click',()=>{
+    collected={}; step=-1; liveText=''; generatedImageDataUrl=null; stopRec();
+    buildProgress(); buildCollected(); updateProgress(-1);
+
+    $('startBtn').disabled=false;
+    $('micBtn').disabled=true; $('skipBtn').disabled=true;
+    $('generateBtn').disabled=true;
+    $('dlPNG').disabled=true; $('dlJPG').disabled=true;
+
+    $('generatedImg').style.display='none';
+    $('generatedImg').src='';
+    $('canvasPh').style.display='flex';
+    $('errorBox').className='error-box';
+    $('promptBox').className='prompt-box';
+    $('sendRecogBtn').classList.remove('visible');
+
+    $('collectedCount').textContent='0 / '+STEPS.length;
+    $('cardBadge').textContent='0 / '+STEPS.length;
+    $('cardTitle').textContent='Ready to Begin';
+    $('qTag').textContent='// waiting';
+    $('qText').textContent='Click "Start Session" to begin.';
+    $('qHint').textContent='';
+    $('transcript').className='transcript ph';
+    $('transcript').textContent='Your spoken answer appears here…';
+    $('skipLink').style.display='none';
+    setStatus('Press Start to begin','');
+});
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+initSpeech(); buildProgress(); buildCollected(); updateProgress(-1);
+setTimeout(()=>{ document.querySelectorAll('.flash').forEach(f=>f.remove()); },5000);
+</script>
+</body>
+</html>

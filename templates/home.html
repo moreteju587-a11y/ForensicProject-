@@ -1,0 +1,695 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<style>
+
+body{
+    background:#020617;
+    color:white;
+}
+
+
+/* HERO */
+
+.hero-section{
+
+    min-height:350px;
+
+    display:flex;
+    align-items:center;
+
+    background:
+    radial-gradient(circle at center,
+    rgba(34,211,238,.25),
+    transparent 45%),
+    linear-gradient(
+    180deg,
+    #020617,
+    #020617
+    );
+
+    text-align:center;
+}
+
+
+
+.hero-section h1{
+
+    font-size:55px;
+    font-weight:900;
+
+    background:
+    linear-gradient(
+    90deg,
+    #22d3ee,
+    #a855f7
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+
+
+.hero-section p{
+
+    color:#d1d5db;
+    font-size:20px;
+    max-width:800px;
+    margin:auto;
+
+}
+
+
+
+.btn-hero{
+
+    margin-top:25px;
+
+    padding:14px 45px;
+
+    border-radius:30px;
+
+    border:none;
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #06b6d4,
+    #9333ea
+    );
+
+}
+
+
+
+
+/* ALL SECTIONS */
+
+.section{
+
+    padding:70px 0;
+
+    background:#020617;
+
+}
+
+
+
+.section-title{
+
+    text-align:center;
+
+    font-size:38px;
+
+    font-weight:800;
+
+}
+
+
+
+.section-title:after{
+
+    content:"";
+
+    display:block;
+
+    width:100px;
+
+    height:4px;
+
+    margin:15px auto;
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #22d3ee,
+    #a855f7
+    );
+
+}
+
+
+
+
+/* REMOVE IMAGES */
+
+.section img{
+
+    display:none;
+
+}
+
+
+
+/* WHY SYSTEM */
+
+#importance .col-md-6{
+
+    width:100%;
+    text-align:center;
+
+}
+
+
+#importance p{
+
+    max-width:850px;
+
+    margin:15px auto;
+
+    color:#cbd5e1;
+
+    font-size:18px;
+
+}
+
+
+
+
+
+/* FEATURES */
+
+
+.feature-card{
+
+
+    height:100%;
+
+
+    background:
+
+    linear-gradient(
+    135deg,
+    rgba(15,23,42,.9),
+    rgba(30,41,59,.7)
+    );
+
+
+    border:
+
+    1px solid rgba(34,211,238,.4);
+
+
+    border-radius:20px;
+
+
+    padding:30px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.feature-card:hover{
+
+
+    transform:translateY(-10px);
+
+
+    box-shadow:
+
+    0 0 30px rgba(34,211,238,.5);
+
+}
+
+
+
+
+.feature-icon{
+
+
+    font-size:50px;
+
+    color:#a855f7;
+
+    text-shadow:
+    0 0 20px #22d3ee;
+
+
+}
+
+
+
+.feature-card h4{
+
+    color:#22d3ee;
+
+    font-weight:700;
+
+}
+
+
+
+.feature-card p{
+
+    color:#cbd5e1;
+
+}
+
+
+
+
+
+/* PROCESS */
+
+
+.step-number{
+
+
+    width:70px;
+
+    height:70px;
+
+
+    border-radius:50%;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    margin:auto;
+
+
+    font-size:25px;
+
+
+    background:
+
+    linear-gradient(
+    135deg,
+    #06b6d4,
+    #9333ea
+    );
+
+
+}
+
+
+
+.step-item h5{
+
+    text-align:center;
+
+    color:#22d3ee;
+
+    margin-top:20px;
+
+}
+
+
+
+.step-item p{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+}
+
+
+</style>
+
+
+
+<!-- HERO -->
+
+<div class="hero-section">
+
+<div class="container">
+
+<h1>
+Deep Learning-Based Forensic Facial Identification from Voice Descriptions
+</h1>
+
+
+<p>
+<p>
+Transform witness voice descriptions into AI-generated suspect faces, compare them against an investigation database, identify the most similar matching suspect, and generate standardized investigation reports to support faster and more efficient forensic investigations.
+</p>
+</p>
+
+
+<a href="{{ url_for('login') }}" 
+class="btn btn-primary btn-hero">
+
+Get Started
+
+</a>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- WHY -->
+
+<div id="importance" class="section">
+
+<div class="container">
+
+
+<h2 class="section-title">
+Why This System Matters
+</h2>
+
+
+<div class="row">
+
+<div class="col-md-12">
+
+
+<p>
+<p>
+Identifying suspects from witness voice descriptions can be challenging and time-consuming. Our AI-powered system converts spoken descriptions into realistic suspect faces, compares them with an investigation database, and identifies the most similar suspect to assist investigators while ensuring that final identification remains a human decision.
+</p>
+</p>
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- FEATURES -->
+
+
+<div id="features" class="section">
+
+
+<div class="container">
+
+
+<h2 class="section-title">
+Core Features
+</h2>
+
+
+
+<div class="row">
+
+
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="feature-card">
+
+
+<div class="feature-icon">
+🎤 
+</div>
+
+
+<h4>
+Voice Description
+</h4>
+
+
+<p>
+The investigation begins when a witness provides a spoken description of the suspect's facial characteristics using voice input.
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="feature-card">
+
+
+<div class="feature-icon">
+🤖
+</div>
+
+
+<h4>
+AI Face Generation
+</h4>
+
+
+<p>
+Generate realistic facial images from witness descriptions using advanced Artificial Intelligence models.
+</p>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="feature-card">
+
+
+<div class="feature-icon">
+🧠
+</div>
+
+
+<h4>
+Intelligent Face Recognition
+</h4>
+
+
+<p>
+Extract facial features from the generated image and compare them against the investigation database using deep learning algorithms.
+</p>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="feature-card">
+
+
+<div class="feature-icon">
+🎯
+</div>
+
+<h4>
+Best Match Identification
+</h4>
+
+<p>
+Compare the generated suspect face with the investigation database and identify the single most similar matching individual along with the similarity score.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 mb-4">
+<div class="feature-card">
+<div class="feature-icon">📄</div>
+<h4>Investigation Report</h4>
+<p>Automatically generate structured investigation reports containing suspect details, similarity scores, and search results.</p>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 mb-4">
+<div class="feature-card">
+<div class="feature-icon">🔐</div>
+<h4>Secure Investigation Portal</h4>
+<p>Provide secure investigator access with role-based authentication to protect sensitive forensic information.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+<!-- PROCESS -->
+
+
+<div id="how-it-works" class="section">
+
+
+<div class="container">
+
+
+<h2 class="section-title">
+Forensic Investigation Workflow
+</h2>
+
+
+
+<div class="row">
+
+
+
+<div class="col-md-4 step-item">
+
+<div class="step-number">
+1
+</div>
+
+
+<h5>
+Witness Description
+</h5>
+
+
+<p>
+The investigation begins when a witness provides a detailed description of the suspect's facial characteristics.
+</p>
+
+</div>
+
+
+
+
+
+<div class="col-md-4 step-item">
+
+<div class="step-number">
+2
+</div>
+
+
+<h5>
+AI Face Generation
+</h5>
+
+
+<p>
+Artificial Intelligence converts the witness description into a realistic suspect face for further analysis.
+</p>
+
+</div>
+
+
+
+
+
+<div class="col-md-4 step-item">
+
+<div class="step-number">
+3
+</div>
+
+
+<h5>
+Face Recognition & Feature Extraction
+</h5>
+
+
+<p>
+The generated face is analyzed, and unique facial features are extracted using deep learning algorithms.
+</p>
+
+</div>
+<div class="col-md-4 step-item">
+
+<div class="step-number">
+4
+</div>
+
+
+<h5>
+Database Comparison
+</h5>
+
+
+<p>
+The extracted facial features are compared against the investigation database to identify potential matches.
+</p>
+
+</div>
+<div class="col-md-4 step-item">
+
+<div class="step-number">
+5
+</div>
+
+
+<h5>
+Best Match Identification
+</h5>
+
+<p>
+The system compares the generated suspect face with the investigation database and identifies the single most similar individual along with the similarity percentage for investigator review.
+</p>
+
+</div>
+
+<div class="col-md-4 step-item">
+
+<div class="step-number">
+6
+</div>
+
+
+<h5>
+Investigation Report
+</h5>
+
+
+<p>
+A standardized investigation report is generated, summarizing the generated suspect image, the identified matching individual, the similarity score, and recommendations for further investigation.
+</p>
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+{% endblock %}

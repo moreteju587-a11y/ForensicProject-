@@ -1,0 +1,400 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+
+body {
+
+    background:
+
+    radial-gradient(
+        circle at top left,
+        rgba(34,211,238,0.18),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at bottom right,
+        rgba(168,85,247,0.22),
+        transparent 40%
+    ),
+
+    #020617;
+
+    min-height:100vh;
+
+}
+
+
+
+/* Center Area */
+
+.register-body {
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:calc(100vh - 72px);
+
+    padding:40px 0;
+
+}
+
+
+
+/* Glass Card */
+
+.register-card {
+
+
+    width:100%;
+
+    max-width:430px;
+
+
+    background:
+
+    rgba(15,23,42,0.88);
+
+
+    backdrop-filter:blur(25px);
+
+
+    -webkit-backdrop-filter:blur(25px);
+
+
+
+    border:
+
+    1px solid rgba(34,211,238,.35);
+
+
+
+    border-radius:25px;
+
+
+
+    color:white;
+
+
+
+    padding:3rem;
+
+
+
+    box-shadow:
+
+
+    0 0 40px rgba(34,211,238,.18);
+
+
+
+    animation:
+
+    registerShow .8s ease;
+
+}
+
+
+
+@keyframes registerShow {
+
+
+    from {
+
+        opacity:0;
+
+        transform:translateY(35px);
+
+    }
+
+
+    to {
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+/* Heading */
+
+
+.register-card h2 {
+
+
+    font-size:32px;
+
+
+    font-weight:900;
+
+
+    text-align:center;
+
+
+    margin-bottom:30px;
+
+
+
+    background:
+
+
+    linear-gradient(
+        90deg,
+        #22d3ee,
+        #a855f7
+    );
+
+
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+
+
+
+/* Labels */
+
+
+.form-label {
+
+
+    color:#67e8f9;
+
+
+    font-weight:700;
+
+}
+
+
+
+/* Inputs */
+
+
+.register-card .form-control {
+
+
+    height:52px;
+
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+
+    border:
+
+    1px solid rgba(255,255,255,.2);
+
+
+
+    border-radius:15px;
+
+
+
+    color:white;
+
+
+
+    padding-left:18px;
+
+}
+
+
+
+
+.register-card .form-control:focus {
+
+
+    background:
+
+    rgba(255,255,255,.12);
+
+
+
+    color:white;
+
+
+
+    border-color:#22d3ee;
+
+
+
+    box-shadow:
+
+    0 0 20px rgba(34,211,238,.4);
+
+}
+
+
+
+
+.register-card .form-control::placeholder {
+
+
+    color:#94a3b8;
+
+}
+
+
+
+/* Button */
+
+
+.register-card .btn-primary {
+
+
+    height:55px;
+
+
+
+    border:none;
+
+
+
+    border-radius:15px;
+
+
+
+    font-size:16px;
+
+
+
+    font-weight:800;
+
+
+
+    background:
+
+
+    linear-gradient(
+        90deg,
+        #06b6d4,
+        #9333ea
+    );
+
+
+
+    color:white;
+
+
+
+    transition:.3s;
+
+
+
+    box-shadow:
+
+
+    0 0 25px rgba(139,92,246,.4);
+
+}
+
+
+
+
+.register-card .btn-primary:hover {
+
+
+    transform:
+
+    translateY(-3px);
+
+
+
+    box-shadow:
+
+
+    0 0 35px rgba(34,211,238,.7);
+
+}
+
+
+
+/* Footer */
+
+
+.register-card .card-footer {
+
+
+    background:transparent;
+
+
+
+    border-top:
+
+
+    1px solid rgba(255,255,255,.15);
+
+
+
+    padding-top:20px;
+
+}
+
+
+
+
+.register-card .card-footer a {
+
+
+    color:#67e8f9;
+
+
+
+    text-decoration:none;
+
+
+
+    font-weight:700;
+
+}
+
+
+
+
+.register-card .card-footer a:hover {
+
+
+    color:white;
+
+}
+
+
+</style>
+
+<div class="register-body">
+    <div class="col-lg-4 col-md-6">
+        <div class="register-card">
+            <h2>Create a New Account</h2>
+            <form method="POST" action="{{ url_for('register') }}">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username" required>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-block">Register</button>
+                </div>
+            </form>
+            <div class="card-footer text-center mt-3">
+                <a href="{{ url_for('login') }}">Already have an account? Login</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
