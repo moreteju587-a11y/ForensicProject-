@@ -300,15 +300,14 @@ def generate_face():
             "image": "/" + image_path.replace("\\", "/"),
             "prompt": prompt
         })
-
-    except Exception as e:
+except Exception as e:
     traceback.print_exc()
 
     return jsonify({
         "success": False,
         "error": str(e)
     }), 500
-
+    
 def build_face_prompt(features):
 
     gender = features.get(
