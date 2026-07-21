@@ -279,9 +279,7 @@ def sketch_constructor():
 @app.route('/generate-face', methods=['POST'])
 @login_required
 def generate_face():
-
     try:
-
         data = request.get_json()
 
         if not data or 'features' not in data:
@@ -300,14 +298,16 @@ def generate_face():
             "image": "/" + image_path.replace("\\", "/"),
             "prompt": prompt
         })
-except Exception as e:
-    traceback.print_exc()
 
-    return jsonify({
-        "success": False,
-        "error": str(e)
-    }), 500
-    
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
+
 def build_face_prompt(features):
 
     gender = features.get(
