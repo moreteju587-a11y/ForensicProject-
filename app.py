@@ -279,6 +279,7 @@ def sketch_constructor():
 @app.route('/generate-face', methods=['POST'])
 @login_required
 def generate_face():
+     print("===== GENERATE FACE ROUTE CALLED =====")
     try:
         data = request.get_json()
 
