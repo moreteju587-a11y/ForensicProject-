@@ -37,6 +37,7 @@ from reportlab.lib.colors import HexColor
 
 
 import datetime
+import traceback
 
 
 app = Flask(__name__)
@@ -301,11 +302,12 @@ def generate_face():
         })
 
     except Exception as e:
+    traceback.print_exc()
 
-        return jsonify({
-            "error": str(e)
-        }), 500
-
+    return jsonify({
+        "success": False,
+        "error": str(e)
+    }), 500
 
 def build_face_prompt(features):
 
