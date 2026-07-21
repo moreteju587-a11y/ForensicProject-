@@ -1332,7 +1332,17 @@ async function generateSuspectFace() {
         body: JSON.stringify({ features })
     });
 
-    const data = await response.json();
+   const text = await response.text();
+console.log("Server response:", text);
+
+let data;
+try {
+    data = JSON.parse(text);
+} catch (e) {
+    console.error("Not JSON:", text);
+    showError("Server returned HTML instead of JSON. Check browser console.");
+    return;
+}
 
     if (!response.ok || data.error) {
         showError(data.error || 'Failed to generate suspect face.');
