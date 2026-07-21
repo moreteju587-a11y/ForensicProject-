@@ -279,7 +279,8 @@ def sketch_constructor():
 @app.route('/generate-face', methods=['POST'])
 @login_required
 def generate_face():
-     print("===== GENERATE FACE ROUTE CALLED =====")
+    print("===== GENERATE FACE ROUTE CALLED =====")
+
     try:
         data = request.get_json()
 
@@ -299,6 +300,15 @@ def generate_face():
             "image": "/" + image_path.replace("\\", "/"),
             "prompt": prompt
         })
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
 
     except Exception as e:
         import traceback
